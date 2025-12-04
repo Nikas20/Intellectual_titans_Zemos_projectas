@@ -1,38 +1,51 @@
-
-
-
 /* --------HEADER_AND_NAV------- */
 
-.header--flex{
-display: flex;
-justify-content: space-around;
-align-items: center;
+.header--flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-img{
-   display: block;
+.header--padding{
+    padding-top: 40px;
 }
 
-.header__navDiv--padding{
-    padding-left: 2rem;
+img {
+  display: block;
 }
 
-.header__nav--textspacing{
-    word-spacing: 2rem;
+.header__navDiv--padding {
+  padding-left: 2rem;
 }
 
+.header__nav--textspacing {
+  word-spacing: 2rem;
+}
 
-
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 /* -----NAV_MEDIA_QUARIE--- */
 
 /* -------TABLET-------- */
 
-@media screen and (width >= 800px) and (width <= 1024px){
-     
-} 
-    
+@media screen and (width >= 768px) and (width < 960px) {
+  .header--flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
+  .header__navDiv--padding {
+  position: relative;
+  left:40px;
+}
+
+}
+
+/* --------PHONE_VERSION------ */
+
+@media screen and (width >= 375px) and (width < 768px){
+
+}
