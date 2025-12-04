@@ -1,0 +1,43 @@
+/* Primary colors */
+
+.darkPinkColor{
+    color: #BA4270;
+}
+.darkPinkBgColor{
+    background-color: #BA4270;
+}
+
+.linkWaterWhiteColor{
+    color: #FBFCFE;
+}
+
+.linkWaterWhiteBg{
+    background-color: #FBFCFE;
+}
+
+/* Secodary colors */
+
+.sanJuanBlueColor{
+    color: #36536B;
+}
+.sanJuanBlueBgColor{
+    background-color: #36536B;
+}
+.mirageBlueColor{
+    color: #1B262F;
+}
+.mirageBlueBgColor{
+    background-color: #1B262F;
+}
+.charmPinkActivesColor{
+    color: #DA6D97;
+}
+.charmPinkActivesBgColor{
+    background-color: #DA6D97;
+}
+.lightSanJuanBlueColor{
+    color: #6C8294;
+}
+.lightSanJuanBlueBGColor{
+    background-color: #6C8294;
+}
