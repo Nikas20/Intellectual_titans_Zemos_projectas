@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script/phone_nav_button.js" defer></script> -->
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -12,14 +13,27 @@
       <!-- <img src="images/shared/desktop/logo.svg" alt="logo"> -->
       <!-- </div> -->
       <nav class="header__nav--textspacing header--flex">
-        <img src="images/shared/desktop/logo.svg" alt="logo">
+        <img src="images/shared/desktop/logo.svg" alt="logo" />
         <div class="header__navDiv--padding">
-        <a href="#">Pricing</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+          <a href="#">Pricing</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
         </div>
       </nav>
-      <button>Schedule a demo</button>
+      <button type="button" class="simple_button">Schedule a demo</button>
+      <div class="dropdown header_dropdown-hide">
+        <button type="button" class="header_phone_button">
+          <img src="images/shared/mobile/menu.svg" alt="menu" />
+        </button>
+        <div class="dropdown-content dropdownc--flex">
+          <div>
+          <a href="#">Pricing</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <button type="button" >Schedule a demo</button>
+          </div>
+        </div>
+      </div>
     </header>
   </body>
 </html>
