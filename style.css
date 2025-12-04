@@ -1,3 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Primary colors */
+
+.darkPinkColor {
+  color: #ba4270;
+}
+.darkPinkBgColor {
+  background-color: #ba4270;
+}
+
+.linkWaterWhiteColor {
+  color: #fbfcfe;
+}
+
+.linkWaterWhiteBg {
+  background-color: #fbfcfe;
+}
+
+/* Secodary colors */
+
+.sanJuanBlueColor {
+  color: #36536b;
+}
+.sanJuanBlueBgColor {
+  background-color: #36536b;
+}
+.mirageBlueColor {
+  color: #1b262f;
+}
+.mirageBlueBgColor {
+  background-color: #1b262f;
+}
+.charmPinkActivesColor {
+  color: #da6d97;
+}
+.charmPinkActivesBgColor {
+  background-color: #da6d97;
+}
+.lightSanJuanBlueColor {
+  color: #6c8294;
+}
+.lightSanJuanBlueBGColor {
+  background-color: #6c8294;
+}
+
+/* Typografy */
+/* Headings */
+.h1_Large {
+  font-family: "DM Serif Display", serif;
+  font-weight: 72px 72px;
+  font-style: normal;
+}
+.h1_Small {
+  font-family: "DM Serif Display", serif;
+  font-weight: 56px 56px;
+  font-style: normal;
+}
+.h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 48px 56px;
+  font-style: normal;
+}
+.h3_Big {
+  font-family: "DM Serif Display", serif;
+  font-weight: 32px 40px;
+  font-style: normal;
+}
+.h3_Small {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 18px 25px;
+  font-style: normal;
+}
+.h4 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 24px 32px;
+  font-style: normal;
+}
+
+/* Body */
+.body {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 15px 28px;
+  font-style: normal;
+}
+
+/* Buttons */
+/* Primary */
+.primary-button {
+  color: #fbfcfe;
+  background-color: #ba4270;
+  border-radius: 24px;
+  border: 0;
+}
+.primary-button:hover {
+  color: #fbfcfe;
+  background-color: #da6d97;
+  border-radius: 24px;
+  border: 0;
+}
+.primary-button:disabled {
+  color: #fbfcfe;
+  background-color: #ba4270;
+  border-radius: 24px;
+  border: 1px solid #fbfcfe;
+}
+
+/* Secondary */
+
+.secondary-button-Light {
+  color: #fbfcfe;
+  background-color: none;
+  border-radius: 24px;
+  border: 1px solid #fbfcfe;
+  letter-spacing: -0.12px;
+}
+.secondary-button-Light:hover {
+  color: #1b262f;
+  background-color: #fbfcfe;
+  border-radius: 24px;
+  border: 1px solid #fbfcfe;
+  letter-spacing: -0.12px;
+}
+.secondary-button-Light:disabled {
+  color: #fbfcfe;
+  background-color: none;
+  border-radius: 24px;
+  border: 1px solid #fbfcfe;
+  letter-spacing: -0.12px;
+}
+
+.secondary-button-Dark {
+  color: #36536b;
+  background-color: none;
+  border-radius: 24px;
+  border: 1px solid #36536b;
+  letter-spacing: -0.12px;
+}
+.secondary-button-Dark:hover {
+  color: #ffffff;
+  background-color: #36536b;
+  border-radius: 24px;
+  border: 1px solid #36536b;
+  letter-spacing: -0.12px;
+}
+.secondary-button-Dark:disabled {
+  color: #36536b;
+  background-color: none;
+  border-radius: 24px;
+  border: 1px solid #36536b;
+  letter-spacing: -0.12px;
+}
+
+/* Text Field */
+
+.textField-container {
+  position: relative;
+  margin: 20px;
+}
+
+.textField {
+  display: block;
+  border: none;
+  border-bottom: 1px solid #36536b80;
+  outline: none;
+  color: #36536b80;
+}
+
+.textField-label {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: #36536b80;
+}
+.textField:focus {
+  border-bottom: 1px solid #36536b;
+  color: #36536b;
+}
+.textField-field:focus + .textField-label {
+  color: #36536b;
+}
+
+.textField:invalid {
+  border-bottom: 1px solid #ff0000;
+  color: #ff0000;
+}
+.textField-field:invalid + .textField-label {
+  color: #ff0000;
+}
+.errorMesage {
+  color: #ff0000;
+  font-size: 12px;
+  display: none;
+}
+/* 
+
+example to form
+
+  <input class="textField-field" type="text">
+  <label for="textField-field" class="textField-label">Enter text</label>
+  <span class="errorMesage">Eroor</span>
+   */
+
+/*  Text Area*/
+
+.textArea {
+  display: block;
+  border: none;
+  border-bottom: 1px solid #36536b80;
+  outline: none;
+  color: #36536b80;
+}
+.textArea::placeholder {
+  color: #36536b80;
+}
+
+.textArea:focus {
+  display: block;
+  border: none;
+  border-bottom: 1px solid #36536b;
+  outline: none;
+  color: #36536b;
+}
+.textArea:focus::placeholder {
+  color: #36536b;
+}
+
+.textArea:invalid {
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ff0000;
+  outline: none;
+  color: #ff0000;
+}
+.textArea:invalid::placeholder {
+  color: #ff0000;
+}
+
+/* Checkbox */
+
+.container-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background: #36536b 0% 0% no-repeat padding-box;
+  opacity: 0.25;
+}
+
+.container-checkbox input:checked ~ .checkmark {
+  background: #ba4270 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container-checkbox .checkmark:after {
+  left: 6px;
+  top: 3px;
+  width: 8.15px;
+  height: 11.32px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
+
+.checkmark:disabled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background: #36536b 0% 0% no-repeat padding-box;
+  opacity: 0.05;
+}
+
+/* exmple use */
+/* 
+<label class="container-checkbox">
+    <input type="checkbox">
+    <span class="checkmark"></span>
+    </label> 
+*/
+
 /* --------HEADER_AND_NAV------- */
 
 .header--flex {
