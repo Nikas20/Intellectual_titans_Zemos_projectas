@@ -13,17 +13,26 @@ img{
    display: block;
 }
 
-.header__nav--pos{
-position: relative;
-right: 20rem;
+.header__navDiv--padding{
+    padding-left: 2rem;
 }
 
 .header__nav--textspacing{
     word-spacing: 2rem;
 }
 
+
+
 a{
     text-decoration: none;
 }
 
+/* -----NAV_MEDIA_QUARIE--- */
+
+/* -------TABLET-------- */
+
+@media screen and (width >= 800px) and (width <= 1024px){
+     
+} 
+    
 
