@@ -1,0 +1,29 @@
+
+
+
+/* --------HEADER_AND_NAV------- */
+
+.header--flex{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+img{
+   display: block;
+}
+
+.header__nav--pos{
+position: relative;
+right: 20rem;
+}
+
+.header__nav--textspacing{
+    word-spacing: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+
