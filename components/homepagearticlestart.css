@@ -1,3 +1,20 @@
-.elements_center_article_start{
-    text-align: center;
+.phone_mockup {
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home_article_start_text {
+  padding-left: 165px;
+}
+
+
+@media screen and (max-width: 768px) {
+.phone_mockup {
+  position: relative top;
+}
 }
