@@ -358,13 +358,10 @@ a {
 .dropdown-content {
   top: 1px;
   display: none;
-  /* left: 0.1px; */
-  /* display: none; */
   position: fixed;
   height: 122.438rem;
   background-color: #1b262f;
   max-width: 160px;
-  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
   z-index: 1;
 }
 
@@ -373,11 +370,6 @@ a {
   display: inline-block;
 }
 
-.dropdown--flex{
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-}
 
 .dropdown-content a {
     /* text-align: center; */
