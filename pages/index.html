@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <script src="script/phone_nav_button.js" defer></script> -->
+    <script src="../scripts/dropdown_menu.js" defer></script>
     <link rel="stylesheet" href="/style.css" />
     <title>Document</title>
   </head>
@@ -24,16 +24,17 @@
         Schedule a demo
       </button>
       <div class="dropdown header_dropdown-hide">
-        <button type="button" class="header_phone_button">
+        <button
+          type="button"
+          onclick="showDropdown()"
+          class="header_phone_button"
+        >
           <img src="../images/shared/mobile/menu.svg" alt="menu" />
         </button>
-        <div class="dropdown-content dropdown--flex">
+        <div id="dropdown" class="dropdown-content dropdown--flex">
           <div class="dropdown-center dropdown--pos">
-            <button type="button" class="dropdown__exitbutton">
-              <img
-                src="../images/shared/mobile/close.svg"
-                alt="lmao"
-              />
+            <button type="button" onclick="hideDropdown()" class="dropdown__exitbutton">
+              <img src="../images/shared/mobile/close.svg" alt="lmao" />
             </button>
             <hr class="dropdown--hr" />
             <a href="#">Pricing</a>

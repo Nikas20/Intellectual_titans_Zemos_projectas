@@ -365,6 +365,7 @@ a {
   max-width: 375px;
   z-index: 1;
   max-height: 667px;
+  align-items: center;
 }
 
 /* ----DROPDDOWN___TEXT__PADDING */
@@ -375,10 +376,9 @@ a {
 
 /* -----DROPDOWN_pos----- */
 
-
-.dropdown--pos{
-position: relative;
-bottom:100px;
+.dropdown--pos {
+  position: relative;
+  bottom: 100px;
 }
 
 /* ------------ */
@@ -392,11 +392,10 @@ bottom:100px;
   text-align: center;
 }
 
-
-.dropdown--hr{
-width: 80%;
- border-color:#36536B ;
- margin-bottom: 24px;
+.dropdown--hr {
+  width: 80%;
+  border-color: #36536b;
+  margin-bottom: 24px;
 }
 
 .dropdown-content a {
@@ -408,37 +407,27 @@ width: 80%;
   display: block;
 }
 
-
 /* -----DROPDOWN_EXIT----- */
 
-
-.dropdown__exitbutton{
-background-color: transparent;
-border:none;
-position: relative;
-bottom: 34px;
-left:90px;
+.dropdown__exitbutton {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  bottom: 34px;
+  left: 90px;
 }
 
-/* --------DROPDOWN_HOVER---- */
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  display: flex;
-  align-items: center;
-}
 
 /* ------BUTTON_SIZE---- */
 
-header .primary-button{
-padding: 10px;
+header .primary-button {
+  padding: 10px;
 }
 
 /* -----NAV_MEDIA_QUARIE--- */
 
 /* ------DESKTOP----- */
 @media screen and (width >= 960px) {
-  
   .header_phone_button {
     display: none;
   }
@@ -472,13 +461,11 @@ padding: 10px;
     position: relative;
     right: 15px;
   }
-header .primary-button{
-/* padding-left:25px;
+  header .primary-button {
+    /* padding-left:25px;
 padding-right: 25px; */
-width: 173px;
-}
-
-
+    width: 173px;
+  }
 }
 
 /* --------PHONE_VERSION------ */
@@ -490,7 +477,7 @@ width: 173px;
     justify-content: space-around;
     /* flex-basis: 326px; */
     /* flex-basis: 326px; */
-     /* width: 326px; 
+    /* width: 326px; 
      margin: 0px auto;  */
   }
 
@@ -499,6 +486,6 @@ width: 173px;
   }
 
   a {
-    display:none;
+    display: none;
   }
 }
