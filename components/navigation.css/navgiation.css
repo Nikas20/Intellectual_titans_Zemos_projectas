@@ -15,7 +15,7 @@
   padding-top: 40px;
 }
 
-img {
+header img {
   display: block;
 }
 
@@ -27,7 +27,7 @@ img {
   word-spacing: 2rem;
 }
 
-a {
+header a {
   text-decoration: none;
 }
 
@@ -170,7 +170,7 @@ padding-right: 25px; */
     display: none;
   }
 
-  a{
+  header a{
     display: none;
   }
 
