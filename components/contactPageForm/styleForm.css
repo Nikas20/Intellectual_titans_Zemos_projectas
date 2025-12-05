@@ -8,10 +8,19 @@ body{
 fieldset{
     border: 0;
 }
+fieldset > span{
+  height: 50px;  
+}
+
+textarea + span{
+    height: 24px;
+    position: relative;
+}
 
 span{
     height: 26px;
-    margin: 0;
+    position: relative;
+    top: -10px;
 }
 
 input, textarea {
@@ -30,4 +39,24 @@ form{
 
 .check{
     display: flex;
+    width: 327px;
+    height: 50px;
+    padding: 0;
+}
+
+.check > .container-checkbox{
+    padding: 24px 50px 24px 0 ;
+}
+
+
+.submitForm{
+    width: 152px;
+    height: 48px;
+    margin-top: 32px;
+    
+}
+
+
+@media (min-width: 748px) {
+    
 }
