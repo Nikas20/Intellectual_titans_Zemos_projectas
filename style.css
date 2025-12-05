@@ -367,6 +367,14 @@ a {
   max-height: 667px;
 }
 
+/* ----DROPDDOWN___TEXT__PADDING */
+.dropdown-content a {
+  padding-bottom: 24px;
+}
+/* -------------- */
+
+
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -380,6 +388,7 @@ a {
 .dropdown--hr{
 width: 80%;
  border-color:#36536B ;
+ margin-bottom: 24px;
 }
 
 .dropdown-content a {
@@ -406,11 +415,17 @@ width: 80%;
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+/* ------BUTTON_SIZE---- */
+
+header .primary-button{
+padding: 10px;
+}
 
 /* -----NAV_MEDIA_QUARIE--- */
 
 /* ------DESKTOP----- */
 @media screen and (width >= 960px) {
+  
   .header_phone_button {
     display: none;
   }
@@ -451,7 +466,7 @@ width: 80%;
 @media screen and (width >= 375px) and (width < 768px) {
   .header--flex {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 326px;
     margin: 0px auto;
