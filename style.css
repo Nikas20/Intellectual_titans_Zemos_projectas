@@ -373,7 +373,15 @@ a {
 }
 /* -------------- */
 
+/* -----DROPDOWN_pos----- */
 
+
+.dropdown--pos{
+position: relative;
+bottom:100px;
+}
+
+/* ------------ */
 
 .dropdown {
   position: relative;
@@ -400,11 +408,19 @@ width: 80%;
   display: block;
 }
 
-/* --------DROPDOWN_HOVER---- */
 
-.dropdown-content a:hover {
-  background-color: #ddd;
+/* -----DROPDOWN_EXIT----- */
+
+
+.dropdown__exitbutton{
+background-color: transparent;
+border:none;
+position: relative;
+bottom: 34px;
+left:90px;
 }
+
+/* --------DROPDOWN_HOVER---- */
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -412,9 +428,6 @@ width: 80%;
   align-items: center;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
 /* ------BUTTON_SIZE---- */
 
 header .primary-button{
@@ -472,11 +485,13 @@ width: 173px;
 
 @media screen and (width >= 375px) and (width < 768px) {
   .header--flex {
+    /* text-align: center; */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 326px;
-    margin: 0px auto;
+    justify-content: space-around;
+    /* flex-basis: 326px; */
+    /* flex-basis: 326px; */
+     /* width: 326px; 
+     margin: 0px auto;  */
   }
 
   .simple_button {
@@ -484,6 +499,6 @@ width: 173px;
   }
 
   a {
-    color: transparent;
+    display:none;
   }
 }
