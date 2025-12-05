@@ -44,18 +44,17 @@ header a {
   top: 1px;
   display: none;
   position: fixed;
-  right: 1rem;
-  height: 122.438rem;
+  right: 0.1rem;
+  width: 285px;
+  height:  667px;
   background-color: #1b262f;
-  max-width: 375px;
   z-index: 1;
-  max-height: 667px;
   align-items: center;
 }
 
 /* ----DROPDDOWN___TEXT__PADDING */
 .dropdown-content a {
-  padding-bottom: 24px;
+  padding-bottom: 32px;
 }
 /* -------------- */
 
@@ -75,6 +74,7 @@ header a {
 
 .dropdown-center {
   text-align: center;
+  width: 285px;
 }
 
 .dropdown--hr {
@@ -85,7 +85,6 @@ header a {
 
 .dropdown-content a {
   /* text-align: center; */
-  width: 249px;
   height: 24px;
   color: rgb(255, 255, 255);
   text-decoration: none;
