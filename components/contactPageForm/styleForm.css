@@ -1,5 +1,33 @@
 @import url(/style.css);
 
+
+body{
+    margin: 24px;
+}
+
 fieldset{
     border: 0;
+}
+
+span{
+    height: 26px;
+    margin: 0;
+}
+
+input, textarea {
+    padding: 0 0 23px 20px ;
+    margin: 0px;
+    background-color: transparent;
+}
+
+form{
+    width: 327px;
+    height: 497px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.check{
+    display: flex;
 }
