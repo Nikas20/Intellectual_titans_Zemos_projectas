@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../../scripts/dropdown_menu.js" defer></script>
+    <link rel="stylesheet" href="navgiation.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header--flex header--padding">
+      <!-- <div> -->
+      <!-- <img src="images/shared/desktop/logo.svg" alt="logo"> -->
+      <!-- </div> -->
+      <nav class="header__nav--textspacing header--flex">
+        <img src="../../images/shared/desktop/logo.svg" alt="logo" />
+        <div class="header__navDiv--padding">
+          <a href="#" class="sanJuanBlueColor">Pricing</a>
+          <a href="#" class="sanJuanBlueColor">About</a>
+          <a href="#" class="sanJuanBlueColor">Contact</a>
+        </div>
+      </nav>
+      <button type="button" class="simple_button primary-button">
+        Schedule a demo
+      </button>
+      <div class="dropdown header_dropdown-hide">
+        <button
+          type="button"
+          onclick="showDropdown()"
+          class="header_phone_button"
+        >
+          <img src="../../images/shared/mobile/menu.svg" alt="menu" />
+        </button>
+        <div id="dropdown" class="dropdown-content dropdown--flex">
+          <div class="dropdown-center dropdown--pos">
+            <button type="button" onclick="hideDropdown()" class="dropdown__exitbutton">
+              <img src="../../images/shared/mobile/close.svg" alt="lmao" />
+            </button>
+            <hr class="dropdown--hr" />
+            <a href="#">Pricing</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <button type="button" class="dropdown__button primary-button">
+              Schedule a demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

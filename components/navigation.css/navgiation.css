@@ -1,0 +1,178 @@
+@import url(/style.css);
+
+
+/* --------HEADER_AND_NAV------- */
+
+.header--flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin: 0px auto; */
+  /* padding-right: 20vw; */
+}
+
+.header--padding {
+  padding-top: 40px;
+}
+
+img {
+  display: block;
+}
+
+.header__navDiv--padding {
+  padding-left: 2rem;
+}
+
+.header__nav--textspacing {
+  word-spacing: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------Button------- */
+
+.header_phone_button {
+  background-color: transparent;
+  border: none;
+}
+
+/* ----Dropdown_menu---- */
+
+.dropdown-content {
+  top: 1px;
+  display: none;
+  position: fixed;
+  right: 1rem;
+  height: 122.438rem;
+  background-color: #1b262f;
+  max-width: 375px;
+  z-index: 1;
+  max-height: 667px;
+  align-items: center;
+}
+
+/* ----DROPDDOWN___TEXT__PADDING */
+.dropdown-content a {
+  padding-bottom: 24px;
+}
+/* -------------- */
+
+/* -----DROPDOWN_pos----- */
+
+.dropdown--pos {
+  position: relative;
+  bottom: 100px;
+}
+
+/* ------------ */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-center {
+  text-align: center;
+}
+
+.dropdown--hr {
+  width: 80%;
+  border-color: #36536b;
+  margin-bottom: 24px;
+}
+
+.dropdown-content a {
+  /* text-align: center; */
+  width: 249px;
+  height: 24px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: block;
+}
+
+/* -----DROPDOWN_EXIT----- */
+
+.dropdown__exitbutton {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  bottom: 34px;
+  left: 90px;
+}
+
+
+/* ------BUTTON_SIZE---- */
+
+header .primary-button {
+  padding: 10px;
+}
+
+/* -----NAV_MEDIA_QUARIE--- */
+
+/* ------DESKTOP----- */
+@media screen and (width >= 960px) {
+  .header_phone_button {
+    display: none;
+  }
+
+  .header_dropdown-hide {
+    display: none;
+  }
+}
+
+/* -------TABLET-------- */
+
+@media screen and (width >= 768px) and (width < 960px) {
+  .header--flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px auto;
+    width: 688.24px;
+    height: 48px;
+  }
+
+  .header_phone_button {
+    display: none;
+  }
+
+  .header_dropdown-hide {
+    display: none;
+  }
+
+  .header__navDiv--padding {
+    position: relative;
+    right: 15px;
+  }
+  header .primary-button {
+    /* padding-left:25px;
+padding-right: 25px; */
+    width: 173px;
+  }
+}
+
+/* --------PHONE_VERSION------ */
+
+@media screen and (width >= 375px) and (width < 768px) {
+  .header--flex {
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+    /* flex-basis: 326px; */
+    /* flex-basis: 326px; */
+    /* width: 326px; 
+     margin: 0px auto;  */
+  }
+
+  .simple_button {
+    display: none;
+  }
+
+  a{
+    display: none;
+  }
+
+
+}
