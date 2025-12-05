@@ -459,6 +459,13 @@ padding: 10px;
     position: relative;
     right: 15px;
   }
+header .primary-button{
+/* padding-left:25px;
+padding-right: 25px; */
+width: 173px;
+}
+
+
 }
 
 /* --------PHONE_VERSION------ */
