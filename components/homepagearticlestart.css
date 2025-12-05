@@ -1,17 +1,33 @@
+@import url(/style.css);
+
 .phone_mockup {
   position: absolute;
   right: 157px;
+  left: 867px;
   top: -101px;
 }
 
-.container {
+.text_article_start {
   position: relative;
   top: 237px;
-  h1{
+  h1 {
+    text-align: left;
     margin-top: 0;
-    color: #36536B;
-    size: 72px;
+    color: #36536b;
+    line-height: 70px;
+    width: 546px;
+    height: 243px;
+    margin-right: 154px;
   }
+    /* input {
+      padding: 10px 15px;
+      margin-bottom: 10px;
+      border-radius: 50px;
+      border: 1px solid rgb(204, 204, 204);
+      outline: none;
+      box-shadow: 0 0 4px rgba(179, 0, 90, 0.4);
+    } */
+  
 }
 
 .home_article_start_text {
@@ -34,27 +50,29 @@
   }
 }
 
-.h1_Large {
-  font-family: "DM Serif Display", serif;
-  font-weight: 72px 72px;
-  font-style: normal;
+.a_article_start {
+  color: rgb(108, 130, 148);
 }
 
-.primary-button {
-  color: #fbfcfe;
-  background-color: #ba4270;
-  border-radius: 24px;
-  border: 0;
+.questions_article_start {
+  color: rgb(108, 130, 148);
 }
-.primary-button:hover {
-  color: #fbfcfe;
-  background-color: #da6d97;
-  border-radius: 24px;
-  border: 0;
-}
-.primary-button:disabled {
-  color: #fbfcfe;
-  background-color: #ba4270;
-  border-radius: 24px;
-  border: 1px solid #fbfcfe;
+
+.form_div_article_start{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  input{
+    padding: 12px 18px;
+    font-size: 16px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 40px;
+    outline: none;
+    width: 260px;
+  }
+  button{
+    padding: 12px 28px;
+    font-size: 16px;
+    color: white;
+  }
 }
