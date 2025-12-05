@@ -7,7 +7,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+
 }
 
 .article__finances--flex div {
@@ -82,3 +82,17 @@
 
 /* --------------DESKTOP_VERSION--------- */
 
+@media  screen and (width >= 960px) {
+  .article__finances--flex {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  }
+
+.article__finances--flex div {
+  display: flex;
+  flex-direction: column;
+}
+
+}
