@@ -1,2 +1,30 @@
 @import url(/style.css);
 
+/* -------article_financies------- */
+
+.article__finances--flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.article__finances--flex div {
+  display: flex;
+  flex-direction: column;
+}
+
+.article__finances--flex div img {
+  width: 106px;
+  height: 106px;
+}
+
+/* 
+------MEDIA_QUARIE------ */
+
+/* -------PHONE_VERSION-------- */
+
+@media screen and (width >= 375px) and (width < 768px){
+
+}
