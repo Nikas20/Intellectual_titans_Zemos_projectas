@@ -1,22 +1,37 @@
 .phone_mockup {
-  position: relative;
+  position: absolute;
+  right: 157px;
+  top: -101px;
 }
 
 .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: relative;
+  top: 237px;
+  h1{
+    margin-top: 0;
+    color: #36536B;
+    size: 72px;
+  }
 }
 
 .home_article_start_text {
   padding-left: 165px;
 }
 
-
 @media screen and (max-width: 768px) {
-.phone_mockup {
-  position: relative top;
+  .phone_mockup {
+    position: relative top;
+    width: 159px;
+    height: 300px;
+  }
 }
+
+@media screen and (max-width: 375px) {
+  .phone_mockup {
+    position: relative top;
+    width: 124.56px;
+    height: 239.45px;
+  }
 }
 
 .h1_Large {
