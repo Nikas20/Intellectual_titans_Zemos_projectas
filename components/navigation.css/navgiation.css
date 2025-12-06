@@ -29,6 +29,12 @@ header img {
 
 header a {
   text-decoration: none;
+  opacity: 70%;
+  font-size: 17px;
+}
+
+header a:hover{
+  opacity: 100%;
 }
 
 /* ------Button------- */
@@ -92,6 +98,11 @@ header a {
   display: block;
 }
 
+.dropdown-content a:hover{
+  opacity: 100%;
+}
+
+
 /* -----DROPDOWN_EXIT----- */
 
 .dropdown__exitbutton {
@@ -104,7 +115,12 @@ header a {
 
 
 /* ------BUTTON_SIZE---- */
-
+/* ------TABLET_AND_DESKTO---- */
+.simple_button {
+  min-width: 173px;
+  min-height:48px;
+}
+/* ------------- */
 .dropdown__button{
 width: 252px;
 height:48px;
