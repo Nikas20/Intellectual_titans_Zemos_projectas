@@ -104,8 +104,9 @@ header a {
 
 /* ------BUTTON_SIZE---- */
 
-header .primary-button {
-  padding: 10px;
+.dropdown__button{
+width: 252px;
+height:48px;
 }
 
 /* -----NAV_MEDIA_QUARIE--- */
