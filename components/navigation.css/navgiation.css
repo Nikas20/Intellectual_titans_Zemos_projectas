@@ -97,16 +97,21 @@ header a {
   background-color: transparent;
   border: none;
   position: relative;
-  bottom: 34px;
-  left: 90px;
+  bottom: 20px;
+  left: 104px;
 }
 
 
 /* ------BUTTON_SIZE---- */
 
-header .primary-button {
-  padding: 10px;
+.dropdownSchel__button{
+width: 252px;
+height:48px;
 }
+
+/* header .primary-button {
+  padding: 10px;
+} */
 
 /* -----NAV_MEDIA_QUARIE--- */
 
