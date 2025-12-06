@@ -86,7 +86,8 @@ header a {
 .dropdown-content a {
   /* text-align: center; */
   height: 24px;
-  color: rgb(255, 255, 255);
+  opacity: 70%;
+  font-size: 20px;
   text-decoration: none;
   display: block;
 }
@@ -97,8 +98,8 @@ header a {
   background-color: transparent;
   border: none;
   position: relative;
-  bottom: 34px;
-  left: 90px;
+  bottom: 18px;
+  left: 104px;
 }
 
 
@@ -107,6 +108,10 @@ header a {
 .dropdown__button{
 width: 252px;
 height:48px;
+}
+
+.dropdown_button--textS{
+  font-size: 15px;
 }
 
 /* -----NAV_MEDIA_QUARIE--- */
