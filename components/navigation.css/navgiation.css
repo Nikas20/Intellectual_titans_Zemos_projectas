@@ -104,6 +104,12 @@ header a {
 
 /* ------BUTTON_SIZE---- */
 
+
+header button{
+  width: 173px;
+  height:48px ;
+}
+
 .dropdownSchel__button{
 width: 252px;
 height:48px;
@@ -166,7 +172,7 @@ padding-right: 25px; */
     justify-content: space-around;
     /* flex-basis: 326px; */
     /* flex-basis: 326px; */
-    /* width: 326px; 
+    /* /* width: 326px; 
      margin: 0px auto;  */
   }
 
