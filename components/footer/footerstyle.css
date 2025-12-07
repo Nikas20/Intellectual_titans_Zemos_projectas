@@ -54,6 +54,7 @@ footer {
   filter: brightness(0) saturate(100%) invert(72%) sepia(30%) saturate(5000%) hue-rotate(305deg) brightness(85%) contrast(92%);
 }
 
+/* Tablet */
 @media (max-width: 959px) and (min-width: 768px) {
   footer {
     padding: 32px 40px;
@@ -68,7 +69,7 @@ footer {
   }
 }
 
-/* Mobile — ≤767px */
+/* Mobile */
 @media (max-width: 767px) {
   footer {
     flex-direction: column;
