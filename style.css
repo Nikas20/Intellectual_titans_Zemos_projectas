@@ -49,20 +49,24 @@
 .h1_Large {
   font-family: "DM Serif Display", serif;
   font-size: 72px;
+  font-size: 72px;
   font-style: normal;
 }
 .h1_Small {
   font-family: "DM Serif Display", serif;
+  font-size: 56px;
   font-size: 56px;
   font-style: normal;
 }
 .h2 {
   font-family: "DM Serif Display", serif;
   font-size: 48px;
+  font-size: 48px;
   font-style: normal;
 }
 .h3_Big {
   font-family: "DM Serif Display", serif;
+  font-size: 32px;
   font-size: 32px;
   font-style: normal;
 }
@@ -70,10 +74,12 @@
   font-family: "Public Sans", sans-serif;
   font-optical-sizing: auto;
   font-size: 18px;
+  font-size: 18px;
   font-style: normal;
 }
 .h4 {
   font-family: "DM Serif Display", serif;
+  font-size: 24px;
   font-size: 24px;
   font-style: normal;
 }
