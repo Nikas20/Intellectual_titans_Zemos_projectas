@@ -44,49 +44,6 @@
     background-color: #6C8294;
 }
 
-/* Primary colors */
-.darkPinkColor {
-  color: #ba4270;
-}
-.darkPinkBgColor {
-  background-color: #ba4270;
-}
-
-.linkWaterWhiteColor {
-  color: #fbfcfe;
-}
-
-.linkWaterWhiteBg {
-  background-color: #fbfcfe;
-}
-
-/* Secondary colors */
-
-.sanJuanBlueColor {
-  color: #36536b;
-}
-.sanJuanBlueBgColor {
-  background-color: #36536b;
-}
-.mirageBlueColor {
-  color: #1b262f;
-}
-.mirageBlueBgColor {
-  background-color: #1b262f;
-}
-.charmPinkActivesColor {
-  color: #da6d97;
-}
-.charmPinkActivesBgColor {
-  background-color: #da6d97;
-}
-.lightSanJuanBlueColor {
-  color: #6c8294;
-}
-.lightSanJuanBlueBGColor {
-  background-color: #6c8294;
-}
-
 /* Typografy */
 /* Headings */
 .h1_Large {
