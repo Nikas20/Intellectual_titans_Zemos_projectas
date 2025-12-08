@@ -1,0 +1,74 @@
+@import url(/style.css);
+
+
+body{
+    margin: 24px;
+}
+
+fieldset{
+    border: 0;
+}
+fieldset > span{
+  height: 50px;  
+}
+
+textarea + span{
+    height: 24px;
+    position: relative;
+}
+
+span{
+    height: 26px;
+    position: relative;
+    top: -10px;
+}
+
+input, textarea {
+    padding: 0 0 23px 20px ;
+    margin: 0px;
+    background-color: transparent;
+}
+
+textarea{
+     height: 98.95px;
+}
+
+form{
+    width: 327px;
+    height: 497px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.check{
+    display: flex;
+    height: 50px;
+    padding: 0;
+}
+
+.check > .container-checkbox{
+    padding: 24px 50px 24px 0 ;
+}
+
+
+.submitForm{
+    width: 152px;
+    height: 73.85px;
+    
+}
+
+
+.hr{
+    color: transparent;
+}
+
+
+@media (min-width: 768px) {
+    form{
+        width: 445px;
+        height: 499px;
+        margin: auto;
+    }
+    
+}
