@@ -48,33 +48,33 @@
 /* Headings */
 .h1_Large {
   font-family: "DM Serif Display", serif;
-  font-weight: 72px 72px;
+  font-size: 72px;
   font-style: normal;
 }
 .h1_Small {
   font-family: "DM Serif Display", serif;
-  font-weight: 56px 56px;
+  font-size: 56px;
   font-style: normal;
 }
 .h2 {
   font-family: "DM Serif Display", serif;
-  font-weight: 48px 56px;
+  font-size: 48px;
   font-style: normal;
 }
 .h3_Big {
   font-family: "DM Serif Display", serif;
-  font-weight: 32px 40px;
+  font-size: 32px;
   font-style: normal;
 }
 .h3_Small {
   font-family: "Public Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 18px 25px;
+  font-size: 18px;
   font-style: normal;
 }
 .h4 {
   font-family: "DM Serif Display", serif;
-  font-weight: 24px 32px;
+  font-size: 24px;
   font-style: normal;
 }
 
@@ -82,7 +82,7 @@
 .body {
   font-family: "Public Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 15px 28px;
+  font-size: 15px 28px;
   font-style: normal;
 }
 
