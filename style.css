@@ -2,46 +2,46 @@
 
 /* Primary colors */
 
-.darkPinkColor {
-  color: #ba4270;
+.darkPinkColor{
+    color: #BA4270;
 }
-.darkPinkBgColor {
-  background-color: #ba4270;
-}
-
-.linkWaterWhiteColor {
-  color: #fbfcfe;
+.darkPinkBgColor{
+    background-color: #BA4270;
 }
 
-.linkWaterWhiteBg {
-  background-color: #fbfcfe;
+.linkWaterWhiteColor{
+    color: #FBFCFE;
 }
 
-/* Secodary colors */
+.linkWaterWhiteBg{
+    background-color: #FBFCFE;
+}
 
-.sanJuanBlueColor {
-  color: #36536b;
+/* Secondary colors */
+
+.sanJuanBlueColor{
+    color: #36536B;
 }
-.sanJuanBlueBgColor {
-  background-color: #36536b;
+.sanJuanBlueBgColor{
+    background-color: #36536B;
 }
-.mirageBlueColor {
-  color: #1b262f;
+.mirageBlueColor{
+    color: #1B262F;
 }
-.mirageBlueBgColor {
-  background-color: #1b262f;
+.mirageBlueBgColor{
+    background-color: #1B262F;
 }
-.charmPinkActivesColor {
-  color: #da6d97;
+.charmPinkActivesColor{
+    color: #DA6D97;
 }
-.charmPinkActivesBgColor {
-  background-color: #da6d97;
+.charmPinkActivesBgColor{
+    background-color: #DA6D97;
 }
-.lightSanJuanBlueColor {
-  color: #6c8294;
+.lightSanJuanBlueColor{
+    color: #6C8294;
 }
-.lightSanJuanBlueBGColor {
-  background-color: #6c8294;
+.lightSanJuanBlueBGColor{
+    background-color: #6C8294;
 }
 
 /* Typografy */
@@ -308,7 +308,7 @@ example to form
   opacity: 0.05;
 }
 
-/* exmple use */
+/* example use */
 /* 
 <label class="container-checkbox">
     <input type="checkbox">
