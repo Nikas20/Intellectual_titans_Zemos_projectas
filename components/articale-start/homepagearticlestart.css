@@ -87,7 +87,7 @@
   .phone_mockup {
     display: flex;
     justify-content: center;
-    content: url(images/mobile_tablet.svg);
+    content: url(/components/articale-start/images/mobile_tablet.svg);
     margin-left: 250px;
     right: 0px;
     left: 0px;
@@ -127,7 +127,7 @@
   .phone_mockup {
     display: flex;
     justify-content: center;
-    content: url(images/ilustration_phone_mobile.svg);
+    content: url(/components/articale-start/images/ilustration_phone_mobile.svg);
     margin-left: 71px;
     right: 0px;
     left: 0px;
