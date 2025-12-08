@@ -29,6 +29,10 @@ input, textarea {
     background-color: transparent;
 }
 
+textarea{
+     height: 98.95px;
+}
+
 form{
     width: 327px;
     height: 497px;
@@ -39,7 +43,6 @@ form{
 
 .check{
     display: flex;
-    width: 327px;
     height: 50px;
     padding: 0;
 }
@@ -51,16 +54,21 @@ form{
 
 .submitForm{
     width: 152px;
-    height: 48px;
+    height: 73.85px;
     
 }
 
 
-hr{
+.hr{
     color: transparent;
 }
 
 
-@media (min-width: 748px) {
+@media (min-width: 768px) {
+    form{
+        width: 445px;
+        height: 499px;
+        margin: auto;
+    }
     
 }
