@@ -1,0 +1,98 @@
+@import url(/style.css);
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.implem {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  padding: 150px 165px;
+  background: #EDF3F8;
+}
+
+/* SVG card */
+.codeboxsvg {
+  width: 545px;
+  height: 384px;
+  display: block;
+}
+
+/* Text */
+.implemtext {
+  max-width: 455px;
+  margin-top: -55px;
+}
+
+.bigtxt {
+    font-family: "DM Serif Display", serif;
+    font-size: 48px;
+    font-style: normal;
+    color: #36536B;
+    letter-spacing: -0.37px;
+    margin: 0;
+}
+
+.smalltxt {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    color: #6C8294;
+    letter-spacing: 0px;
+    line-height: 28px;
+    margin: 8px 0 0 0;
+}
+
+/* Tablet */
+@media (max-width: 959px) and (min-width: 768px) {
+  .implem {
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 100px;
+    gap: 54px;
+  }
+
+  .codeboxsvg {
+    width: 392px;
+    height: 250px;
+  }
+
+  .implemtext {
+    max-width: 600px;
+  }
+
+  .bigtxt {
+    margin: 0;
+  }
+
+  .smalltxt {
+    margin: 8px 0 0 0;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) and (min-width: 375px) {
+    .implem {
+        flex-direction: column;
+        text-align: center;
+        padding: 24px 0px;
+        gap: 48px
+    }
+
+    .codeboxsvg {
+        width: 328px;
+        height: 209px;
+        margin-left: 26px;
+    }
+    
+    .implemtext {
+        max-width: 338px;
+    }
+
+    .bigtxt {
+        font-size: 36px;
+    }
+}
