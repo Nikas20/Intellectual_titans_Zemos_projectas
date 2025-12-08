@@ -1,0 +1,76 @@
+.text_ui_ux {
+  text-align: center;
+}
+
+.simple_ui_ux {
+  font-family: "DM Serif Display", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: normal;
+  color: rgb(54, 83, 107);
+  letter-spacing: -0.28px;
+  margin-top: 0px;
+}
+
+.p_ui_ux {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px 28px;
+  font-style: normal;
+  font-weight: normal;
+  color: rgb(108, 130, 148);
+}
+
+@media screen and (min-width: 768px) {
+  .img_ui_ux {
+    content: url(/components/Simple-ui-&-ux/images/simple_tablet.svg);
+    margin-left: 140px;
+  }
+
+  .simple_ui_ux {
+    font-family: "DM Serif Display", serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: normal;
+    color: rgb(54, 83, 107);
+    letter-spacing: -0.28px;
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .img_ui_ux {
+    content: url(/components/Simple-ui-&-ux/images/illustration-simple-ui.svg);
+    margin-left: 0px;
+  }
+
+  .simple_ui_ux {
+    font-family: "DM Serif Display", serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: normal;
+    color: rgb(54, 83, 107);
+    letter-spacing: -0.28px;
+    margin-top: 0px;
+  }
+  .article_ui_ux {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: baseline;
+  }
+
+  .p_ui_ux {
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px 28px;
+    font-style: normal;
+    font-weight: normal;
+    color: rgb(108, 130, 148);
+    width: 445px;
+    height: 45px;
+  }
+
+  .text_ui_ux {
+    text-align: left;
+  }
+}
