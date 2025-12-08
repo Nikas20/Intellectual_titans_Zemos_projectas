@@ -20,14 +20,12 @@
 
 .article__finances--flex div h4 {
   margin-bottom: 1px;
+  font-weight: bold;
 }
 
 .article__finances--flex div img {
   padding-bottom: 34px;
 }
-
-
-/* ------TEXT------ */
 
 
 /* 
@@ -101,18 +99,20 @@
     align-items: baseline;
     padding-left: 163px;
     padding-right: 163px;
-    /* width: 880px;
-    margin: 0px auto; */
+     /* width: 880px; */
+    /* margin: 0px auto;  */
   }
 
   .article__finances-div--padding {
     padding-top: 169px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .article__finances--flex p {
     columns: 1;
-    width:350px;
-    column-gap: 30px;
+    width: 350px;
+    /* column-gap: 30px; */
   }
 
   .article__finances--flex div {
