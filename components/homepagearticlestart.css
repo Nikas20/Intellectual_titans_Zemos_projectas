@@ -35,21 +35,20 @@
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 40px;
   width: 445px;
-  input {
-    padding: 12px 18px;
-    font-size: 16px;
-    border: 0px solid rgb(204, 204, 204);
-    border-radius: 40px;
-    outline: none;
-    width: 221px;
-  }
-  button {
-    padding: 18px 28px;
-    font-size: 16px;
-    color: white;
-  }
 }
-
+.input_article_start {
+  padding: 12px 18px;
+  font-size: 16px;
+  border: 0px solid rgb(204, 204, 204);
+  border-radius: 40px;
+  outline: none;
+  width: 221px;
+}
+.button_article_start {
+  padding: 18px 28px;
+  font-size: 16px;
+  color: white;
+}
 .primary-button {
   color: #fbfcfe;
   background-color: #ba4270;
@@ -121,8 +120,61 @@
 
 @media screen and (max-width: 375px) {
   .phone_mockup {
-    position: relative top;
-    width: 124.56px;
-    height: 239.45px;
+    display: flex;
+    justify-content: center;
+    content: url(images/ilustration_phone_mobile.svg);
+    margin-left: 71px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+  }
+  .home_article_start_text {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home_article_start_text {
+    position: relative;
+    top: 377px;
+  }
+  .h1_article_start {
+    text-align: center;
+    width: 327px;
+    height: 116px;
+    margin-right: 0px;
+  }
+  .h1_Large {
+    font-family: "DM Serif Display", serif;
+    font-size: 32px;
+    font-style: normal;
+    letter-spacing: -0.25px;
+    line-height: 36px;
+  }
+  .form_div_article_start {
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    width: 327px;
+    height: 48px;
+  }
+  .input_article_start {
+    padding: 12px 18px;
+    font-size: 16px;
+    border: 0px solid rgb(204, 204, 204);
+    border-radius: 40px;
+    outline: none;
+    width: 221px;
+  }
+  .button_article_start {
+    position: relative;
+    top: 30px;
+    padding: 18px 28px;
+    font-size: 16px;
+    color: white;
+    width: 327px;
+    height: 48px;
   }
 }
