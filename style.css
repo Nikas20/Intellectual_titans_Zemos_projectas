@@ -49,20 +49,24 @@
 .h1_Large {
   font-family: "DM Serif Display", serif;
   font-size: 72px;
+  font-size: 72px;
   font-style: normal;
 }
 .h1_Small {
   font-family: "DM Serif Display", serif;
+  font-size: 56px;
   font-size: 56px;
   font-style: normal;
 }
 .h2 {
   font-family: "DM Serif Display", serif;
   font-size: 48px;
+  font-size: 48px;
   font-style: normal;
 }
 .h3_Big {
   font-family: "DM Serif Display", serif;
+  font-size: 32px;
   font-size: 32px;
   font-style: normal;
 }
@@ -70,10 +74,12 @@
   font-family: "Public Sans", sans-serif;
   font-optical-sizing: auto;
   font-size: 18px;
+  font-size: 18px;
   font-style: normal;
 }
 .h4 {
   font-family: "DM Serif Display", serif;
+  font-size: 24px;
   font-size: 24px;
   font-style: normal;
 }
@@ -82,7 +88,7 @@
 .body {
   font-family: "Public Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 15px 28px;
+  font-size: 15px;
   font-style: normal;
 }
 
@@ -111,7 +117,7 @@
 
 .secondary-button-Light {
   color: #fbfcfe;
-  background-color: none;
+  background-color: transparent;
   border-radius: 24px;
   border: 1px solid #fbfcfe;
   letter-spacing: -0.12px;
@@ -125,7 +131,7 @@
 }
 .secondary-button-Light:disabled {
   color: #fbfcfe;
-  background-color: none;
+  background-color: transparent;
   border-radius: 24px;
   border: 1px solid #fbfcfe;
   letter-spacing: -0.12px;
@@ -133,7 +139,7 @@
 
 .secondary-button-Dark {
   color: #36536b;
-  background-color: none;
+  background-color: transparent;
   border-radius: 24px;
   border: 1px solid #36536b;
   letter-spacing: -0.12px;
@@ -147,7 +153,7 @@
 }
 .secondary-button-Dark:disabled {
   color: #36536b;
-  background-color: none;
+  background-color: transparent;
   border-radius: 24px;
   border: 1px solid #36536b;
   letter-spacing: -0.12px;
@@ -182,17 +188,20 @@
   color: #36536b;
 }
 
-.textField:invalid {
+.textField:user-invalid {
   border-bottom: 1px solid #ff0000;
   color: #ff0000;
 }
-.textField-field:invalid + .textField-label {
+.textField-field:user-invalid + .textField-label {
   color: #ff0000;
 }
 .errorMesage {
   color: #ff0000;
   font-size: 12px;
-  display: none;
+  opacity: 0;
+  cursor: default;
+  position: relative;
+  top: 10px;
 }
 /* 
 
@@ -227,24 +236,30 @@ example to form
   color: #36536b;
 }
 
-.textArea:invalid {
+.textArea:user-invalid   {
   display: block;
   border: none;
   border-bottom: 1px solid #ff0000;
   outline: none;
   color: #ff0000;
 }
-.textArea:invalid::placeholder {
+
+.textArea:user-invalid + .errorMesage{
+  opacity: 1;
+}
+
+.textArea:user-invalid::placeholder {
   color: #ff0000;
 }
+
 
 /* Checkbox */
 
 .container-checkbox {
   display: block;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
+  padding-left: 24px;
+  
   cursor: pointer;
   font-size: 22px;
   -webkit-user-select: none;
@@ -316,3 +331,6 @@ example to form
     </label> 
 */
 
+.page-bagraund-color {
+  background-color: #edf3f8;
+}
