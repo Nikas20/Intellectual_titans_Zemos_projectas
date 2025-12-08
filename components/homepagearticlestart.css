@@ -11,58 +11,20 @@
   position: relative;
   top: 237px;
 }
-h1 {
-    text-align: left;
-    margin-top: 0;
-    margin-bottom: 24px;
-    color: #36536b;
-    line-height: 70px;
-    width: 546px;
-    height: 243px;
-    margin-right: 154px;
-    font-weight: 100;
-  }
+.h1_article_start {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #36536b;
+  line-height: 70px;
+  width: 546px;
+  height: 243px;
+  margin-right: 154px;
+  font-weight: 100;
+}
 
 .home_article_start_text {
   padding-left: 165px;
-}
-
-@media screen and (max-width: 768px) {
-  .phone_mockup {
-    position: absolute;
-    content: url(images/mobile_tablet.svg);
-    right: 201px;
-    left: 253px;
-  }
-  .home_article_start_text {
-    position: relative;
-    top: 490px;
-    padding-left: 97px;
-  }
-    h1 {
-      text-align: center;
-      width: 573px;
-      height: 122px;
-      font-size: 48px;
-      line-height: 56px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-  .phone_mockup {
-    position: relative top;
-    width: 124.56px;
-    height: 239.45px;
-  }
-}
-
-.a_article_start {
-  color: rgb(108, 130, 148);
-}
-
-.questions_article_start {
-  color: rgb(108, 130, 148);
-  padding-left: 27px;
 }
 
 .form_div_article_start {
@@ -110,4 +72,57 @@ h1 {
 .h1_Large {
   font-family: "DM Serif Display", serif;
   font-size: 72px;
-  font-style: normal;}
+  font-style: normal;
+}
+.a_article_start {
+  color: rgb(108, 130, 148);
+}
+
+.questions_article_start {
+  color: rgb(108, 130, 148);
+  padding-left: 27px;
+}
+
+@media screen and (max-width: 768px) {
+  .phone_mockup {
+    display: flex;
+    justify-content: center;
+    content: url(images/mobile_tablet.svg);
+    margin-left: 250px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+  }
+  .home_article_start_text {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home_article_start_text {
+    position: relative;
+    top: 490px;
+  }
+  .h1_article_start {
+    text-align: center;
+    width: 573px;
+    height: 122px;
+    margin-right: 0px;
+  }
+  .h1_Large {
+    font-family: "DM Serif Display", serif;
+    font-size: 48px;
+    font-style: normal;
+    letter-spacing: -0.37px;
+    line-height: 56px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .phone_mockup {
+    position: relative top;
+    width: 124.56px;
+    height: 239.45px;
+  }
+}
