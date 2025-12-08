@@ -14,11 +14,15 @@
         class="textArea"
         type="text"
         placeholder="Name"
+        required
+        minlength="2"
+        maxlength="50"
+        pattern="[A-Za-z\s]{2,50}"
         
        
       />
       <span id="nameErorForm" class="errorMesage">Eroor</span>
-
+<hr>
       <input
         id="emailForm"
         class="textArea"
@@ -27,34 +31,42 @@
         required
       />
       <span id="emailErorForm" class="errorMesage">Eroor</span>
-
+<hr>
       <input
         id="companyNameForm"
         class="textArea"
         type="text"
         placeholder="Company Name"
-        
+        required
+        minlength="2"
+        maxlength="50"
+        pattern="[A-Za-z\s]{2,50}"
       />
       <span id="companyNameErorForm" class="errorMesage">Eroor</span>
-
+<hr>
       <input
         id="titleForm"
         class="textArea"
         type="text"
         placeholder="Title"
-        
+        required
+        minlength="2"
+        maxlength="100"
+        pattern="[A-Za-z0-9\s]{2,100}"
       />
       <span id="titleErorForm" class="errorMesage">Eroor</span>
-
+<hr>
       <textarea
         id="messageForm"
         class="textArea"
         type="text"
         placeholder="Message"
-        
+        minlength="0"
+        maxlength="2000"
+        pattern="[A-Za-z0-9\s]{0,2000}"
       ></textarea>
       <span id="messageErorForm" class="errorMesage">Eroor</span>
-
+<hr>
       <fieldset class="check">
         <label class="container-checkbox">
           <input type="checkbox" id="checkForm"/>

@@ -52,8 +52,12 @@ form{
 .submitForm{
     width: 152px;
     height: 48px;
-    margin-top: 32px;
     
+}
+
+
+hr{
+    color: transparent;
 }
 
 
