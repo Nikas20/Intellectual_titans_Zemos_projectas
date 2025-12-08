@@ -26,6 +26,10 @@
   padding-bottom: 34px;
 }
 
+
+/* ------TEXT------ */
+
+
 /* 
 ------MEDIA_QUARIE------ */
 
@@ -105,16 +109,17 @@
     padding-top: 169px;
   }
 
-  /* .article__finances--flex p {
+  .article__finances--flex p {
     columns: 1;
-    column-width: 350px;
+    width:350px;
     column-gap: 30px;
-  } */
+  }
 
   .article__finances--flex div {
     display: flex;
     /* flex-direction: column; */
     align-items: center;
+    min-width: 350px;
   }
 
   .article__finances--flex div img {
