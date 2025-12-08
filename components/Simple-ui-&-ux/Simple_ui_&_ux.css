@@ -1,0 +1,10 @@
+.text_ui_ux {
+  text-align: center;
+}
+
+.simple_ui_ux {
+  font-family: "DM Serif Display", serif;
+  font-size: 36px;
+  font-style: normal;
+  color: rgb(54, 83, 107);
+}
