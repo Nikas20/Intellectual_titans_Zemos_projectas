@@ -75,6 +75,7 @@
 }
 .a_article_start {
   color: rgb(108, 130, 148);
+  margin-top: 0;
 }
 
 .questions_article_start {
@@ -116,6 +117,10 @@
     letter-spacing: -0.37px;
     line-height: 56px;
   }
+  .questions_article_start {
+    color: rgb(108, 130, 148);
+    padding-left: 0px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -153,11 +158,12 @@
     line-height: 36px;
   }
   .form_div_article_start {
-    display: flex;
     background-color: white;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 40px;
     width: 327px;
+  }
+  .form_article_start {
     height: 48px;
   }
   .input_article_start {
@@ -166,15 +172,24 @@
     border: 0px solid rgb(204, 204, 204);
     border-radius: 40px;
     outline: none;
-    width: 221px;
   }
   .button_article_start {
     position: relative;
-    top: 30px;
-    padding: 18px 28px;
+    text-align: center;
+    width: 100px;
+    top: 64px;
+    right: 265px;
+    height: 48px;
+    padding: 24px 163px;
     font-size: 16px;
     color: white;
-    width: 327px;
-    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .questions_article_start {
+    color: rgb(108, 130, 148);
+    padding-left: 0px;
+    margin-top: 90px;
   }
 }
