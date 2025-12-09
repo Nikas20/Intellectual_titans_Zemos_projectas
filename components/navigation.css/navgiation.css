@@ -133,7 +133,7 @@ height:48px;
 /* -----NAV_MEDIA_QUARIE--- */
 
 /* ------DESKTOP----- */
-@media screen and (width >= 960px) {
+@media screen and (min-width: 960px) {
   .header_phone_button {
     display: none;
   }
@@ -145,7 +145,7 @@ height:48px;
 
 /* -------TABLET-------- */
 
-@media screen and (width >= 768px) and (width < 960px) {
+@media screen and (min-width: 768px) and (max-width:959px) {
   .header--flex {
     display: flex;
     justify-content: space-evenly;
@@ -176,10 +176,11 @@ padding-right: 25px; */
 
 /* --------PHONE_VERSION------ */
 
-@media screen and (width >= 375px) and (width < 768px) {
+@media screen and (min-width:367px) and (max-width:767px) {
   .header--flex {
     /* text-align: center; */
     display: flex;
+    align-items: center;
     justify-content: space-around;
     /* flex-basis: 326px; */
     /* flex-basis: 326px; */
