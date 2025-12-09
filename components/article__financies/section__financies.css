@@ -1,0 +1,129 @@
+@import url(/style.css);
+
+/* -------article_financies------- */
+
+.article__finances--flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.article__finances--flex div {
+  display: flex;
+  flex-direction: column;
+}
+
+.article__finances--flex p {
+  text-align: center;
+}
+
+.article__finances--flex div h4 {
+  margin-bottom: 1px;
+  font-weight: bold;
+}
+
+.article__finances--flex div img {
+  padding-bottom: 34px;
+}
+
+
+/* 
+------MEDIA_QUARIE------ */
+
+/* -------PHONE_VERSION-------- */
+
+@media screen and (width >= 375px) and (width < 768px) {
+  .article__finances--flex {
+    width: 330px;
+    margin: 0px auto;
+  }
+
+  .article__finances--flex div {
+    display: flex;
+    align-items: center;
+  }
+
+  .article__finances-div--padding {
+    padding-top: 54px;
+  }
+
+  .article__finances-seconddiv--padding {
+    position: relative;
+    bottom: 34px;
+  }
+
+  .article__finances--flex div img {
+    width: 106px;
+    height: 106px;
+  }
+}
+
+/* -----------------TABLET_VERSION---------- */
+
+@media screen and (width >= 768px) and (width < 960px) {
+  .article__finances--flex {
+    width: 669px;
+    margin: 0px auto;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .article__finances--flex div {
+    display: flex;
+    align-items: center;
+  }
+
+  .article__finances-div--padding {
+    padding-top: 111px;
+  }
+
+  .article__finances--flex p {
+    columns: 1;
+    column-width: 223px;
+    column-gap: 9px;
+  }
+
+  .article__finances--flex div img {
+    width: 88px;
+    height: 88px;
+  }
+}
+
+/* --------------DESKTOP_VERSION--------- */
+
+@media screen and (width >= 960px) {
+  .article__finances--flex {
+    /* display: flex; */
+    flex-direction: row;
+    align-items: baseline;
+    padding-left: 163px;
+    padding-right: 163px;
+     /* width: 880px; */
+    /* margin: 0px auto;  */
+  }
+
+  .article__finances-div--padding {
+    padding-top: 169px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .article__finances--flex p {
+    columns: 1;
+    width: 350px;
+    /* column-gap: 30px; */
+  }
+
+  .article__finances--flex div {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    min-width: 350px;
+  }
+
+  .article__finances--flex div img {
+    width: 106px;
+    height: 106px;
+  }
+}
