@@ -3,12 +3,13 @@
 .ready {
   text-align: center;
 }
-
-.ready > div{
-    
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+.h3_Big {
+  font-weight: normal;
+}
+.ready > div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .ready > div > input {
@@ -20,12 +21,15 @@
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
   letter-spacing: -0.12px;
   padding: 16px 158px 16px 27px;
+  font-weight: bold;
+  opacity: 0.5;
 }
 .ready > div > button {
   position: relative;
   top: 16px;
   width: 327px;
   height: 48px;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
