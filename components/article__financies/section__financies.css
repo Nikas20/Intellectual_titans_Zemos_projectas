@@ -27,13 +27,12 @@
   padding-bottom: 34px;
 }
 
-
 /* 
 ------MEDIA_QUARIE------ */
 
 /* -------PHONE_VERSION-------- */
 
-@media screen and (width >= 375px) and (width < 768px) {
+@media screen and (width >= 372px) and (width < 768px) {
   .article__finances--flex {
     width: 330px;
     margin: 0px auto;
@@ -92,14 +91,14 @@
 
 /* --------------DESKTOP_VERSION--------- */
 
-@media screen and (width >= 960px) {
+@media screen and (width >= 1177px) {
   .article__finances--flex {
     /* display: flex; */
     flex-direction: row;
     align-items: baseline;
     padding-left: 163px;
     padding-right: 163px;
-     /* width: 880px; */
+    /* width: 880px; */
     /* margin: 0px auto;  */
   }
 
@@ -120,6 +119,44 @@
     /* flex-direction: column; */
     align-items: center;
     min-width: 350px;
+  }
+
+  .article__finances--flex div img {
+    width: 106px;
+    height: 106px;
+  }
+}
+
+/* --------------BUGFIX_ATEMPT-------------- */
+
+@media screen and (width >= 960px) and (width < 1177px){
+.article__finances--flex {
+    /* display: flex; */
+    flex-direction: row;
+    align-items: baseline;
+    /* padding-left: 163px; */
+    /* padding-right: 163px; */
+    /* width: 880px; */
+    /* margin: 0px auto;  */
+  }
+
+  .article__finances-div--padding {
+    padding-top: 169px;
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
+  }
+
+  .article__finances--flex p {
+    columns: 1;
+    width: 300px;
+    /* column-gap: 30px; */
+  }
+
+  .article__finances--flex div {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* min-width: 350px; */
   }
 
   .article__finances--flex div img {
