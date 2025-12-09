@@ -78,14 +78,14 @@ html, body {
     .implem {
         flex-direction: column;
         text-align: center;
-        padding: 24px 0px;
-        gap: 48px
+        padding: 80px 0px;
+        gap: 2git8px
     }
 
     .codeboxsvg {
-        width: 328px;
-        height: 209px;
-        margin-left: 26px;
+        width: 428px;
+        height: 309px;
+        margin-left: 34px;
     }
     
     .implemtext {
