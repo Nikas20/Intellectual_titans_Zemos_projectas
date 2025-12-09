@@ -29,6 +29,12 @@ header img {
 
 header a {
   text-decoration: none;
+  opacity: 70%;
+  font-size: 17px;
+}
+
+header a:hover{
+  opacity: 100%;
 }
 
 /* ------Button------- */
@@ -44,18 +50,17 @@ header a {
   top: 1px;
   display: none;
   position: fixed;
-  right: 1rem;
-  height: 122.438rem;
+  right: 0.1rem;
+  width: 285px;
+  height:  667px;
   background-color: #1b262f;
-  max-width: 375px;
   z-index: 1;
-  max-height: 667px;
   align-items: center;
 }
 
 /* ----DROPDDOWN___TEXT__PADDING */
 .dropdown-content a {
-  padding-bottom: 24px;
+  padding-bottom: 32px;
 }
 /* -------------- */
 
@@ -75,6 +80,7 @@ header a {
 
 .dropdown-center {
   text-align: center;
+  width: 285px;
 }
 
 .dropdown--hr {
@@ -85,12 +91,13 @@ header a {
 
 .dropdown-content a {
   /* text-align: center; */
-  width: 249px;
   height: 24px;
-  color: rgb(255, 255, 255);
+  opacity: 70%;
+  font-size: 20px;
   text-decoration: none;
   display: block;
 }
+
 
 /* -----DROPDOWN_EXIT----- */
 
@@ -98,15 +105,25 @@ header a {
   background-color: transparent;
   border: none;
   position: relative;
-  bottom: 34px;
-  left: 90px;
+  bottom: 18px;
+  left: 104px;
 }
 
 
 /* ------BUTTON_SIZE---- */
+/* ------TABLET_AND_DESKTO---- */
+.simple_button {
+  min-width: 173px;
+  min-height:48px;
+}
+/* ------------- */
+.dropdown__button{
+width: 252px;
+height:48px;
+}
 
-header .primary-button {
-  padding: 10px;
+.dropdown_button--textS{
+  font-size: 15px;
 }
 
 /* -----NAV_MEDIA_QUARIE--- */
@@ -162,7 +179,7 @@ padding-right: 25px; */
     justify-content: space-around;
     /* flex-basis: 326px; */
     /* flex-basis: 326px; */
-    /* width: 326px; 
+    /* /* width: 326px; 
      margin: 0px auto;  */
   }
 
