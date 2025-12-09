@@ -98,6 +98,10 @@ header a:hover{
   display: block;
 }
 
+.dropdown-content a:hover{
+  color:white;
+}
+
 
 /* -----DROPDOWN_EXIT----- */
 
