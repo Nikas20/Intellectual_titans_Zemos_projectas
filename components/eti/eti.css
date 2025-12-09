@@ -9,7 +9,7 @@ html, body {
 .implem {
   display: flex;
   align-items: center;
-  gap: 0px;
+  gap: 10gipx;
   padding: 150px 165px;
   background: #EDF3F8;
 }
@@ -52,12 +52,13 @@ html, body {
     flex-direction: column;
     text-align: center;
     padding: 100px 100px;
-    gap: 54px;
+    gap: 24px;
   }
 
   .codeboxsvg {
-    width: 392px;
-    height: 250px;
+    width: 492px;
+    height: 350px;
+    margin-left: 34px;
   }
 
   .implemtext {
@@ -79,7 +80,7 @@ html, body {
         flex-direction: column;
         text-align: center;
         padding: 80px 0px;
-        gap: 2git8px
+        gap: 8px
     }
 
     .codeboxsvg {
