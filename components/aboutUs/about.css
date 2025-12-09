@@ -146,12 +146,18 @@ column-gap: 131px ;
 
     .firstsec button {
         margin-top: 43px;
-        margin-left: 319px;
+        margin-left: 0px;
     }
 
     .partners {
         margin-top: -488px;
-        margin-left: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #buttn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }
@@ -182,7 +188,7 @@ column-gap: 131px ;
 
     .firstsec button {
         margin-top: 71px;
-        margin-left: 32.8%;
+        margin-left: 0px;
     }
 
     .partners {
@@ -224,7 +230,10 @@ column-gap: 131px ;
     #img6 {
         width: 112px;
     }
-
-
+    #buttn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
