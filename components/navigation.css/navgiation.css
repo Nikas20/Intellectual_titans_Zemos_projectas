@@ -51,7 +51,7 @@ header a:hover{
   display: none;
   position: fixed;
   right: 0.1rem;
-  width: 276px;
+  width: 275px;
   height:  667px;
   background-color: #1b262f;
   z-index: 1;
@@ -68,7 +68,7 @@ header a:hover{
 
 .dropdown--pos {
   position: relative;
-  bottom: 110px;
+  bottom: 120px;
 }
 
 /* ------------ */
@@ -109,7 +109,7 @@ header a:hover{
   background-color: transparent;
   border: none;
   position: relative;
-  bottom: 18px;
+  bottom: 15px;
   left: 104px;
 }
 
