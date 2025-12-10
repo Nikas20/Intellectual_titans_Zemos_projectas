@@ -51,7 +51,7 @@ header a:hover{
   display: none;
   position: fixed;
   right: 0.1rem;
-  width: 285px;
+  width: 276px;
   height:  667px;
   background-color: #1b262f;
   z-index: 1;
@@ -68,7 +68,7 @@ header a:hover{
 
 .dropdown--pos {
   position: relative;
-  bottom: 100px;
+  bottom: 110px;
 }
 
 /* ------------ */
@@ -84,9 +84,9 @@ header a:hover{
 }
 
 .dropdown--hr {
-  width: 80%;
+  width: 83%;
   border-color: #36536b;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 }
 
 .dropdown-content a {
@@ -122,12 +122,13 @@ header a:hover{
 }
 /* ------------- */
 .dropdown__button{
-width: 252px;
+width: 239px;
 height:48px;
 }
 
 .dropdown_button--textS{
   font-size: 15px;
+  font-weight: bold;
 }
 
 /* -----NAV_MEDIA_QUARIE--- */
