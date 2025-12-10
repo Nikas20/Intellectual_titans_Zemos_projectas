@@ -245,6 +245,8 @@
 
 .linker{
   text-align: center;
+  position: relative;
+  top: 16px;
 }
 
 .linker > a{
@@ -337,8 +339,9 @@
     margin-left: 165px;
   }
   .linker {
-  width: 225px;
+  width: 226px;
   margin-left: 27px;
+  text-align: left;
 }
 .centered{
   display: flex;
