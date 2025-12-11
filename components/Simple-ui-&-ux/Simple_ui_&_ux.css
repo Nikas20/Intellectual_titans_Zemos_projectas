@@ -47,8 +47,14 @@
 
 @media screen and (width >= 375px) and (width < 768px) {
   .backgraaaund {
-    padding-bottom: 16px;
-  }  .img_ui_ux {
+    padding-bottom: 64px;
+  }
+  .text_ui_ux {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .img_ui_ux {
     margin-bottom: -48px;
   }
 }
