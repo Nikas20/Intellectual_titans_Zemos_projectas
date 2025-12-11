@@ -3,9 +3,237 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="../components/footer/footerstyle.css">
+    <link rel="stylesheet" href="../components/navigation.css/navgiation.css">
+    <link rel="stylesheet" href="../components/articale-start/homepagearticlestart.css">
+    <link rel="stylesheet" href="../components/aboutUs/about.css">
+    <link rel="stylesheet" href="../components/eti/eti.css">
+    <link rel="stylesheet" href="../components/Simple-ui-&-ux/Simple_ui_&_ux.css">
+    <link rel="stylesheet" href="../components/article__financies/section__financies.css">
+    <link rel="stylesheet" href="../components/readyForStart/readyForStart.css"/>
   </head>
   <body>
-   
+    <header class="header--flex header--padding">
+      <!-- <div> -->
+      <!-- <img src="images/shared/desktop/logo.svg" alt="logo"> -->
+      <!-- </div> -->
+      <nav class="header__nav--textspacing header--flex">
+        <img src="../images/shared/desktop/logo.svg" alt="logo" />
+        <div class="header__navDiv--padding">
+          <a href="#" class="sanJuanBlueColor h3_Small ">Pricing</a>
+          <a href="#" class="sanJuanBlueColor h3_Small ">About</a>
+          <a href="#" class="sanJuanBlueColor h3_Small ">Contact</a>
+        </div>
+      </nav>
+      <button type="button" class="simple_button primary-button h3_Small">
+         <span class="dropdown_button--textS">Schedule a demo</span>
+      </button>
+      <div class="dropdown header_dropdown-hide">
+        <button
+          type="button"
+          onclick="showDropdown()"
+          class="header_phone_button"
+        >
+          <img src="../images/shared/mobile/menu.svg" alt="menu" />
+        </button>
+        <div id="dropdown" class="dropdown-content dropdown--flex">
+          <div class="dropdown-center dropdown--pos">
+            <button type="button" onclick="hideDropdown()" class="dropdown__exitbutton">
+              <img src="../images/shared/mobile/close.svg" alt="lmao" />
+            </button>
+            <hr class="dropdown--hr" />
+            <a href="#" class="h3_Small"><span class="linkWaterWhiteColor">Pricing</span></a>
+            <a href="#" class="h3_Small"><span class="linkWaterWhiteColor">About</span></a>
+            <a href="#" class="h3_Small"><span class="linkWaterWhiteColor">Contact</span></a>
+            <button type="button" class="dropdown__button primary-button h3_Small">
+              <span class="dropdown_button--textS">Schedule a demo</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+  
+    <main>
+      <section id="part1" class="homepagepartone">
+          <article class="centered">
+        <div class="phone_mockup">
+          <img
+            src="../components/articale-start/images/ilustration_phone_mobile.svg"
+            alt="phone-mockup"
+            class="mob"
+          />
+        </div>
+
+        <div class="centered2">
+          <h1 class="h3_Big headering sanJuanBlueColor">
+            Start building with our APIs for absolutely free.
+          </h1>
+
+          <div class="ready">
+        <div>
+          <input
+            type="email"
+            placeholder="Enter email address"
+            class="linkWaterWhiteBg"
+          />
+        <button class="primary-button">Schedule a Demo</button>
+          </div>
+          
+          <p class="linker lightSanJuanBlueColor body">
+            Have any questions?
+            <a href="contactpage.html" class="lightSanJuanBlueColor">Contact Us</a>
+          </p>
+        </div>
+        </div>
+        
+      </article>
+      </section>
+      <section id="part2" class="homepageparttwo">
+        <div class="container">
+        <section class="firstsec">
+        
+        <h2>Who we work with</h2>
+        <p>Today, millions of people around the world have successfully connected
+            their accounts to apps they love using our API. We provide developers
+            with the tools they need to create easy and accessible experiences
+            for their users.</p>
+            <div id="buttn">
+        <button>About Us</button>
+        </div>
+        
+
+        <div class="partners">
+
+            <div class="box">
+                <img src="../images/shared/desktop/tesla.svg" alt="tesla logo" id="img1">
+            </div>
+
+            <div class="box">
+                <img src="../images/shared/desktop/microsoft.svg" alt="microsoft logo" id="img2">
+            </div>
+
+            <div class="box">
+                <img src="../images/shared/desktop/hewlett-packard.svg" alt="hp logo" id="img3">
+            </div>
+
+            <div class="box">
+                <img src="../images/shared/desktop/oracle.svg" alt="oracle logo" id="img4">
+            </div>
+
+            <div class="box">
+                <img src="../images/shared/desktop/google.svg" alt="google logo" id="img5">
+            </div>
+
+            <div class="box">
+                <img src="../images/shared/desktop/nvidia.svg" alt="nvidia logo" id="img6">
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+      </section>
+      <section id="part3" class="homepagepartthree">
+       <section class="implem">
+        <img src="../images/shared/desktop/codebox.svg" alt="codebox" class="codeboxxsvg">
+
+        <div class="implemtext">
+            <h2 class="bigtxt">Easy to implement</h2>
+            <p class="smalltxt">Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to handle payments functionality with ease.</p>
+        </div>
+        </section>
+      </section>
+      <section id="part4" class="homepagepartfour">
+            <article class="article_ui_ux centered">
+        <img class="img_ui_ux" src="../components/Simple-ui-&-ux/images/simple_mobile.svg" alt="simple">
+        <div class="text_ui_ux">
+          <h1 class="simple_ui_ux">Simple UI & UX</h1>
+          <p class="p_ui_ux">Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion.</p>
+        </div>
+
+        </article>
+      </section>
+      <section id="part5" class="homepagepartfive">
+        <article class="article__finances--flex">
+      <div class="article__finances-div--padding">
+        <img
+          src="../images/desktop/icon-personal-finances.svg"
+          alt="finances"
+        />
+        <div class="article__finances-seconddiv--padding">
+          <h4 class="sanJuanBlueColor h3_Small">Personal Finances</h4>
+          <p class="body lightSanJuanBlueColor">
+            Consolidate financial data from multiple sources and categorize
+            transactions up to 2 years of history. Analyse reports to reconcile
+            activities in your account.
+          </p>
+        </div>
+      </div>
+      <div class="article__finances-div--padding">
+        <img
+          src="../images/desktop/icon-banking-and-coverage.svg"
+          alt="banking_and_coverage"
+        />
+        <div class="article__finances-seconddiv--padding">
+          <h4 class="sanJuanBlueColor h3_Small">Banking & Coverage</h4>
+          <p class="body lightSanJuanBlueColor">
+            With our platform, you can speed up account onboarding and support
+            ongoing payement for checking, savings, credit card, and brokerage
+            accounts.
+          </p>
+        </div>
+      </div>
+      <div class="article__finances-div--padding">
+        <img
+          src="../images/desktop/icon-consumer-payments.svg"
+          alt="Consumer_payments"
+        />
+        <div class="article__finances-seconddiv--padding">
+          <h4 class="sanJuanBlueColor h3_Small">Consumer Payments</h4>
+          <p class="body lightSanJuanBlueColor">
+            It's easier to set up secure bank payemnts with us through a flow
+            designed with the user experience in mind. Customers could instantly
+            authenticate their account.
+          </p>
+        </div>
+      </div>
+    </article>
+      </section>
+      <section id="part6" class="homepagepartsix">
+        <div class="ready">
+          <h3 class="h3_Big sanJuanBlueColor">Ready to start?</h3>
+         <div>
+            <input
+            type="email"
+            placeholder="Enter email address"
+            class="sanJuanBlueColor"
+            />
+            <button class="primary-button">Schedule a Demo</button>
+          </div>
+        </div>
+      </section>
+      <section id="part7"></section>
+    </main>
+  
+    <footer>
+      <div class="sitefooter">
+        <div class="logo">
+          <img src="../images/shared/desktop/logo.svg" alt="payapi">
+        </div>
+
+        <div class="nav-links">
+          <a href="#">Pricing</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><img src="../images/shared/desktop/facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="../images/shared/desktop/twitter.svg" alt="Twitter"></a>
+        <a href="#"><img src="../images/shared/desktop/linkedin.svg" alt="LinkedIn"></a>
+      </div>
+    </footer>
   </body>
 </html>
