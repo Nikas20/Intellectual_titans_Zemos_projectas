@@ -31,12 +31,12 @@
 }
 
 .article__finances--flex div h4 {
-  margin-bottom: 1px;
+  margin-bottom: 8px;
   font-weight: bold;
 }
 
 .article__finances--flex div img {
-  padding-bottom: 34px;
+  padding-bottom: 64px;
 }
 
 /* 

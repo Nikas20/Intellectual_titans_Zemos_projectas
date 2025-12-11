@@ -79,7 +79,7 @@ html, body {
     .implem {
       flex-direction: column;
       text-align: center;
-      padding: 80px 0px;
+      padding: 60px 0px;
       gap: 8px
     }
 
