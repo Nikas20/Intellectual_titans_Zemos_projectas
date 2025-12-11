@@ -35,6 +35,11 @@
 
 
 @media (min-width: 768px) {
+  .ready {
+    margin-top: 64px;
+    padding-bottom: 80px;
+  }
+
   .ready > div {
     display: flex;
     flex-direction: row;
@@ -53,6 +58,10 @@
     width: 173px;
     position: static;
   }
+
+ .rdtxt {
+  font-size: 48px;
+ }
 }
 
 @media (max-width: 767px) {
@@ -75,7 +84,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 960px) {
   .ready {
     display: flex;
     width: 1110px;

@@ -319,7 +319,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 960px) {
   .imgecircle{
     top: -172px;
     left: 800px;
