@@ -247,6 +247,7 @@
   text-align: center;
   position: relative;
   top: 16px;
+  margin-top: 24px;
 }
 
 .linker > a{
