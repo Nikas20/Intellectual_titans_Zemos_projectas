@@ -87,18 +87,21 @@
 @media (min-width: 960px) {
   .ready {
     display: flex;
-    width: 1110px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 810px;
     height: 68px;
-    gap: 220px;
+    margin: 80px auto 0 auto;
   }
   .ready > div {
     margin-bottom: 20px;
   }
   .h3_Big {
-    text-align: left;
+    text-align: center;
     width: 445px;
     height: 66px;
     font-size: 48px;
-    margin: 0;
+    margin-top: -24px;
   }
 }

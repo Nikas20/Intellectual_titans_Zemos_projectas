@@ -145,7 +145,8 @@ textarea:hover {
 .ready {
     margin-left: 11.5%;
     margin-top: 159px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
+    padding-bottom: 0;
 }
 
 h3 {
@@ -176,10 +177,7 @@ footer {
 
 }
 
-.payapi {
-    margin-left: -10px;
-    filter: brightness(0) invert(1);
-}
+    /* footer logo color handled globally in components/footer/footerstyle.css */
 
 /* added logos */
 h4 {
@@ -313,8 +311,17 @@ h4 {
 
     .h3_Big {
         text-align: center;
-        font-family: DMSerifDisplay;
+        font-family: "DM Serif Display", serif;
 
+    }
+
+    /* reduce gap between heading and button on tablet to ~25px */
+    .ready > div {
+        margin-top: 25px;
+    }
+    /* ensure heading has no bottom margin so gap is controlled only by the div's margin */
+    .ready .h3_Big {
+        margin-bottom: 0;
     }
 
     /*logos*/
@@ -425,6 +432,7 @@ h4 {
     }
 
     /* ready for start part */
+    /* reduce gap between heading and button on mobile to ~20px */
     .ready {
         margin-top: 85px;
         margin-left: auto;
@@ -441,5 +449,24 @@ h4 {
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: 175px;
+    }
+}
+
+/* force .h3_Big size */
+.h3_Big {
+    font-size: 48px;
+}
+
+/* mobile-specific heading size override for Ready to start? */
+@media (max-width: 767px) {
+    .h3_Big {
+        font-size: 32px;
+    }
+    .ready > div {
+        margin-top: 20px;
+    }
+    /* ensure heading has no bottom margin so gap is controlled only by the div's margin */
+    .ready .h3_Big {
+        margin-bottom: 0;
     }
 }

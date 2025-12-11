@@ -313,6 +313,7 @@
     font-size: 48px;
   }
   .mob{
+    margin-bottom: -80px;
     display: flex;
     align-items: center;
     content: url(/components/articale-start/images/mobile_tablet.svg);
@@ -354,6 +355,7 @@
   }
    .h3_Big{
     font-size: 72px;
+    text-align: left;
   }
   .mob{
     display: flex;
@@ -365,8 +367,9 @@
     text-align: left;
     justify-content: left;
     align-items: flex-start;
+    text-align: left;
     margin-left: 165px;
-    gap: 0;
+    gap: 60px;
   }
   .linker {
   width: 226px;
@@ -377,4 +380,28 @@
   display: flex;
   justify-content: space-between;
 }
+}
+
+/* Footer background image placement (match contact page) */
+footer {
+  background-image: url(/images/shared/desktop/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-position-x: 1050px;
+  background-position-y: -150px;
+}
+
+/* Tablet */
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  footer {
+    background-position-x: 355px;
+    background-position-y: -110px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  footer {
+    background-position-x: center;
+    background-position-y: 175px;
+  }
 }
