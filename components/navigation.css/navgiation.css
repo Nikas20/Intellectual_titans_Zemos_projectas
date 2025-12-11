@@ -1,6 +1,5 @@
 @import url(/style.css);
 
-
 /* --------HEADER_AND_NAV------- */
 
 .header--flex {
@@ -21,6 +20,7 @@ header img {
 
 .header__navDiv--padding {
   padding-left: 2rem;
+  padding-right: 350px;
 }
 
 .header__nav--textspacing {
@@ -33,7 +33,7 @@ header a {
   font-size: 17px;
 }
 
-header a:hover{
+header a:hover {
   opacity: 100%;
 }
 
@@ -47,14 +47,14 @@ header a:hover{
 /* ----Dropdown_menu---- */
 
 .dropdown-content {
-  top: 1px;
+  top: -48px;
   display: none;
-  position: fixed;
-  right: 0.1rem;
-  width: 275px;
-  height:  667px;
+  position: absolute;
+  right: -1px;
+  width: 285px;
+  height:  790px;
   background-color: #1b262f;
-  z-index: 1;
+  z-index: 9999;
   align-items: center;
 }
 
@@ -74,8 +74,9 @@ header a:hover{
 /* ------------ */
 
 .dropdown {
-  position: relative;
+  /* position: relative; */
   display: inline-block;
+  /* z-index: 9999; */
 }
 
 .dropdown-center {
@@ -84,6 +85,9 @@ header a:hover{
 }
 
 .dropdown--hr {
+  margin: revert;
+  /* margin:10px; */
+  /* text-align: center; */
   width: 83%;
   border-color: #36536b;
   margin-bottom: 40px;
@@ -98,10 +102,9 @@ header a:hover{
   display: block;
 }
 
-.dropdown-content a:hover{
-  color:white;
+.dropdown-content a:hover {
+  color: white;
 }
-
 
 /* -----DROPDOWN_EXIT----- */
 
@@ -110,23 +113,22 @@ header a:hover{
   border: none;
   position: relative;
   bottom: 15px;
-  left: 104px;
+  left: 108px;
 }
-
 
 /* ------BUTTON_SIZE---- */
 /* ------TABLET_AND_DESKTO---- */
 .simple_button {
   min-width: 173px;
-  min-height:48px;
+  min-height: 48px;
 }
 /* ------------- */
-.dropdown__button{
-width: 239px;
-height:48px;
+.dropdown__button {
+  width: 239px;
+  height: 48px;
 }
 
-.dropdown_button--textS{
+.dropdown_button--textS {
   font-size: 15px;
   font-weight: bold;
 }
@@ -146,7 +148,11 @@ height:48px;
 
 /* -------TABLET-------- */
 
-@media screen and (min-width: 768px) and (max-width:959px) {
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  .header__navDiv--padding {
+    padding-left: 2rem;
+    padding-right: 0px;
+  }
   .header--flex {
     display: flex;
     justify-content: space-evenly;
@@ -177,7 +183,11 @@ padding-right: 25px; */
 
 /* --------PHONE_VERSION------ */
 
-@media screen and (min-width:367px) and (max-width:767px) {
+@media screen and (min-width: 367px) and (max-width: 767px) {
+  .header__navDiv--padding {
+    padding-left: 2rem;
+    padding-right: 0px;
+  }
   .header--flex {
     /* text-align: center; */
     display: flex;
@@ -193,9 +203,7 @@ padding-right: 25px; */
     display: none;
   }
 
-  header a{
+  header a {
     display: none;
   }
-
-
 }
