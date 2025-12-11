@@ -148,6 +148,10 @@ height:48px;
 /* -------TABLET-------- */
 
 @media screen and (min-width: 768px) and (max-width:959px) {
+  .header__navDiv--padding {
+  padding-left: 2rem;
+  padding-right: 0px;
+}
   .header--flex {
     display: flex;
     justify-content: space-evenly;
@@ -179,6 +183,10 @@ padding-right: 25px; */
 /* --------PHONE_VERSION------ */
 
 @media screen and (min-width:367px) and (max-width:767px) {
+  .header__navDiv--padding {
+  padding-left: 2rem;
+  padding-right: 0px;
+}
   .header--flex {
     /* text-align: center; */
     display: flex;
