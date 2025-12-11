@@ -1,0 +1,191 @@
+/* style imports */
+@import url(/style.css);
+
+@import url(../contactPageForm/styleForm.css);
+
+@import url(../footer/footerstyle.css);
+
+@import url(../navigation.css/navgiation.css);
+
+@import url(../readyForStart/readyForStart.css);
+
+/* navigation part*/
+body {
+    background-color: hsl(207, 44%, 95%);
+    height: 1190px;
+    background-image: url(../../images/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-position-x: 800px;
+    background-position-y: -520px;
+}
+
+header img {
+    margin-left: -60px;
+    padding-right: 2rem;
+}
+
+nav a {
+    color: hsl(207, 33%, 32%);
+    font: normal normal 200 15px/28px Public Sans;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.simple_button {
+    width: 173px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    color: hsl(220, 60%, 99%);
+    align-items: center;
+    background-color: hsl(337, 48%, 49%);
+    font: normal normal 200 15px/28px Public Sans;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.12px;
+
+    margin-left: 280px;
+    margin-right: -60px;
+
+}
+
+/*text added */
+h1 {
+    width: 730px;
+    height: 133px;
+    color: hsl(207, 33%, 32%);
+    font-size: 56px;
+    letter-spacing: -0.43px;
+    text-align: left;
+    margin-top: 88px;
+    margin-left: 11.4%;
+    font-family: serif
+}
+
+/* contact form part */
+#moveFormLeft{
+    padding-right: 46%;
+}
+
+input {
+    border: none;
+    border-bottom: solid 2px;
+    color: hsl(207, 33%, 32%);
+    opacity: 50%;
+}
+textarea {
+    border: none;
+    border-bottom: solid 2px;
+    color: hsl(207, 33%, 32%);
+    opacity: 50%;
+}
+
+form button{
+    color: hsl(207, 33%, 32%);
+    padding-top: 15px;
+    padding-bottom: 16px;
+    background: none;
+    border: 1px solid hsl(207, 33%, 32%);
+    border-radius: 24px;
+    width: 152px;
+    height: 48px;
+}
+
+/* ready for start part */
+.ready{
+    margin-left: 11.5%;
+    margin-top: 159px;
+    margin-bottom: 80px;
+}
+
+h3{
+    color: hsl(207, 33%, 32%);
+    text-align: left;
+    letter-spacing: -0.37px;
+    font-size: 48px;
+}
+.primary-button{
+    background: hsl(337, 48%, 49%) 0% 0% no-repeat padding-box;
+    color: hsl(220, 60%, 99%);
+    border-radius: 24px;
+    border: none;
+}
+
+/*footer */
+footer {
+    background-image: url(../../images/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-position-x: 1050px;
+    background-position-y: -150px;
+
+}
+
+.payapi {
+    margin-left: -10px;
+    filter: brightness(0) invert(1);
+}
+
+/* added logos */
+h4 {
+width: 445px;
+
+text-align: left;
+letter-spacing: -0.18px;
+color: hsl(207, 33%, 32%);
+opacity: 75%;
+font-size: 24px;
+
+position: absolute;
+top: 464px;
+left: 52%;
+}
+
+.partners {
+    width: 536px;
+    height: 103px;
+    margin-left: 51%;
+    margin-top: -240px;
+    padding-bottom: 55px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 2.3%;
+    row-gap: 40px;
+}
+
+.box {
+    width: 145px;
+    height: 33px;
+
+    flex-basis: auto;
+}
+
+
+#img1 {
+    width: 129px;
+    padding-top: 5px;
+}
+
+#img2 {
+    width: 145px;
+}
+
+#img3 {
+    width: 140px;
+}
+
+#img4 {
+    width: 131px;
+    padding-top: 5px;
+}
+
+#img5 {
+    width: 96px;
+    padding-left: 24.5px;
+    padding-right: 24.5px;
+}
+
+#img6 {
+    width: 137px;
+}
