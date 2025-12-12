@@ -131,6 +131,7 @@ header img {
 .dropdown_button--textS {
   font-size: 15px;
   font-weight: bold;
+  position: revert;
 }
 
 /* -----NAV_MEDIA_QUARIE--- */
