@@ -1,13 +1,13 @@
 /* style imports */
 @import url(/style.css);
 
-@import url(../contactPageForm/styleForm.css);
+@import url(/components/contactPageForm/styleForm.css);
 
-@import url(../footer/footerstyle.css);
+@import url(/components/footer/footerstyle.css);
 
-@import url(../navigation.css/navgiation.css);
+@import url(/components/navigation.css/navgiation.css);
 
-@import url(../readyForStart/readyForStart.css);
+@import url(/components/readyForStart/readyForStart.css);
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -63,6 +63,7 @@ h1 {
     text-align: left;
     margin-top: 88px;
     margin-left: 11.4%;
+    padding-bottom: 39px;
     font-family: serif
 }
 
@@ -109,8 +110,8 @@ textarea {
 }
 
 #checkForm {
-    width: 24px;
-    height: 24px;
+    position: relative;
+    top: -24px;
 }
 
 .checktext {
@@ -190,6 +191,7 @@ h4 {
     color: hsl(207, 33%, 32%);
     opacity: 75%;
     font-size: 24px;
+padding-top: 87px;
 
     position: absolute;
     top: 464px;
@@ -202,7 +204,7 @@ h4 {
     margin-left: 51%;
     margin-top: -240px;
     padding-bottom: 55px;
-
+    padding-top: 32px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
