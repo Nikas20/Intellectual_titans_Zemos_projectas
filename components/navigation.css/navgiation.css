@@ -116,6 +116,17 @@ header img {
   left: 108px;
 }
 
+/* --------USED_ID_TO_FIX_A_BUG------ */
+
+#dropdown__exitbutton {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  bottom: 15px;
+  left: 118px;
+}
+
+
 /* ------BUTTON_SIZE---- */
 /* ------TABLET_AND_DESKTO---- */
 .simple_button {
