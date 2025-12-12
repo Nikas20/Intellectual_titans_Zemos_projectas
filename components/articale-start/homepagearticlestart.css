@@ -214,16 +214,17 @@
   width: 327px;
   height: 116px;
   text-align: center;
+  margin-bottom: 13px;
 }
 
-.ready > div{
+.staart > div{
     
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-.ready > div > input {
+.staart > div > input {
   width: 142px;
   height: 16px;
   border-radius: 24px;
@@ -235,7 +236,7 @@
   font-weight: bold;
   opacity: 0.5;
 }
-.ready > div > button {
+.staart > div > button {
   position: relative;
   top: 16px;
   width: 327px;
@@ -247,13 +248,14 @@
   text-align: center;
   position: relative;
   top: 16px;
+  margin-top: 24px;
 }
 
 .linker > a{
   font-weight: bold;
 }
 
-.centered{
+.artea{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -263,10 +265,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
 }
 
+.imgecircle{
+  position: absolute;
+  top: -550px;
+  left: -202px;
+  width: 780px;
+  height: 780px;
+  z-index: -1;
+}
+
+
 @media (min-width: 768px) {
-  .ready > div {
+
+  .imgecircle{
+    width: 949px;
+    height: 949px;
+    left: -91px;
+    top: -663px;
+  }
+
+
+  .staart > div {
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -275,12 +297,12 @@
     background-color: #fbfcfe;
     border-radius: 24px;
   }
-  .ready > div > input {
+  .staart > div > input {
     float: left;
     padding: 16px 103px 16px 27px;
     box-shadow: none;
   }
-  .ready > div > button {
+  .staart > div > button {
     width: 173px;
     position: static;
   }
@@ -291,21 +313,28 @@
     font-size: 48px;
   }
   .mob{
+    margin-bottom: -80px;
     display: flex;
     align-items: center;
     content: url(/components/articale-start/images/mobile_tablet.svg);
   }
 }
 
-@media (min-width: 1440px) {
-  .ready {
+@media (min-width: 960px) {
+  .imgecircle{
+    top: -172px;
+    left: 800px;
+    width: 780px;
+    height: 780px;
+  }
+  .staart {
     display: flex;
     flex-direction: column;
     width: 445px;
     height: 68px;
     margin-top: 80px;
   }
-  .ready > div {
+  .staart > div {
     margin-bottom: 0;
   }
   .h3_Big {
@@ -315,9 +344,10 @@
     font-size: 48px;
     margin: 0;
   }
-  .centered{
+  .artea{
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
   }
   .headering{
     width: 546px;
@@ -325,6 +355,7 @@
   }
    .h3_Big{
     font-size: 72px;
+    text-align: left;
   }
   .mob{
     display: flex;
@@ -336,7 +367,9 @@
     text-align: left;
     justify-content: left;
     align-items: flex-start;
+    text-align: left;
     margin-left: 165px;
+    gap: 60px;
   }
   .linker {
   width: 226px;
@@ -347,4 +380,28 @@
   display: flex;
   justify-content: space-between;
 }
+}
+
+/* Footer background image placement (match contact page) */
+footer {
+  background-image: url(/images/shared/desktop/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-position-x: 1050px;
+  background-position-y: -150px;
+}
+
+/* Tablet */
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  footer {
+    background-position-x: 355px;
+    background-position-y: -110px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  footer {
+    background-position-x: center;
+    background-position-y: 175px;
+  }
 }

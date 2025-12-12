@@ -54,6 +54,12 @@ footer {
   filter: brightness(0) saturate(100%) invert(72%) sepia(30%) saturate(5000%) hue-rotate(305deg) brightness(85%) contrast(92%);
 }
 
+/* make footer logo white */
+.payapi {
+  margin-left: -10px;
+  filter: brightness(0) invert(1);
+}
+
 /* Tablet */
 @media (max-width: 959px) and (min-width: 768px) {
   footer {

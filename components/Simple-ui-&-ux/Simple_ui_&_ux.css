@@ -1,9 +1,20 @@
+@import url(/style.css);
+
+* {
+  margin: 0;
+}
+
+.backgraaaund {
+  background: #EDF3F8;
+}
+
 .text_ui_ux {
   text-align: center;
 }
 .img_ui_ux {
   display: flex;
   align-items: center;
+  margin-bottom: -72px;
 }
 
 .centered {
@@ -17,9 +28,10 @@
   font-size: 36px;
   font-style: normal;
   font-weight: normal;
-  color: rgb(54, 83, 107);
+  color: #36536B;
   letter-spacing: -0.28px;
   margin-top: 0px;
+  opacity: 1;
 }
 
 .p_ui_ux {
@@ -28,9 +40,28 @@
   font-size: 15px 28px;
   font-style: normal;
   font-weight: normal;
-  color: rgb(108, 130, 148);
+  line-height: 28px;
+  color: #6C8294;
   width: 328px;
   height: 73px;
+}
+
+@media screen and (width >= 375px) and (width < 768px) {
+  .backgraaaund {
+    padding-bottom: 64px;
+  }
+  .text_ui_ux {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .img_ui_ux {
+    margin-bottom: -48px;
+  }
+
+  .bckgcrcl{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -55,6 +86,10 @@
     letter-spacing: -0.28px;
     margin-top: 0px;
   }
+
+  .bckgcrcl{
+    display: none;
+  }
 }
 
 
@@ -64,6 +99,7 @@
     align-items: center;
     content: url(/components/Simple-ui-&-ux/images/illustration-simple-ui.svg);
     margin-left: 0px;
+    z-index: 2;
   }
 
   .simple_ui_ux {
@@ -97,4 +133,15 @@
     text-align: left;
     margin-left: 165px;
   }
+
+  @media screen and (min-width: 960px) {
+    .bckgcrcl {
+      position: absolute;
+      top: 1900px;
+      left: 1100px;
+      overflow: hidden;
+      z-index: 1;
+      display: block;
+  }
+}
 }
