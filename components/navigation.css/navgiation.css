@@ -27,13 +27,13 @@ header img {
   word-spacing: 2rem;
 }
 
-header a {
+.newa {
   text-decoration: none;
   opacity: 70%;
   font-size: 17px;
 }
 
-header a:hover {
+.newa:hover {
   opacity: 100%;
 }
 
@@ -203,7 +203,9 @@ padding-right: 25px; */
     display: none;
   }
 
-  header a {
+  .newa {
     display: none;
   }
+
+
 }
