@@ -1,4 +1,4 @@
-/* @import url(/style.css); */
+@import url(/style.css);
 
 body {
   margin: 0;
@@ -14,8 +14,8 @@ body {
 /* ------MEDIAQUARIE------ */
 /* -------PHONE_VERSION----- */
 
-@media screen and (min-width: 367px) and (max-width: 768px) {
-  .article_aboutStart--flex {
+@media screen and (min-width: 367px) and (max-width: 767px) {
+    .article_aboutStart--flex {
     justify-content: center;
     width: 327px;
     text-align: center;
@@ -25,7 +25,7 @@ body {
   }
 
   .article_aboutStart_firstDiv--padding {
-    padding-top: 44px;
+    padding-top: 24px;
   }
 
   .article_aboutStart_secondDiv--padding {
@@ -43,4 +43,20 @@ body {
     background-size: cover;
     background-position: center;
   }
+}
+
+/* -------TABLET__VERSION----- */
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  .article_aboutStart--flex {
+    justify-content: center;
+    width: 573px;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+   .article_aboutStart_firstDiv--padding{
+    padding-top: 48px;
+   }
 }
