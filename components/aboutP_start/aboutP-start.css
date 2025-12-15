@@ -1,8 +1,46 @@
 /* @import url(/style.css); */
 
-body{
-    margin:0;
+body {
+  margin: 0;
 }
 
+/* -------aboutStart__flex------ */
 
+.article_aboutStart--flex {
+  display: flex;
+  flex-direction: column;
+}
 
+/* ------MEDIAQUARIE------ */
+/* -------PHONE_VERSION----- */
+
+@media screen and (min-width: 367px) and (max-width: 768px) {
+  .article_aboutStart--flex {
+    justify-content: center;
+    width: 327px;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .article_aboutStart_firstDiv--padding {
+    padding-top: 44px;
+  }
+
+  .article_aboutStart_secondDiv--padding {
+    padding-top: 66px;
+  }
+
+  /* -------IMG--------- */
+
+  .article__aboutStart--img {
+    height: 300px;
+    margin-top: 87px;
+    /* background-size: 375px; */
+    background-image: url(../../images/about/mobile/image-team-members.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
