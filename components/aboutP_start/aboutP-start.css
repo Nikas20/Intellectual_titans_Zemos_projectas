@@ -11,17 +11,26 @@ body {
   flex-direction: column;
 }
 
+.article_aboutStart_secondDiv {
+  display: flex;
+  align-items:baseline;
+}
+
 /* ------MEDIAQUARIE------ */
 /* -------PHONE_VERSION----- */
 
-@media screen and (min-width: 367px) and (max-width: 767px) {
+@media screen and  (max-width: 767px) {
   .article_aboutStart--flex {
     justify-content: center;
-    width: 327px;
+    max-width: 327px;
     text-align: center;
     margin: 0 auto;
     padding-left: 24px;
     padding-right: 24px;
+  }
+
+  .article_aboutStart_secondDiv {
+    display: revert;
   }
 
   .article_aboutStart_firstDiv--padding {
@@ -38,9 +47,9 @@ body {
     font-size: 24px;
   }
 
-.article__h3--size{
+  .article__h3--size {
     font-size: 32px;
-}
+  }
 
   /* -------IMG--------- */
 
@@ -59,14 +68,45 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 960px) {
   .article_aboutStart--flex {
-    justify-content: center;
-    width: 573px;
+    align-items: center;
     text-align: center;
     margin: 0 auto;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 39px;
+    padding-right: 39px;
   }
   .article_aboutStart_firstDiv--padding {
     padding-top: 48px;
   }
+  /* -------FONTSIZE------- */
+  .article__h3--size {
+    width: 573px;
+    font-size: 48px;
+  }
+
+  .article_h2--size {
+    position: relative;
+    top:21px;
+    width: 223px;
+    height:44px;
+    text-align: left;
+    font-size: 32px;
+  }
+
+  .article__startP--size {
+    width: 456px;
+    text-align: left;
+  }
+
+/* ----IMG---- */
+
+.article__aboutStart--img {
+    height: 300px;
+    margin-top: 87px;
+    /* background-size: 375px; */
+    background-image: url(../../images/about/tablet/image-team-members.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
 }
