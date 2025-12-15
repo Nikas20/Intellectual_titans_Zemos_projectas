@@ -1,0 +1,39 @@
+article {
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 48px;
+}
+
+.h1_Small {
+  font-family: "DM Serif Display", serif;
+  font-size: 56px;
+  font-size: 56px;
+  font-style: normal;
+  color: rgb(186, 66, 112);
+  margin-bottom: 13px;
+}
+
+.body {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  font-style: normal;
+  color: rgb(108, 130, 148);
+  margin-top: 0px;
+}
+
+.h4 {
+  font-family: "DM Serif Display", serif;
+  font-size: 24px;
+  font-size: 24px;
+  font-style: normal;
+  margin-bottom: 8px;
+  color: rgb(54, 83, 107);
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(54, 83, 107, 0.4), rgba(54, 83, 107, 0.4));
+}
