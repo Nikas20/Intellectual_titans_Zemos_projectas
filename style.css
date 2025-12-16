@@ -2,85 +2,79 @@
 
 /* Primary colors */
 
-.darkPinkColor{
-    color: #BA4270;
+.darkPinkColor {
+  color: #ba4270;
 }
-.darkPinkBgColor{
-    background-color: #BA4270;
-}
-
-.linkWaterWhiteColor{
-    color: #FBFCFE;
+.darkPinkBgColor {
+  background-color: #ba4270;
 }
 
-.linkWaterWhiteBg{
-    background-color: #FBFCFE;
+.linkWaterWhiteColor {
+  color: #fbfcfe;
+}
+
+.linkWaterWhiteBg {
+  background-color: #fbfcfe;
 }
 
 /* Secondary colors */
 
-.sanJuanBlueColor{
-    color: #36536B;
+.sanJuanBlueColor {
+  color: #36536b;
 }
-.sanJuanBlueBgColor{
-    background-color: #36536B;
+.sanJuanBlueBgColor {
+  background-color: #36536b;
 }
-.mirageBlueColor{
-    color: #1B262F;
+.mirageBlueColor {
+  color: #1b262f;
 }
-.mirageBlueBgColor{
-    background-color: #1B262F;
+.mirageBlueBgColor {
+  background-color: #1b262f;
 }
-.charmPinkActivesColor{
-    color: #DA6D97;
+.charmPinkActivesColor {
+  color: #da6d97;
 }
-.charmPinkActivesBgColor{
-    background-color: #DA6D97;
+.charmPinkActivesBgColor {
+  background-color: #da6d97;
 }
-.lightSanJuanBlueColor{
-    color: #6C8294;
+.lightSanJuanBlueColor {
+  color: #6c8294;
 }
-.lightSanJuanBlueBGColor{
-    background-color: #6C8294;
+.lightSanJuanBlueBGColor {
+  background-color: #6c8294;
 }
 
 /* Typografy */
 /* Headings */
 .h1_Large {
   font-family: "DM Serif Display", serif;
-  font-size: 72px;
-  font-size: 72px;
+  font-size: 4.5rem;
   font-style: normal;
 }
 .h1_Small {
   font-family: "DM Serif Display", serif;
-  font-size: 56px;
-  font-size: 56px;
+  font-size: 3.5rem;
   font-style: normal;
 }
 .h2 {
   font-family: "DM Serif Display", serif;
-  font-size: 48px;
-  font-size: 48px;
+  font-size: 3rem;
   font-style: normal;
 }
 .h3_Big {
   font-family: "DM Serif Display", serif;
-  font-size: 32px;
-  font-size: 32px;
+  font-size: 2rem;
   font-style: normal;
 }
 .h3_Small {
   font-family: "Public Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 18px;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
 }
 .h4 {
   font-family: "DM Serif Display", serif;
-  font-size: 24px;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
 }
 
@@ -88,7 +82,7 @@
 .body {
   font-family: "Public Sans", sans-serif;
   font-optical-sizing: auto;
-  font-size: 15px;
+  font-size: 0.938rem;
   font-style: normal;
 }
 
@@ -236,7 +230,7 @@ example to form
   color: #36536b;
 }
 
-.textArea:user-invalid   {
+.textArea:user-invalid {
   display: block;
   border: none;
   border-bottom: 1px solid #ff0000;
@@ -244,7 +238,7 @@ example to form
   color: #ff0000;
 }
 
-.textArea:user-invalid + .errorMesage{
+.textArea:user-invalid + .errorMesage {
   opacity: 1;
 }
 
@@ -252,14 +246,13 @@ example to form
   color: #ff0000;
 }
 
-
 /* Checkbox */
 
 .container-checkbox {
   display: block;
   position: relative;
   padding-left: 24px;
-  
+
   cursor: pointer;
   font-size: 22px;
   -webkit-user-select: none;

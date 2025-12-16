@@ -1,0 +1,108 @@
+@import url(/style.css);
+
+.main-pricing {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-section > article {
+  width: 327px;
+  margin: 0.75rem;
+}
+
+.pricing-section > article > div {
+  border-top: 2px solid rgb(54, 83, 107, 0.25);
+  border-bottom: 2px solid rgb(54, 83, 107, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding: 1.625rem 0;
+}
+
+.pricing-section > article > div > p {
+  text-align: left;
+  width: 129px;
+  margin: 0.5rem auto;
+}
+
+.description {
+  height: 3.375rem;
+  opacity: 0.7;
+}
+.pricing-planPart{
+  opacity: 0.25;
+}
+.pricing-planPart::before {
+  content: "   ..";
+  color: transparent;
+  position: relative;
+  left: -1.5rem;
+}
+
+.pricing-planPart-success::before {
+  content: url(/images/shared/desktop/icon-check.svg);
+  position: relative;
+  left: -1.5rem;
+}
+
+.pricing-button {
+  margin-top: 1.5rem;
+  padding: 1rem 1.625rem;
+}
+
+.price {
+  margin: 0;
+}
+
+.heaad-price{
+  width: 327px;
+}
+
+.nar{
+  font-weight: normal;
+}
+
+@media (min-width: 768px) {
+  .pricing-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .pricing-section > article {
+    width: 223px;
+  }
+
+  .heaad-price{
+  width: 688px;
+}
+}
+
+@media (min-width: 1440px) {
+  .desctop-text-align {
+    text-align: left;
+  }
+  .pricing-section > article {
+    width: 350px;
+  }
+  .description {
+    text-align: left;
+  }
+
+
+ .main-pricing{
+  margin: 0 165px;
+ }
+ .heaad-price{
+  width: 1109px;
+  text-align: left;
+}
+}
