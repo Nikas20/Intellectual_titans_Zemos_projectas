@@ -16,11 +16,10 @@ body {
   align-items: baseline;
 }
 
-
 /* -------TEXT_SPACING-------- */
 
-.article__startP--size{
-line-height: 1.6rem;
+.article__startP--size {
+  line-height: 1.6rem;
 }
 
 /* ------MEDIAQUARIE------ */
@@ -154,6 +153,10 @@ line-height: 1.6rem;
     right: 80px;
   }
 
+  .article__h3--padding {
+    position: relative;
+    top: 45px;
+  }
 
   .article__aboutStart--img {
     height: 500px;
