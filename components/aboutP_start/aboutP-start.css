@@ -125,13 +125,11 @@ line-height: 1.6rem;
 
 @media screen and (min-width: 961px) {
   .article_aboutStart--flex {
-    padding-top: 80px;
-    padding-bottom: 111px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    padding-left: 260px;
-    padding-right: 260px;
   }
 
   .article_h2--size {
