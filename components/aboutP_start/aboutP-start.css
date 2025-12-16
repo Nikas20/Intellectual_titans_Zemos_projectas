@@ -16,11 +16,10 @@ body {
   align-items: baseline;
 }
 
-
 /* -------TEXT_SPACING-------- */
 
-.article__startP--size{
-line-height: 1.6rem;
+.article__startP--size {
+  line-height: 1.6rem;
 }
 
 /* ------MEDIAQUARIE------ */
@@ -125,13 +124,11 @@ line-height: 1.6rem;
 
 @media screen and (min-width: 961px) {
   .article_aboutStart--flex {
-    padding-top: 80px;
-    padding-bottom: 111px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    padding-left: 260px;
-    padding-right: 260px;
   }
 
   .article_h2--size {
@@ -156,6 +153,10 @@ line-height: 1.6rem;
     right: 80px;
   }
 
+  .article__h3--padding {
+    position: relative;
+    top: 45px;
+  }
 
   .article__aboutStart--img {
     height: 500px;
