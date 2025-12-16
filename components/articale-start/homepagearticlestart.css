@@ -215,6 +215,7 @@
   height: 116px;
   text-align: center;
   margin-bottom: 13px;
+  /* text-align: left; */
 }
 
 .staart > div{
@@ -352,10 +353,11 @@
   .headering{
     width: 546px;
     height: 243px;
+    /* text-align: left; */
   }
    .h3_Big{
     font-size: 72px;
-    text-align: left;
+    /* text-align: left; */
   }
   .mob{
     display: flex;
