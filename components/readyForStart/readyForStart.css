@@ -32,8 +32,6 @@
   font-weight: bold;
 }
 
-
-
 @media (min-width: 768px) {
   .ready {
     margin-top: 64px;
@@ -59,9 +57,9 @@
     position: static;
   }
 
- .rdtxt {
-  font-size: 48px;
- }
+  .rdtxt {
+    font-size: 48px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -105,14 +103,13 @@
     margin-top: -24px;
   }
 
-
-#h3_Big{
- text-align: center;
+  #h3_Big {
+    text-align: center;
     width: 445px;
     /* height: 80px; */
     font-size: 42px;
     margin-top: -24px;
-}
+  }
 
   .ready2 {
     display: flex;

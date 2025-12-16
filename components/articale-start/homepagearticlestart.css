@@ -204,12 +204,12 @@
   }
 } */
 
-.mob{
+.mob {
   padding-left: 50px;
   margin-bottom: -110px;
 }
 
-.headering{
+.headering {
   font-weight: normal;
   width: 327px;
   height: 116px;
@@ -218,11 +218,10 @@
   /* text-align: left; */
 }
 
-.staart > div{
-    
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+.staart > div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .staart > div > input {
@@ -245,31 +244,31 @@
   font-weight: bold;
 }
 
-.linker{
+.linker {
   text-align: center;
   position: relative;
   top: 16px;
   margin-top: 24px;
 }
 
-.linker > a{
+.linker > a {
   font-weight: bold;
 }
 
-.artea{
+.artea {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.centered2{
+.centered2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
 
-.imgecircle{
+.imgecircle {
   position: absolute;
   top: -550px;
   left: -202px;
@@ -278,16 +277,13 @@
   z-index: -1;
 }
 
-
 @media (min-width: 768px) {
-
-  .imgecircle{
+  .imgecircle {
     width: 949px;
     height: 949px;
     left: -91px;
     top: -663px;
   }
-
 
   .staart > div {
     display: flex;
@@ -307,13 +303,13 @@
     width: 173px;
     position: static;
   }
-  .headering{
+  .headering {
     width: 573px;
   }
-  .h3_Big{
+  .h3_Big {
     font-size: 48px;
   }
-  .mob{
+  .mob {
     margin-bottom: -80px;
     display: flex;
     align-items: center;
@@ -321,8 +317,22 @@
   }
 }
 
+/* --------section_START_BOTH_DIV_SIDE_PADDING-------- */
+
 @media (min-width: 960px) {
-  .imgecircle{
+  .section__secondDiv--phonepadding {
+    position: relative;
+    left: 1px;
+    padding-right: 1rem;
+  }
+
+  .section__firsdtDiv--phonepadding {
+    position: relative;
+    right: -110px;
+    padding-right: 1rem;
+  }
+
+  .imgecircle {
     top: -172px;
     left: 800px;
     width: 780px;
@@ -334,6 +344,7 @@
     width: 445px;
     height: 68px;
     margin-top: 80px;
+
   }
   .staart > div {
     margin-bottom: 0;
@@ -345,26 +356,28 @@
     font-size: 48px;
     margin: 0;
   }
-  .artea{
+  .artea {
+    margin: 0 auto;
+    width: 999px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
   }
-  .headering{
+  .headering {
     width: 546px;
     height: 243px;
     /* text-align: left; */
   }
-   .h3_Big{
+  .h3_Big {
     font-size: 72px;
     /* text-align: left; */
   }
-  .mob{
+  .mob {
     display: flex;
     align-items: center;
     content: url(/components/articale-start/images/ilustration-phone-mockup-fix.svg);
   }
-  .centered2{
+  .centered2 {
     display: flex;
     text-align: left;
     justify-content: left;
@@ -374,14 +387,14 @@
     gap: 60px;
   }
   .linker {
-  width: 226px;
-  margin-left: 27px;
-  text-align: left;
-}
-.centered{
-  display: flex;
-  justify-content: space-between;
-}
+    width: 226px;
+    margin-left: 27px;
+    text-align: left;
+  }
+  .centered {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 /* Footer background image placement (match contact page) */
