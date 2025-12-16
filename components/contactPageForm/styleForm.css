@@ -53,9 +53,11 @@ form{
 
 
 .submitForm{
+    /* margin-top: 10px; */
     width: 152px;
-    height: 73.85px;
-    
+    height: 110px;
+     border: 3px solid hsl(207, 33%, 32%);
+     font-size: 1rem;
 }
 
 

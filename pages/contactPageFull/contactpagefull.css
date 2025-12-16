@@ -63,7 +63,7 @@ h1 {
     text-align: left;
     margin-top: 88px;
     margin-left: 11.4%;
-    padding-bottom: 39px;
+    padding-bottom: 35px;
     font-family: serif
 }
 
@@ -71,7 +71,9 @@ h1 {
 #moveFormLeft {
     padding-right: 46%;
 }
-
+input::placeholder{
+    font-family: sans-serif;
+}
 input {
     font-family: public-sans;
     font-size: 15px;
@@ -80,6 +82,12 @@ input {
     border-bottom: solid 2px;
     color: hsl(207, 33%, 32%);
     opacity: 50%;
+
+}
+
+.errorMesage{
+    position: relative;
+    top: -10px;
 }
 
 textarea {
@@ -92,15 +100,15 @@ textarea {
     opacity: 50%;
 }
 
-.submitForm {
+/* .submitForm {
     color: hsl(207, 33%, 32%);
     background: none;
     border: 1px solid hsl(207, 33%, 32%);
     border-radius: 24px;
     width: 152px;
-    height: 48px;
+    height: 60px;
     
-}
+} */
 
 .submitForm:hover {
     color: hsl(220, 60%, 99%);
@@ -143,12 +151,6 @@ textarea:hover {
 }
 
 /* ready for start part */
-.ready {
-    margin-left: 11.5%;
-    margin-top: 159px;
-    margin-bottom: 100px;
-    padding-bottom: 0;
-}
 
 h3 {
     color: hsl(207, 33%, 32%);
@@ -157,11 +159,8 @@ h3 {
     font-size: 48px;
 }
 
-.primary-button {
-    background: hsl(337, 48%, 49%) 0% 0% no-repeat padding-box;
-    color: hsl(220, 60%, 99%);
-    border-radius: 24px;
-    border: none;
+.butta{
+    margin-top: 2px;
 }
 
 #mobilebutton {
@@ -175,6 +174,7 @@ footer {
     background-repeat: no-repeat;
     background-position-x: 1050px;
     background-position-y: -150px;
+    margin-top: -7px;
 
 }
 
@@ -189,7 +189,9 @@ h4 {
     color: hsl(207, 33%, 32%);
     opacity: 75%;
     font-size: 24px;
-padding-top: 87px;
+    padding-top: 10px;
+    line-height: 2rem;
+    letter-spacing: 0.4px;
 
     position: absolute;
     top: 464px;
@@ -200,9 +202,9 @@ padding-top: 87px;
     width: 536px;
     height: 103px;
     margin-left: 51%;
-    margin-top: -240px;
+    margin-top: -500px;
     padding-bottom: 55px;
-    padding-top: 32px;
+    padding-top: 4px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -220,30 +222,40 @@ padding-top: 87px;
 
 #img1 {
     width: 129px;
-    padding-top: 5px;
+    padding-top: 4px;
+    margin-left: -4px;
 }
 
 #img2 {
     width: 145px;
+    margin-left: 5px;
+    margin-top: -1px;
 }
 
 #img3 {
     width: 140px;
+    margin-left: -5px;
+    margin-top: -5px;
 }
 
 #img4 {
     width: 131px;
-    padding-top: 5px;
+    margin-left: 17px;
+    margin-top: -28px;
+    padding-bottom: 3px;
 }
 
 #img5 {
     width: 96px;
-    padding-left: 24.5px;
-    padding-right: 24.5px;
+    margin-left: -17px;
+    margin-top: -28px;
 }
 
 #img6 {
     width: 137px;
+    margin-left: 5px;
+    margin-top: -65px;
+    padding-bottom: 3px;
 }
 
 /*correction*/
