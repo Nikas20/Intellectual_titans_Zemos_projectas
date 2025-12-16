@@ -69,7 +69,7 @@ hr {
     width: 456px;
     line-height: 24px;
   }
-  .gh4 {
+  .h4 {
     font-size: 34px;
     margin: 0px;
     padding-top: 8px;
@@ -84,5 +84,25 @@ hr {
   }
   .about_end_article {
     text-align: left;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about_end_border{
+    width: 350px;
+  }
+  .body{
+    width: 635px;
+    margin-right: 260px;
+  }
+  .h4{
+    margin-left: 260px;
+    padding-top: 0px;
+  }
+  .about_end_article{
+    padding: 0px;
+  }
+  .about_end_flex{
+    gap: 30px;
   }
 }
