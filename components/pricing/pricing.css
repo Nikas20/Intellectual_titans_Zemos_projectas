@@ -42,7 +42,7 @@
   opacity: 0.25;
 }
 .pricing-planPart::before {
-  content: "   ..";
+  content: "W";
   color: transparent;
   position: relative;
   left: -1.5rem;
