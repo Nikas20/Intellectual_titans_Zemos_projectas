@@ -323,13 +323,13 @@
   .section__secondDiv--phonepadding {
     position: relative;
     left: 1px;
-    padding-right: 1rem;
+    padding-left: 0.2rem;
   }
 
   .section__firsdtDiv--phonepadding {
     position: relative;
-    right: -110px;
-    padding-right: 1rem;
+    right: 10rem;
+    /* padding-left: rem; */
   }
 
   .imgecircle {
@@ -358,7 +358,7 @@
   }
   .artea {
     margin: 0 auto;
-    width: 999px;
+    /* width: 999px; */
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
