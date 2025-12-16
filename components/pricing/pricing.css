@@ -46,7 +46,9 @@
   position: relative;
   left: -1.5rem;
 }
-
+.pricing-planPart-success{
+  opacity: 0.5;
+}
 .pricing-planPart-success::before {
   content: url(/images/shared/desktop/icon-check.svg);
   position: relative;
@@ -69,6 +71,17 @@
 .nar{
   font-weight: normal;
 }
+.pricng{
+  font-family: "DM Serif Display", serif;
+  font-size: 2rem;
+  font-style: normal;
+}
+
+.plan{
+  font-family: "DM Serif Display", serif;
+  font-size: 1.5rem;
+  font-style: normal;
+}
 
 @media (min-width: 768px) {
   .pricing-section {
@@ -83,6 +96,13 @@
 
   .heaad-price{
   width: 688px;
+}
+.pricng{
+  font-size: 3rem;
+}
+.plan{
+  font-size: 1.5rem;
+
 }
 }
 
@@ -104,5 +124,11 @@
  .heaad-price{
   width: 1109px;
   text-align: left;
+}
+.pricng{
+  font-size: 3.5rem;
+}
+.plan{
+  font-size: 2rem;
 }
 }
