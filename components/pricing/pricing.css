@@ -94,6 +94,9 @@
   .pricing-section > article {
     width: 223px;
   }
+  .price{
+    margin: 2rem 0;
+  }
 
   .heaad-price{
   width: 688px;
