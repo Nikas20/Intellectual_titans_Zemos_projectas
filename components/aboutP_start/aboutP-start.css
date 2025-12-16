@@ -13,14 +13,23 @@ body {
 
 .article_aboutStart_secondDiv {
   display: flex;
-  align-items:baseline;
+  align-items: baseline;
+}
+
+
+/* -------TEXT_SPACING-------- */
+
+.article__startP--size{
+line-height: 1.6rem;
 }
 
 /* ------MEDIAQUARIE------ */
 /* -------PHONE_VERSION----- */
 
-@media screen and  (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .article_aboutStart--flex {
+    padding-top: 51px;
+    padding-bottom: 87px;
     justify-content: center;
     max-width: 327px;
     text-align: center;
@@ -68,6 +77,8 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 960px) {
   .article_aboutStart--flex {
+    padding-top: 86px;
+    padding-bottom: 103px;
     align-items: center;
     text-align: center;
     margin: 0 auto;
@@ -85,9 +96,9 @@ body {
 
   .article_h2--size {
     position: relative;
-    top:21px;
+    top: 21px;
     width: 223px;
-    height:44px;
+    height: 44px;
     text-align: left;
     font-size: 32px;
   }
@@ -97,9 +108,9 @@ body {
     text-align: left;
   }
 
-/* ----IMG---- */
+  /* ----IMG---- */
 
-.article__aboutStart--img {
+  .article__aboutStart--img {
     height: 300px;
     margin-top: 87px;
     /* background-size: 375px; */
@@ -108,5 +119,51 @@ body {
     background-size: cover;
     background-position: center;
   }
+}
 
+/* ---------DEKTOP_VERSION------- */
+
+@media screen and (min-width: 961px) {
+  .article_aboutStart--flex {
+    padding-top: 80px;
+    padding-bottom: 111px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 260px;
+    padding-right: 260px;
+  }
+
+  .article_h2--size {
+    position: relative;
+    top: 21px;
+    width: 255px;
+    height: 44px;
+    text-align: left;
+    font-size: 32px;
+  }
+
+  .article__startP--size {
+    width: 635px;
+    text-align: left;
+  }
+
+  .article__h3--size {
+    width: 730px;
+    font-size: 56px;
+    text-align: left;
+    position: relative;
+    right: 80px;
+  }
+
+
+  .article__aboutStart--img {
+    height: 500px;
+    margin-top: 87px;
+    /* background-size: 375px; */
+    background-image: url(../../images/about/desktop/image-team-members.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
 }
