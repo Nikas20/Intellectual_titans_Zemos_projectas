@@ -320,17 +320,21 @@
 /* --------section_START_BOTH_DIV_SIDE_PADDING-------- */
 
 @media (min-width: 960px) {
+
+  /* ---START_SECTION_FIX------ */
+
   .section__secondDiv--phonepadding {
     position: relative;
-    left: 1px;
-    padding-left: 0.2rem;
+    right: 5rem;
   }
 
   .section__firsdtDiv--phonepadding {
     position: relative;
-    right: 10rem;
+    right: 3rem;
     /* padding-left: rem; */
   }
+
+/* --------------- */
 
   .imgecircle {
     top: -172px;
@@ -344,7 +348,6 @@
     width: 445px;
     height: 68px;
     margin-top: 80px;
-
   }
   .staart > div {
     margin-bottom: 0;
@@ -357,11 +360,11 @@
     margin: 0;
   }
   .artea {
-    margin: 0 auto;
-    /* width: 999px; */
-    display: flex;
+   /* margin: 0 auto; */
+    /* min-width: 300px; */
+    display: flex; 
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .headering {
     width: 546px;
