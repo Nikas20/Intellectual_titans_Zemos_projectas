@@ -258,6 +258,10 @@ h4 {
     padding-bottom: 3px;
 }
 
+.cfda{
+    font: 200 15px/25px Public Sans;
+}
+
 /*correction*/
 @media (max-width: 1150px) and (min-width: 960px) {
     body {
