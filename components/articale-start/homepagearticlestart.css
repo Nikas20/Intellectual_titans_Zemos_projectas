@@ -319,7 +319,6 @@
 
 /* --------section1_START_FLEX_CONTAINER_VISIBILITY_WHEN_LESS_THAN_1035px-------- */
 
-
 @media screen and (max-width:1150px) and (min-width:960px){
   .section__secondDiv--phonepadding {
     position: relative;
@@ -359,6 +358,7 @@
   .artea {
    /* margin: 0 auto; */
     /* min-width: 300px; */
+    padding-top: 10px;
     display: flex; 
     flex-direction: row-reverse;
     justify-content: space-evenly;
@@ -409,7 +409,7 @@
 
   .section__firsdtDiv--phonepadding {
     position: relative;
-    right: 3rem;
+    right: 4rem;
     /* padding-left: rem; */
   }
 
@@ -441,6 +441,7 @@
   .artea {
    /* margin: 0 auto; */
     /* min-width: 300px; */
+    padding-top: 10px;
     display: flex; 
     flex-direction: row-reverse;
     justify-content: space-evenly;

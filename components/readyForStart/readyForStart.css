@@ -95,12 +95,20 @@
   .ready > div {
     margin-bottom: 20px;
   }
+
+  /* ---------SECTION1_H1_POS----- */
+
+  .section1__div2__h1--pos {
+    position: relative;
+    top: 70px;
+  }
   .h3_Big {
     /* text-align: center; */
     width: 546px;
     height: 180px;
     font-size: 72px;
     margin-top: -24px;
+    line-height: 71px;
   }
 
   #h3_Big {
