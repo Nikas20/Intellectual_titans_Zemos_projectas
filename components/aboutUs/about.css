@@ -125,13 +125,13 @@
 @media screen and (min-width: 960px) {
   .section2__text--pos {
     position: relative;
-    bottom: 30px;
+    bottom: 20px;
   }
 
   .firstsec {
     margin-top: 80px;
     width: 100%;
-    height: 420px;
+    height: 440px;
     background-color: #1b262f;
     background-image: url(../../images/shared/desktop/bg-pattern-circle.svg);
     background-repeat: no-repeat;
