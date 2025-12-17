@@ -46,6 +46,7 @@
   color: transparent;
   position: relative;
   left: -1.5rem;
+  opacity: 0.25;
 }
 .pricing-planPart-success{
   opacity: 0.5;
@@ -54,6 +55,7 @@
   content: url(/images/shared/desktop/icon-check.svg);
   position: relative;
   left: -1.5rem;
+  opacity: 0.5;
 }
 
 .pricing-button {
