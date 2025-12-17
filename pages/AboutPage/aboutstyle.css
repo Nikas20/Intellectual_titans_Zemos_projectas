@@ -1,0 +1,11 @@
+/* style imports */
+@import url(/style.css);
+
+@import url(../../components/navigation.css/navgiation.css);
+
+@import url(../../components/aboutP_start/aboutP-start.css);
+
+@import url(../../components/about_end/aboutend.css);
+
+@import url(../../components/footer/footerstyle.css);
+
