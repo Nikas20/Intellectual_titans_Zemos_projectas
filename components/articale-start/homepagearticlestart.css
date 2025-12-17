@@ -247,7 +247,7 @@
 .linker {
   text-align: center;
   position: relative;
-  top: 16px;
+  top: -9px;
   margin-top: 24px;
 }
 
@@ -397,6 +397,7 @@
   }
 
 }
+/* ---------DESKTOP----------------------- */
 
 @media (min-width: 1151px) {
 
