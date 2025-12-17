@@ -46,16 +46,16 @@
   color: transparent;
   position: relative;
   left: -1.5rem;
-  opacity: 0.25;
+  opacity: 1;
 }
 .pricing-planPart-success{
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 .pricing-planPart-success::before {
   content: url(/images/shared/desktop/icon-check.svg);
   position: relative;
   left: -1.5rem;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .pricing-button {
