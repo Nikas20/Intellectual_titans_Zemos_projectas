@@ -38,7 +38,7 @@
     padding-bottom: 80px;
   }
 
-  .ready > div {
+  .ready > div:last-child {
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -68,7 +68,7 @@
     padding-bottom: 80px;
     margin-bottom: 40px;
   }
-  .ready > div {
+  .ready > div:last-child {
     margin-top: 20px;
   }
   .ready > div > input {
@@ -92,7 +92,7 @@
     height: 68px;
     margin: 80px auto 0 auto;
   }
-  .ready > div {
+  .ready > div:last-child {
     margin-bottom: 20px;
   }
 
