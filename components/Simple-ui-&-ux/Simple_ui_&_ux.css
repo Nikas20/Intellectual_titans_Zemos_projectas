@@ -101,6 +101,11 @@
     z-index: 2;
   }
 
+  .section4__phone--pos {
+    position: relative;
+    right: 10px;
+  }
+
   .simple_ui_ux {
     font-family: "DM Serif Display", serif;
     font-size: 48px;
@@ -136,8 +141,8 @@
   @media screen and (min-width: 960px) {
     .bckgcrcl {
       position: absolute;
-      top: 1700px;
-      left: 1010px;
+      top: 1650px;
+      left: 1050px;
       overflow: hidden;
       z-index: 1;
       display: block;
