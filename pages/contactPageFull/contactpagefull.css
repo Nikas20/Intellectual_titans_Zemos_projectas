@@ -260,6 +260,9 @@ h4 {
 
 .cfda{
     font: 200 15px/25px Public Sans;
+    margin-top: -5px;
+    margin-left: -5px;
+    letter-spacing: -0.13px;
 }
 
 /*correction*/
