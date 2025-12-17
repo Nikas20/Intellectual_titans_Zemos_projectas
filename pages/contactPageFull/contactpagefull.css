@@ -160,7 +160,11 @@ h3 {
 }
 
 .butta{
-    margin-top: 2px;
+   padding-left: 7px;
+   letter-spacing: -0.3px;
+   font-weight: bold;
+   font-family: Public Sans;
+   font-size: 0.938rem;
 }
 
 #mobilebutton {
@@ -260,10 +264,54 @@ h4 {
 
 .cfda{
     font: 200 15px/25px Public Sans;
-    margin-top: -5px;
-    margin-left: -5px;
+    margin-top: -4px;
+    margin-left: -1px;
     letter-spacing: -0.13px;
 }
+.mara{
+    margin-top: -7px;
+}
+.mara2{
+    margin-top: -8px;
+}
+.mara3{
+    margin-top: -8px;
+}
+.mara4{
+    margin-top: -10px;
+    padding-bottom:50px;
+}
+.mara5{
+    margin-top: 7px;
+    margin-left: -2px;
+}
+
+.hraw{
+    margin-left: 22px;
+    margin-top: 53px;
+    font-family: "DM Serif Display";
+    font-size: 2rem;
+    letter-spacing: -0.25px;
+    font-weight: normal;
+    line-height: 1.15em;
+}
+.daryh{
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+.hasan{
+    margin-top: -8px;
+    
+}
+
+.vylar{
+    font-family: "DM Serif Display";
+    font-size: 1.5rem;
+    letter-spacing: -0.18px;
+    font-weight: normal;
+    margin-left: 22px;
+}
+
 
 /*correction*/
 @media (max-width: 1150px) and (min-width: 960px) {
