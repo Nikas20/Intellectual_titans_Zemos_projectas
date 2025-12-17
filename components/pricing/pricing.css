@@ -46,14 +46,13 @@
   color: transparent;
   position: relative;
   left: -1.5rem;
-}
-.pricing-planPart-success{
-  opacity: 0.5;
+  opacity: 1;
 }
 .pricing-planPart-success::before {
   content: url(/images/shared/desktop/icon-check.svg);
   position: relative;
   left: -1.5rem;
+  opacity: 1;
 }
 
 .pricing-button {
@@ -84,6 +83,17 @@
   font-style: normal;
 }
 
+.pricing-button{
+  color: #36536B;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.algn{
+  text-align: center;
+}
+
+
 @media (min-width: 768px) {
   .pricing-section {
     display: flex;
@@ -93,6 +103,9 @@
   }
   .pricing-section > article {
     width: 223px;
+  }
+  .price{
+    margin: 2rem 0;
   }
 
   .heaad-price{
@@ -131,5 +144,25 @@
 }
 .plan{
   font-size: 2rem;
+  margin-bottom: 0px;
+}
+.description{
+  margin-top: 0px;
+}
+.price{
+  text-align: left;
+}
+.algn{
+  text-align: left;
+}
+.pricing-section > article > div > p {
+  text-align: left;
+  width: 129px;
+  margin: 0.5rem 26px;
+}
+.pricing-button{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 }
