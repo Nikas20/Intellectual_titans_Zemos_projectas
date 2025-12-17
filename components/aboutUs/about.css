@@ -126,6 +126,7 @@
   .section2__text--pos {
     position: relative;
     bottom: 15px;
+   /* margin: ; */
   }
 
   .firstsec {

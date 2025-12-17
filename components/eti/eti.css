@@ -11,7 +11,7 @@ html, body {
   align-items: center;
   gap: 24px;
   padding-top: 100px;
-  padding-bottom: 150px;
+  /* padding-bottom: 150px; */
   padding-left: 105px;
   padding-right: 240px;
   background: #EDF3F8;

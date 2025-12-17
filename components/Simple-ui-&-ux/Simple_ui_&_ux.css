@@ -131,7 +131,7 @@
 
   .text_ui_ux {
     text-align: left;
-    margin-left: 165px;
+    margin-left: 100px;
   }
 
   @media screen and (min-width: 960px) {
