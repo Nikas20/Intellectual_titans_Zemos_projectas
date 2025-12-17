@@ -89,6 +89,11 @@
   font-weight: bold;
 }
 
+.algn{
+  text-align: center;
+}
+
+
 @media (min-width: 768px) {
   .pricing-section {
     display: flex;
@@ -146,5 +151,13 @@
 }
 .price{
   text-align: left;
+}
+.algn{
+  text-align: left;
+}
+.pricing-section > article > div > p {
+  text-align: left;
+  width: 129px;
+  margin: 0.5rem 26px;
 }
 }
