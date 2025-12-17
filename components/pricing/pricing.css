@@ -83,6 +83,12 @@
   font-style: normal;
 }
 
+.pricing-button{
+  color: #36536B;
+  opacity: 1;
+  font-weight: bold;
+}
+
 @media (min-width: 768px) {
   .pricing-section {
     display: flex;
