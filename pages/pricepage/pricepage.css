@@ -1,0 +1,35 @@
+@import url(/style.css);
+@import url(/components/navigation.css/navgiation.css);
+@import url(/components/pricing/pricing.css);
+@import url(/components/readyForStart/readyForStart.css);
+@import url(/components/footer/footerstyle.css);
+
+.pricing_page_circle{
+position: absolute;
+top: -527px;
+left: 800px;
+width: 780px;
+height: 780px;
+}
+
+body{
+    background-color: rgb(237, 243, 248);
+}
+
+@media (min-width: 1440px) {
+    .pricing_page_pricing{
+        margin-top: 80px;
+        margin-bottom: 30px;
+        
+    }
+    .pricing_page_plan{
+        margin-top: 30px;
+    }
+    article{
+        margin-top: 0px;
+    }
+
+    .valar{
+        margin-top: -10px;
+    }
+}
