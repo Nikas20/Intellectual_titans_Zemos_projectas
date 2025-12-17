@@ -15,6 +15,7 @@ html, body {
   padding-left: 105px;
   padding-right: 240px;
   background: #EDF3F8;
+  justify-content: center;
 }
 
 /* Text */
