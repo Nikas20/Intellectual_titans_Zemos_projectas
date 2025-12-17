@@ -125,7 +125,7 @@
 @media screen and (min-width: 960px) {
   .section2__text--pos {
     position: relative;
-    bottom: 20px;
+    bottom: 15px;
   }
 
   .firstsec {
