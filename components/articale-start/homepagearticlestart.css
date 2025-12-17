@@ -317,9 +317,88 @@
   }
 }
 
-/* --------section_START_BOTH_DIV_SIDE_PADDING-------- */
+/* --------section1_START_FLEX_CONTAINER_VISIBILITY_WHEN_LESS_THAN_1035px-------- */
 
-@media (min-width: 960px) {
+
+@media screen and (max-width:1150px) and (min-width:960px){
+  .section__secondDiv--phonepadding {
+    position: relative;
+    right: 9rem;
+  }
+
+  .section__firsdtDiv--phonepadding {
+    position: relative;
+    right:12rem;
+    /* padding-left: rem; */
+  }
+
+/* ----------------- */
+.imgecircle {
+    top: -172px;
+    left: 800px;
+    width: 780px;
+    height: 780px;
+  }
+  .staart {
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    height: 68px;
+    margin-top: 80px;
+  }
+  .staart > div {
+    margin-bottom: 0;
+  }
+  .h3_Big {
+    text-align: left;
+    width: 445px;
+    height: 66px;
+    font-size: 48px;
+    margin: 0;
+  }
+  .artea {
+   /* margin: 0 auto; */
+    /* min-width: 300px; */
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  .headering {
+    width: 546px;
+    height: 243px;
+    /* text-align: left; */
+  }
+  .h3_Big {
+    font-size: 72px;
+    /* text-align: left; */
+  }
+  .mob {
+    display: flex;
+    align-items: center;
+    content: url(/components/articale-start/images/ilustration-phone-mockup-fix.svg);
+  }
+  .centered2 {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 165px;
+    gap: 60px;
+  }
+  .linker {
+    width: 226px;
+    margin-left: 27px;
+    text-align: left;
+  }
+  .centered {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+@media (min-width: 1151px) {
 
   /* ---START_SECTION_FIX------ */
 
