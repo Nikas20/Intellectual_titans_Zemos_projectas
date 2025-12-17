@@ -160,4 +160,9 @@
   width: 129px;
   margin: 0.5rem 26px;
 }
+.pricing-button{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 }
