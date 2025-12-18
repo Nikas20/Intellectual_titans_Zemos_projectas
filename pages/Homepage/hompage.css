@@ -16,22 +16,19 @@
 
 @import url(/components/readyForStart/readyForStart.css);
 
-
 /* ---------SECTON6------- */
 
 /* ----PROMPT_VISIBILITY_WHEN_LOWER_THAN_1175px------ */
 
-  @media screen and (min-width: 961px) and (max-width:1174px) {
-    
-
+@media screen and (min-width: 961px) and (max-width: 1174px) {
   /* --------------- */
 
 
- .ready {
+  .ready {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     /* width: 810px; */
     height: 68px;
     /* margin: 80px auto 0 auto; */
@@ -74,5 +71,12 @@
   .marginhelp {
     margin-top: 28px;
   }
-  }
+}
 
+@media screen and (min-width: 1175px) {
+  .ready {
+    position: relative;
+    bottom: 80px;
+    align-items: last baseline;
+  }
+}
