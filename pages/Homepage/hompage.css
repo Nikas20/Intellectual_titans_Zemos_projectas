@@ -23,12 +23,11 @@
 @media screen and (min-width: 961px) and (max-width: 1174px) {
   /* --------------- */
 
-
   .ready {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     /* width: 810px; */
     height: 68px;
     /* margin: 80px auto 0 auto; */
@@ -80,3 +79,25 @@
     align-items: last baseline;
   }
 }
+
+/* ----------SECTION5--------- */
+
+@media screen and (width >= 1177px) {
+  .article__finances--flex {
+    /* display: flex; */
+    flex-direction: row;
+    align-items: baseline;
+    padding-left: 163px;
+    padding-right: 163px;
+    margin-bottom: 100px;
+    /* width: 880px; */
+    /* margin: 0px auto;  */
+    position: relative;
+    bottom: 60px;
+  }
+}
+
+
+/* -----------------FOOTER-------- */
+
+
