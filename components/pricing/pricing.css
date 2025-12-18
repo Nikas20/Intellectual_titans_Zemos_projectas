@@ -48,6 +48,12 @@
   left: -1.5rem;
   opacity: 1;
 }
+.pricing-planPart-success::before {
+  content: url(/images/shared/desktop/icon-check.svg);
+  position: relative;
+  left: -1.5rem;
+  opacity: 1;
+}
 
 .pricing-button {
   margin-top: 1.5rem;
