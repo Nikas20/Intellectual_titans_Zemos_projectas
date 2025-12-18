@@ -19,7 +19,10 @@ body {
     background-image: url(../../images/shared/desktop/bg-pattern-circle.svg);
     background-repeat: no-repeat;
     background-position-x: 800px;
-    background-position-y: -520px;
+    background-position-y: -620px;
+    position: relative;
+    top: -14px;
+    left: 22px;
 }
 
 .header_phone_button{
