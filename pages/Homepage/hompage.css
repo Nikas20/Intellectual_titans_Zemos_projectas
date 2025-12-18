@@ -31,6 +31,8 @@
     /* width: 810px; */
     height: 68px;
     /* margin: 80px auto 0 auto; */
+    position: relative;
+    bottom: 50px;
   }
   .ready > div:last-child {
     margin-bottom: 20px;
