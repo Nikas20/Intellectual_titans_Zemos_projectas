@@ -1,0 +1,16 @@
+/* ------------------NAV----------------- */
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  .header--pos {
+    gap: 50px;
+  }
+
+.h3_Small {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: bold;
+
+}
+}
