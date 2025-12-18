@@ -17,4 +17,70 @@
 @import url(/components/readyForStart/readyForStart.css);
 
 
+/* ---------SECTON6------- */
+
+/* ----PROMPT_VISIBILITY_WHEN_LOWER_THAN_1175px------ */
+
+  @media screen and (min-width: 961px) and (max-width:1174px) {
+    .section6__prompt--pos {
+      position: relative;
+      left: 12px;
+    }
+
+    .section6__text--pos {
+      position: relative;
+      right: 70px;
+    }
+
+  /* --------------- */
+
+
+ .ready {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 810px;
+    height: 68px;
+    /* margin: 80px auto 0 auto; */
+  }
+  .ready > div:last-child {
+    margin-bottom: 20px;
+  }
+
+  /* ---------SECTION1_H1_POS----- */
+
+  .section1__div2__h1--pos {
+    position: relative;
+    top: 70px;
+  }
+  .h3_Big {
+    width: 546px;
+    height: 180px;
+    font-size: 72px;
+    margin-top: -24px;
+    line-height: 71px;
+  }
+
+  #h3_Big {
+    text-align: center;
+    width: 445px;
+    font-size: 42px;
+    margin-top: -24px;
+  }
+
+  .ready2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 810px;
+    height: 68px;
+    margin: 150px auto 0 auto;
+  }
+
+  .marginhelp {
+    margin-top: 28px;
+  }
+  }
 
