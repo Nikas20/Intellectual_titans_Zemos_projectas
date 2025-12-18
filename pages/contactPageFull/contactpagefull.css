@@ -311,6 +311,11 @@ h4 {
     font-weight: normal;
     margin-left: 22px;
 }
+.tableNotExist{
+    display: inline;
+    position: relative;
+    top: 0px;
+}
 
 .lgm{
     margin-left: 25px;
@@ -558,7 +563,7 @@ h4 {
         font-size: 0.938;
     }
     .nea1{
-        margin-left: -12px;
+        margin-left: -13px;
     }
     .conttablbut{
         
@@ -580,18 +585,91 @@ h4 {
 }
 .mara4{
     margin-top: -10px;
-    padding-bottom:50px;
+    padding-bottom:46px;
 }
 .mara5{
-    margin-top: 5px;
+    margin-top: 6px;
     margin-left: 0px;
 }
 .cfda{
     font: normal normal 200 15px/25px Public Sans;
-    letter-spacing: -0.12px;
-    margin-left: 0px;
-    margin-top: -5px;
+    letter-spacing: -0.24px;
+    margin-left: -1px;
+    margin-top: -4px;
     width: 410px;
+}
+.submitForm{
+    font-family: "Public Sans";
+    font-size: 0.938rem;
+    font-weight: bold;
+    margin-left: 3px;
+}
+.vylar{
+    margin-top: 35px;
+    margin-left: -8px;
+    letter-spacing: -0.18px;
+}
+.tableNotExist{
+    display: none;
+}
+#img1 {
+    width: 129px;
+    padding-top: -10px;
+    margin-left: -14px;
+}
+
+#img2 {
+    width: 145px;
+    margin-left: -5px;
+    margin-top: -2px;
+}
+
+#img3 {
+    width: 140px;
+    margin-left: 19px;
+    margin-top: -1px;
+}
+
+#img4 {
+    width: 131px;
+    margin-left: -14px;
+    margin-top: 2px;
+    padding-bottom: 3px;
+}
+
+#img5 {
+    width: 96px;
+    margin-left: 21px;
+    margin-top: -4px;
+}
+
+#img6 {
+    width: 137px;
+    margin-left: 22px;
+    margin-top: -1px;
+    padding-bottom: 3px;
+}
+.partners{
+    margin-top: 166px;
+}
+.ready{
+    margin-top: 60px;
+    margin-bottom: 26px;
+}
+.daryh{
+    padding-bottom: 22px;
+    margin-bottom: 0;
+}
+.hasan{
+    margin-top: 0px;
+    letter-spacing: -0.03rem;
+}
+.payapi{
+    margin-top: -5px;
+    padding-left: 9px;
+}
+footer{
+    
 }
 
 }
