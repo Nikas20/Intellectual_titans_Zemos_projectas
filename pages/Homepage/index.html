@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
-    <link rel="stylesheet" href="/components/footer/footerstyle.css">
+    <!-- <link rel="stylesheet" href="/components/footer/footerstyle.css">
     <link rel="stylesheet" href="/components/navigation.css/navgiation.css">
     <link rel="stylesheet" href="/components/articale-start/homepagearticlestart.css">
     <link rel="stylesheet" href="/components/aboutUs/about.css">
@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="/components/Simple-ui-&-ux/Simple_ui_&_ux.css">
     <link rel="stylesheet" href="/components/article__financies/section__financies.css">
     <link rel="stylesheet" href="/components/readyForStart/readyForStart.css"/>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="hompage.css">
     <script src="../../scripts/dropdown_menu.js" defer></script>
   </head>
   <body class="page-bagraund-color">
@@ -60,7 +61,7 @@
       <section id="part1" class="homepagepartone">
         <img src="/images/shared/desktop/bg-pattern-circle.svg" alt="" class="imgecircle">
           <article class="artea">
-        <div class="phone_mockup">
+        <div class="phone_mockup section__firsdtDiv--phonepadding">
           <img
             src="/components/articale-start/images/ilustration_phone_mobile.svg"
             alt="phone-mockup"
@@ -68,8 +69,8 @@
           />
         </div>
 
-        <div class="centered2">
-          <h1 class="h3_Big headering sanJuanBlueColor">
+        <div class="centered2 section__secondDiv--phonepadding">
+          <h1 class="h3_Big headering sanJuanBlueColor section1__div2__h1--pos">
             Start building with our APIs for absolutely free.
           </h1>
 
@@ -95,7 +96,8 @@
       <section id="part2" class="homepageparttwo">
         <div class="container">
         <section class="firstsec">
-        
+        <div class="section2__text--pos">
+          <div class="section2__leftText--pos">
         <h2>Who we work with</h2>
         <p>Today, millions of people around the world have successfully connected
             their accounts to apps they love using our API. We provide developers
@@ -103,6 +105,7 @@
             for their users.</p>
             <div id="buttn">
         <button>About Us</button>
+        </div>
         </div>
         
 
@@ -131,12 +134,11 @@
             <div class="box">
                 <img src="/images/shared/desktop/nvidia.svg" alt="nvidia logo" id="img6">
             </div>
-
-        </div>
-        </div>
-
-    </section>
-      </section>
+          </div>
+         </div>
+        <!-- </div> -->
+</section>
+  </section>
       <section id="part3" class="homepagepartthree">
        <section class="implem">
         <img src="/images/shared/desktop/codebox.svg" alt="codebox" class="codeboxxsvg">
@@ -153,7 +155,7 @@
         </div>
         <section class="backgraaaund">
         <article class="article_ui_ux centered">
-        <img class="img_ui_ux" src="/components/Simple-ui-&-ux/images/simple_mobile.svg" alt="simple">
+        <img class="img_ui_ux section4__phone--pos" src="/components/Simple-ui-&-ux/images/simple_mobile.svg"  alt="simple">
         <div class="text_ui_ux">
           <h1 class="simple_ui_ux">Simple UI & UX</h1>
           <p class="p_ui_ux">Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion.</p>
@@ -212,8 +214,10 @@
       </section>
       <section id="part6" class="homepagepartsix">
         <div class="ready">
-          <h3 class="h3_Big sanJuanBlueColor rdtxt">Ready to start?</h3>
-         <div>
+          <div class="section6__text--pos">
+          <h3 id="h3_Big" class="sanJuanBlueColor rdtxt">Ready to start?</h3>
+          </div>
+         <div class="section6__prompt--pos">
             <input
             type="email"
             placeholder="Enter email address"

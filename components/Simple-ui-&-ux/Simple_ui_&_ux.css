@@ -5,7 +5,7 @@
 }
 
 .backgraaaund {
-  background: #EDF3F8;
+  background: #edf3f8;
 }
 
 .text_ui_ux {
@@ -28,7 +28,7 @@
   font-size: 36px;
   font-style: normal;
   font-weight: normal;
-  color: #36536B;
+  color: #36536b;
   letter-spacing: -0.28px;
   margin-top: 0px;
   opacity: 1;
@@ -41,7 +41,7 @@
   font-style: normal;
   font-weight: normal;
   line-height: 28px;
-  color: #6C8294;
+  color: #6c8294;
   width: 328px;
   height: 73px;
 }
@@ -59,7 +59,7 @@
     margin-bottom: -48px;
   }
 
-  .bckgcrcl{
+  .bckgcrcl {
     display: none;
   }
 }
@@ -73,7 +73,7 @@
   }
 
   .p_ui_ux {
-    width:  573px;
+    width: 573px;
     height: 45px;
   }
 
@@ -87,11 +87,10 @@
     margin-top: 0px;
   }
 
-  .bckgcrcl{
+  .bckgcrcl {
     display: none;
   }
 }
-
 
 @media screen and (min-width: 1440px) {
   .img_ui_ux {
@@ -100,6 +99,11 @@
     content: url(/components/Simple-ui-&-ux/images/illustration-simple-ui.svg);
     margin-left: 0px;
     z-index: 2;
+  }
+
+  .section4__phone--pos {
+    position: relative;
+    right: 10px;
   }
 
   .simple_ui_ux {
@@ -131,17 +135,17 @@
 
   .text_ui_ux {
     text-align: left;
-    margin-left: 165px;
+    margin-left: 100px;
   }
 
   @media screen and (min-width: 960px) {
     .bckgcrcl {
       position: absolute;
-      top: 1900px;
-      left: 1100px;
+      top: 1650px;
+      left: 1050px;
       overflow: hidden;
       z-index: 1;
       display: block;
+    }
   }
-}
 }
