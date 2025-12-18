@@ -31,8 +31,8 @@
     /* width: 810px; */
     height: 68px;
     /* margin: 80px auto 0 auto; */
-    position: relative;
-    bottom: 50px;
+    /* position: relative;
+    bottom: 50px; */
   }
   .ready > div:last-child {
     margin-bottom: 20px;
@@ -96,6 +96,32 @@
     /* margin: 0px auto;  */
     position: relative;
     bottom: 60px;
+  }
+
+  .article__finances-div--padding {
+    padding-top: 169px;
+    padding-left: 1px;
+    padding-right: 37px;
+  }
+
+  .article__finances-seconddiv--padding {
+    position: relative;
+    bottom: 20px;
+  }
+}
+
+/* ------------------- */
+
+@media screen and (width >= 960px) and (width < 1177px) {
+  .article__finances-div--padding {
+    padding-top: 169px;
+    padding-left: 1px;
+    padding-right: 37px;
+  }
+
+  .article__finances-seconddiv--padding {
+    position: relative;
+    bottom: 20px;
   }
 }
 
