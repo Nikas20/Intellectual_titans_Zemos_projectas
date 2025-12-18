@@ -549,5 +549,49 @@ h4 {
 }
 
 @media (min-width: 768px){
-    
+    .lgm{
+        margin-left: -58px;
+    }
+    .newa{
+        font-family: "PublicSans";
+        font-weight: bold;
+        font-size: 0.938;
+    }
+    .nea1{
+        margin-left: -12px;
+    }
+    .conttablbut{
+        
+        margin-right: 0px;
+    }
+    .hraw{
+        margin: 0;
+        margin-top: 86px;
+        margin-left: 118px;
+        font-size: 3rem;
+        padding-bottom: 44px;
+    }
+ 
+.mara2{
+    margin-top: -8px;
+}
+.mara3{
+    margin-top: -8px;
+}
+.mara4{
+    margin-top: -10px;
+    padding-bottom:50px;
+}
+.mara5{
+    margin-top: 5px;
+    margin-left: 0px;
+}
+.cfda{
+    font: normal normal 200 15px/25px Public Sans;
+    letter-spacing: -0.12px;
+    margin-left: 0px;
+    margin-top: -5px;
+    width: 410px;
+}
+
 }
