@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>ContactPage</title>
   <link rel="stylesheet" href="contactpagefull.css" />
   <script src="/components/contactPageForm/formvalidation.js" defer></script>
   <script src="/scripts/dropdown_menu.js" defer></script>
@@ -15,7 +15,7 @@
   <!-- <img src="images/shared/desktop/logo.svg" alt="logo"> -->
   <!-- </div> -->
   <nav class="header__nav--textspacing header--flex">
-  <a href="/pages/Homepage/index.html"><img src="/images/shared/desktop/logo.svg" alt="logo" /></a>
+  <a href="/pages/Homepage/index.html"><img src="/images/shared/desktop/logo.svg" alt="logo" class="lgm"/></a>
     <div class="header__navDiv--padding">
       <a href="#" class="sanJuanBlueColor h3_Small newa">Pricing</a>
       <a href="#" class="sanJuanBlueColor h3_Small newa">About</a>
@@ -47,55 +47,87 @@
 
 
 <!--input form code-->
-<h1>Submit a help request and we’ll get in touch shortly.</h1>
+<h1 class="hraw">Submit a help request and we’ll get in touch shortly.</h1>
 
 <body class="page-bagraund-color">
   <div id="moveFormLeft">
     <form id="form">
 
-      <input id="nameForm" class="textArea" type="text" placeholder="Name" required minlength="2" maxlength="50"
-        pattern="[A-Za-z\s]{2,50}" />
+      <input
+        id="nameForm"
+        class="textArea"
+        type="text"
+        placeholder="Name"
+        required
+        minlength="2"
+        maxlength="50"
+        pattern="[A-Za-z\s]{2,50}"
+        
+       
+      />
+      <span id="nameErorForm" class="errorMesage"></span>
+<hr class="hr">
 
-      
-
-      <hr class="hr">
-
-      <input id="emailForm" class="textArea" type="email" placeholder="Email Address" required />
-
-    
-
-      <hr class="hr">
-
-      <input id="companyNameForm" class="textArea" type="text" placeholder="Company Name" required minlength="2"
-        maxlength="50" pattern="[A-Za-z\s]{2,50}" />
-
-      
-
-      <hr class="hr">
-
-      <input id="titleForm" class="textArea" type="text" placeholder="Title" required minlength="2" maxlength="100"
-        pattern="[A-Za-z0-9\s]{2,100}" />
-      
-      <hr class="hr">
-
-      <textarea id="messageForm" class="textArea" type="text" placeholder="Message" minlength="0" maxlength="2000"
-        pattern="[A-Za-z0-9\s]{0,2000}"></textarea>
-      <hr class="hr">
-
-      <fieldset class="check">
+      <input
+        id="emailForm"
+        class="textArea mara"
+        type="email"
+        placeholder="Email Address"
+        required
+      />
+      <span id="emailErorForm" class="errorMesage"></span>
+<hr class="hr">
+      <input
+        id="companyNameForm"
+        class="textArea mara2"
+        type="text"
+        placeholder="Company Name"
+        required
+        minlength="2"
+        maxlength="50"
+        pattern="[A-Za-z\s]{2,50}"
+      />
+      <span id="companyNameErorForm" class="errorMesage"></span>
+<hr class="hr">
+      <input
+        id="titleForm"
+        class="textArea mara3"
+        type="text"
+        placeholder="Title"
+        required
+        minlength="2"
+        maxlength="100"
+        pattern="[A-Za-z0-9\s]{2,100}"
+      />
+      <span id="titleErorForm" class="errorMesage"></span>
+<hr class="hr">
+      <textarea
+        id="messageForm"
+        class="textArea mara4"
+        type="text"
+        placeholder="Message"
+        minlength="0"
+        maxlength="2000"
+        pattern="[A-Za-z0-9\s]{0,2000}"
+      ></textarea>
+      <span id="messageErorForm" class="errorMesage"></span>
+<hr class="hr">
+      <fieldset class="check mara5">
         <label class="container-checkbox">
-          <input type="checkbox" id="checkForm" />
-
+          <input type="checkbox" id="checkForm"/>
           <span class="checkmark"></span>
         </label>
-        <p class="checktext">Stay up to date with company announcements and updates to our API</p>
+        <span class="cfda"
+          >Stay up to date with company announcements and updates to our API</span
+        >
       </fieldset>
-      <button class="submitForm secondary-button-Dark body" type="submit">Submit</button>
+      <span id="checkErorForm" class="errorMesage"></span>
+      <button class="submitForm secondary-button-Dark" type="submit">Submit</button>
     </form>
   </div>
   <!--logo part -->
 
-  <h4>Join the thousands of innovators already building with us</h4>
+  <h4 class="vylar">Join the thousands of innovators already building with us</h4>
   <div class="partners">
 
     <div class="box">
@@ -125,14 +157,14 @@
   </div>
 
  <div class="ready ready2">
-      <h3 class="h3_Big sanJuanBlueColor marginhelp">Ready to start?</h3>
-      <div>
+      <h3 class="h3_Big sanJuanBlueColor marginhelp daryh">Ready to start?</h3>
+      <div >
         <input
           type="email"
           placeholder="Enter email address"
-          class="sanJuanBlueColor"
+          class="sanJuanBlueColor hasan"
         />
-        <button class="primary-button">Schedule a Demo</button>
+        <button class="primary-button butta">Schedule a Demo</button>
       </div>
     </div>
   
@@ -157,7 +189,7 @@
     </div>
   </footer>
 
-  <script src="../contactPageForm/formvalidation.js"></script>
+  
 </body>
 
 </html>

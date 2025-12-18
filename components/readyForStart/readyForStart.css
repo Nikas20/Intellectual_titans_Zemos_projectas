@@ -67,19 +67,20 @@
 @media (max-width: 767px) {
   .ready {
     margin-top: 64px;
-    padding-bottom: 80px;
-    margin-bottom: 40px;
+    /* padding-bottom: 80px;
+    margin-bottom: 40px; */
+    
   }
   .ready > div {
     margin-top: 20px;
   }
   .ready > div > input {
-    width: 270px;
-    padding: 12px 16px;
+    /* width: 327px;
+    padding: 12px 16px; */
   }
   .ready > div > button {
-    width: 300px;
-    height: 44px;
+    width: 327px;
+    height: 50px;
     top: 16px;
   }
 }
@@ -92,7 +93,7 @@
     align-items: center;
     width: 810px;
     height: 68px;
-    margin: 80px auto 0 auto;
+    /* margin: 80px auto 0 auto; */
   }
   .ready > div {
     margin-bottom: 20px;
@@ -112,7 +113,7 @@
     align-items: center;
     width: 810px;
     height: 68px;
-    margin: 150px auto 0 auto;
+    /* margin: 150px auto 0 auto; */
   }
 
   .marginhelp {
