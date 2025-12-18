@@ -97,7 +97,10 @@
   }
 }
 
-
 /* -----------------FOOTER-------- */
-
-
+@media screen and (width >= 1177px) {
+  footer {
+    position: relative;
+    bottom: 80px;
+  }
+}
