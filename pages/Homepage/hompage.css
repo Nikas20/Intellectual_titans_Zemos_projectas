@@ -22,15 +22,7 @@
 /* ----PROMPT_VISIBILITY_WHEN_LOWER_THAN_1175px------ */
 
   @media screen and (min-width: 961px) and (max-width:1174px) {
-    .section6__prompt--pos {
-      position: relative;
-      left: 12px;
-    }
-
-    .section6__text--pos {
-      position: relative;
-      right: 70px;
-    }
+    
 
   /* --------------- */
 
@@ -40,7 +32,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 810px;
+    /* width: 810px; */
     height: 68px;
     /* margin: 80px auto 0 auto; */
   }
