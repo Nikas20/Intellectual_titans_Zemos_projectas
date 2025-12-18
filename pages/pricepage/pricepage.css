@@ -18,7 +18,7 @@ body {
 
 @media (min-width: 1440px) {
   .pricing_page_navigacion {
-    padding-left: 65px;
+    padding-left: 67px;
     font-size: 15px;
     padding-top: 3px;
     word-spacing: 37px;
@@ -27,47 +27,53 @@ body {
     font-size: 15px;
   }
   .pricing_page_navigacion_logo {
-    padding-left: 11px;
+    padding-left: 2px;
   }
   .pricing_page_navigacion_buton {
     box-shadow: 4px 8px 18px rgba(0, 0, 0, 0.3);
+    margin-left: -5px;
   }
   .pricing_page_pricing {
     margin-top: 80px;
     margin-bottom: 30px;
-    margin-left: 3px;
+    margin-left: -2px;
   }
   .pricing_page_plan {
-    line-height: 28px;
+    font-size: 14px;
     margin-bottom: 30px;
     width: 350px;
-    font-size: 15px;
     font: normal normal 200 15px/28px Public Sans;
   }
+  .pricing_page_plan_start {
+    font-size: 14.5px;
+  }
+  .pricing_page_plan_end {
+    font-size: 14px;
+  }
   .pricing_page_free {
-    margin-top: 30px;
+    margin-top: 29px;
     width: 350px;
     height: 44px;
     align-content: center;
   }
   .pricing_page_free_plan {
-    margin-left: -2px;
+    margin-left: -7px;
   }
   .pricing_page_base_plan {
-    margin-left: 4px;
+    margin-left: -1px;
   }
   .pricing_page_premium_plan {
+    margin-left: 5px;
+  }
+  .pricing_page_midle_plan {
+    margin-left: 1px;
+  }
+  .pricing_page_final_plan {
     margin-left: 10px;
   }
-.pricing_page_midle_plan{
-margin-left: 4px;
-}
-.pricing_page_final_plan{
-    margin-left: 10px;
-}
 
   .pricing_page_valar {
-    margin-top: -10px;
+    margin-top: -12px;
   }
   .pricing_page_price {
     margin-bottom: 5px;
@@ -77,20 +83,51 @@ margin-left: 4px;
     margin-top: 30px;
   }
   .pricing_page_price_maximum_price {
-    margin-left: 10px;
+    margin-left: 5px;
   }
   .pricing_page_price_midle_price {
-    margin-left: 3px;
+    margin-left: -1px;
   }
   .pricing_page_price_start_price {
-    margin-left: -2px;
+    margin-left: -7px;
   }
-  .pricing_page_check_position{
-    padding-top: 10px;
+  .pricing_page_check_position {
+    padding-top: 12px;
     padding-bottom: 18px;
-display: block;
+    display: block;
   }
-  .pricing_page_check_position_free{
-    margin-left: -10px;
+  .pricing_page_check_position_free {
+    margin-left: -15px;
+  }
+  .pricing_page_check_position_base {
+    margin-left: -7px;
+  }
+  .pricing_page_check_position_max {
+    margin-left: -1px;
+  }
+  .pricing_page_check_position_auth {
+    margin-left: 12px;
+  }
+  .pricing_page_free_buton {
+    margin-left: -5px;
+  }
+  .pricing_page_base_buton {
+    margin-left: 1px;
+  }
+  .pricing_page_prem_buton {
+    margin-left: 7px;
+  }
+  .pricing_page_ready {
+    font-size: 48px;
+    margin-top: 4px;
+    margin-left: -214px;
+  }
+  .pricing_page_ready_form {
+    position: relative;
+    top: -22px;
+    left: 219px;
+  }
+  .pricing_page_footer {
+    margin-top: -20px;
   }
 }
