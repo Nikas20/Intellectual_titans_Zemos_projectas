@@ -40,6 +40,9 @@ body {
   .pricing_page_plan {
     line-height: 28px;
     margin-bottom: 30px;
+    width: 350px;
+    font-size: 15px;
+    font: normal normal 200 15px/28px Public Sans;
   }
   .pricing_page_free {
     margin-top: 30px;
@@ -47,9 +50,22 @@ body {
     height: 44px;
     align-content: center;
   }
-.pricing_page_free_plan{
+  .pricing_page_free_plan {
     margin-left: -2px;
+  }
+  .pricing_page_base_plan {
+    margin-left: 4px;
+  }
+  .pricing_page_premium_plan {
+    margin-left: 10px;
+  }
+.pricing_page_midle_plan{
+margin-left: 4px;
 }
+.pricing_page_final_plan{
+    margin-left: 10px;
+}
+
   .pricing_page_valar {
     margin-top: -10px;
   }
@@ -68,5 +84,13 @@ body {
   }
   .pricing_page_price_start_price {
     margin-left: -2px;
+  }
+  .pricing_page_check_position{
+    padding-top: 10px;
+    padding-bottom: 18px;
+display: block;
+  }
+  .pricing_page_check_position_free{
+    margin-left: -10px;
   }
 }
