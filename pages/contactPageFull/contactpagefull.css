@@ -22,9 +22,9 @@ body {
     background-position-y: -520px;
 }
 
-header img {
-    margin-left: -4rem;
-    padding-right: 2rem;
+.header_phone_button{
+    margin-left: 62px;
+    margin-top: 3px;
 }
 
 nav a {
@@ -301,7 +301,7 @@ h4 {
 }
 .hasan{
     margin-top: -8px;
-    
+    background-color: white;
 }
 
 .vylar{
@@ -312,6 +312,14 @@ h4 {
     margin-left: 22px;
 }
 
+.lgm{
+    margin-left: 25px;
+}
+
+.payapi{
+    padding-top: 6px;
+    padding-left: -10px;
+}
 
 /*correction*/
 @media (max-width: 1150px) and (min-width: 960px) {
