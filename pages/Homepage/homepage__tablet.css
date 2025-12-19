@@ -102,4 +102,11 @@
     position: relative;
     bottom: 30px;
   }
+
+  /* ------FOOTER----- */
+
+  .footer__homepage--pos {
+    position: relative;
+    top: 18px;
+  }
 }
