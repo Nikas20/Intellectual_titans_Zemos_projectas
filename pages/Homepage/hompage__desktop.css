@@ -108,11 +108,29 @@
     position: relative;
     bottom: 20px;
   }
-}
+
+
+ .article__finances--flex div h4 {
+  margin-bottom: 18px;
+ }}
+
 
 /* ------------------- */
 
 @media screen and (width >= 960px) and (width < 1177px) {
+ 
+  /* -----FOR_NAV_FONT----- */
+
+  .h3_Small {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: bold;
+
+}
+  /* ------------- */
+  
   .article__finances-div--padding {
     padding-top: 169px;
     padding-left: 1px;
@@ -127,6 +145,20 @@
 
 /* -----------------FOOTER-------- */
 @media screen and (width >= 1177px) {
+  
+  /* -----FOR_NAV_FONT----- */
+
+  .h3_Small {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: bold;
+
+}
+  /* ------------- */
+  
+  
   footer {
     position: relative;
     bottom: 80px;

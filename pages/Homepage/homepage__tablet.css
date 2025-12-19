@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  /* ------------------NAV----------------- */
+  .header--pos {
+    gap: 50px;
+  }
+
+  .h3_Small {
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  /* ----section1------ */
+
+  .h3_Big {
+    font-size: 3rem;
+  }
+
+  .section1__div2__h1--pos {
+    position: relative;
+    bottom: -30px;
+    line-height: 56px;
+  }
+
+  .section1__prompts--pos {
+    position: relative;
+    top: 20px;
+  }
+
+
+/* ----------------SECTION2------------ */
+
+.container{
+ margin-top: 30px;
+}
+
+}
