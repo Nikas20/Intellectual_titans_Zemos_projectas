@@ -29,11 +29,21 @@
     top: 20px;
   }
 
+  /* ----------------SECTION2------------ */
 
-/* ----------------SECTION2------------ */
+  .container {
+    margin-top: 30px;
+  }
 
-.container{
- margin-top: 30px;
-}
+  .section2__partners--pos {
+    position: relative;
+    bottom: 45px;
+    height: 150px;
+    column-gap: 50px;
+  }
 
+  .section2__leftText--pos {
+    position: relative;
+    bottom: 96px;
+  }
 }
