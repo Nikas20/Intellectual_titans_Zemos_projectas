@@ -6,7 +6,7 @@
 
 .pricing_page_circle {
   position: absolute;
-  top: -527px;
+  top: -507px;
   left: 800px;
   width: 780px;
   height: 780px;
@@ -14,6 +14,13 @@
 
 body {
   background-color: rgb(237, 243, 248);
+}
+
+footer {
+    background-image: url(../../images/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-position-x: 1050px;
+    background-position-y: -150px;
 }
 
 @media (min-width: 1440px) {
@@ -129,7 +136,8 @@ body {
   }
   .pricing_page_footer {
     margin-top: -22px;
-    padding-top: 32px;
+    padding-top: 31px;
+    padding-left: 174px;
     padding-bottom: 30px;
   }
   .pricing_page_footer_elements{
@@ -137,6 +145,6 @@ margin-top: -2px;
   }
   .pricing_page_footer_circle{
     position: absolute;
-    
+
   }
 }
