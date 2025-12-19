@@ -98,28 +98,28 @@
     margin-bottom: 20px;
   }
 
-  .section6__prompt--pos {
+  /* .section6__prompt--pos {
     position: relative;
     left: 135px;
-  }
+  } */
 
-  .section6__text--pos {
+  /* .section6__text--pos {
     position: relative;
     right: 220px;
-  }
+  } */
 
   /* ---------SECTION1_H1_POS----- */
 
-  .section1__div2__h1--pos {
+  /* .section1__div2__h1--pos {
     position: relative;
     top: 70px;
-  }
+  } */
   .h3_Big {
     /* text-align: center; */
     width: 546px;
     height: 180px;
-    font-size: 72px;
-    margin-top: -24px;
+    font-size: 3.5rem;
+    /* margin-top: -24px; */
     line-height: 71px;
   }
 
@@ -127,8 +127,8 @@
     text-align: center;
     width: 445px;
     /* height: 80px; */
-    font-size: 42px;
-    margin-top: -24px;
+    font-size: 3rem;
+    /* margin-top: -24px; */
   }
 
   .ready2 {
