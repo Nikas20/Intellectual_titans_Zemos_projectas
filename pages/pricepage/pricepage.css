@@ -135,10 +135,27 @@ footer {
 .pricing_page_ready {
   font-size: 32px;
   margin-top: 72px;
-  margin-bottom: 23px;
+  margin-bottom: 29px;
   margin-left: 3px;
 }
 
+.pricing_page_footer {
+  margin-top: 94px;
+  padding-top: 42px;
+  padding-left: 164px;
+  padding-bottom: 51px;
+}
+.pricing_page_footer_twiter {
+  position: relative;
+  top: 2px;
+}
+
+  footer {
+    background-image: url(../../images/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-position-x: -194px;
+    background-position-y: 179px;
+  }
 
 @media (min-width: 1440px) {
   .pricing_page_circle {
