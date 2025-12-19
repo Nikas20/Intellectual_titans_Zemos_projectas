@@ -22,9 +22,9 @@
 .pricing-section > article > div {
   border-top: 2px solid rgb(54, 83, 107, 0.25);
   border-bottom: 2px solid rgb(54, 83, 107, 0.25);
-  display: flex;
-  flex-direction: column;
-  padding: 1.625rem 0;
+  /* /* display: flex;
+  flex-direction: column; */
+  /* padding: 1.625rem 0; */
 }
 
 .pricing-section > article > div > p {
@@ -51,13 +51,14 @@
 .pricing-planPart-success::before {
   content: url(/images/shared/desktop/icon-check.svg);
   position: relative;
-  left: -1.5rem;
+  top: 2px;
+  left: -1.3rem;
   opacity: 1;
 }
 
 .pricing-button {
   margin-top: 1.5rem;
-  padding: 1rem 1.625rem;
+  padding: 0.9rem 1.625rem;
 }
 
 .price {
@@ -158,7 +159,7 @@
 .pricing-section > article > div > p {
   text-align: left;
   width: 129px;
-  margin: 0.5rem 26px;
+  margin: 0.5rem 27px;
 }
 .pricing-button{
   display: flex;
