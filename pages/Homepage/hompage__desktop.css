@@ -162,7 +162,13 @@
   }
   .mainfix1{
     margin-left: -14px;
-    margin-top: -30px;
+    margin-top: 30px;
+    font-size: 4.5rem;
+    letter-spacing: -0.55px;
+  }
+  .staart{
+    margin-top: 16px;
+    margin-left: -10px;
   }
   .mainfix2{
     margin-top: 10px;
@@ -236,4 +242,5 @@ letter-spacing: -0.12px;
   .payapi{
     margin-left: 3px;
   }
+  
 }
