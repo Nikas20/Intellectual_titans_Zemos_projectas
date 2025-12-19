@@ -8,12 +8,137 @@ body {
   background-color: rgb(237, 243, 248);
 }
 
+.pricing_page_circle {
+  position: absolute;
+  top: -644px;
+  left: 74px;
+  z-index: -1;
+}
+
 footer {
   background-image: url(../../images/shared/desktop/bg-pattern-circle.svg);
   background-repeat: no-repeat;
   background-position-x: 1050px;
   background-position-y: -150px;
 }
+
+.pricing_page_navigacion_logo {
+  position: relative;
+  right: 20px;
+}
+
+.pricing_page_navigacion_burger {
+  position: relative;
+  left: 23px;
+  top: 2px;
+}
+
+.pricing_page_pricing {
+  margin-top: 51px;
+  margin-bottom: 30px;
+  margin-left: -1px;
+}
+
+.pricing_page_tablet_plan_start {
+  font-size: 14.5px;
+  position: relative;
+  top: -31px;
+  line-height: 28px;
+  left: 0px;
+  width: 327px;
+  height: 45px;
+}
+
+.pricing_page_free_plan {
+  position: relative;
+  top: -18px;
+  left: 52px;
+  width: 223px;
+  height: 33px;
+  align-content: center;
+}
+.pricing_page_tablet_price {
+  font-size: 56px;
+  position: relative;
+  top: -12px;
+  left: 0px;
+}
+.pricing_page_check_position {
+  padding-top: 18px;
+  padding-bottom: 22px;
+  margin-top: -5px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.pricing_page_check_position_free {
+  margin-left: 0px;
+  padding-left: 37px;
+  position: relative;
+  left: 0px;
+}
+
+.pricing_page_tablet_plan_midle {
+  line-height: 28px;
+  font-size: 14px;
+  position: relative;
+  top: -1px;
+  right: 1px;
+  width: 327px;
+  height: 45px;
+}
+.pricing_page_tablet_base_plan {
+  margin-left: 0px;
+  font-size: 56px;
+  position: relative;
+  top: 20px;
+}
+
+.pricing_page_tablet_basic_plan {
+  position: relative;
+  top: 12px;
+}
+
+.pricing_page_check_position_base {
+  margin-top: 25px;
+  padding-left: 34px;
+}
+.pricing_page_tablet_premium_plan {
+  position: relative;
+  top: 11px;
+  right: -1px;
+}
+
+.pricing_page_tablet_plan_end {
+  font-size: 14.5px;
+  line-height: 28px;
+  position: relative;
+  top: -1px;
+  right: -1px;
+  width: 327px;
+  height: 45px;
+}
+
+.pricing_page_price_maximum_price {
+  position: relative;
+  top: 19px;
+  right: 0px;
+  font-size: 56px;
+}
+.pricing_page_check_position_max {
+  margin-top: 25px;
+  margin-right: 0px;
+  padding-left: 35px;
+  position: relative;
+  left: 0px;
+}
+.pricing_page_ready {
+  font-size: 32px;
+  margin-top: 72px;
+  margin-bottom: 23px;
+  margin-left: 3px;
+}
+
 
 @media (min-width: 1440px) {
   .pricing_page_circle {
@@ -268,8 +393,10 @@ footer {
   .pricing_page_check_position_base {
     margin-left: 0px;
     padding-left: 34px;
+    margin-top: 0px;
   }
   .pricing_page_check_position_max {
+    margin-top: 0px;
     margin-right: 0px;
     padding-left: 35px;
     position: relative;
@@ -299,14 +426,14 @@ footer {
     padding-left: 49px;
     padding-bottom: 30px;
   }
-  .pricing_page_footer_twiter{
+  .pricing_page_footer_twiter {
     position: relative;
     top: 2px;
   }
   footer {
-        background-image: url(../../images/shared/desktop/bg-pattern-circle.svg);
-        background-repeat: no-repeat;
-        background-position-x: 355px;
-        background-position-y: -110px;
-    }
+    background-image: url(../../images/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-position-x: 355px;
+    background-position-y: -110px;
+  }
 }
