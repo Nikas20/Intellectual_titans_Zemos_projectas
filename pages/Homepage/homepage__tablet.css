@@ -29,11 +29,89 @@
     top: 20px;
   }
 
+  /* ----------------SECTION2------------ */
 
-/* ----------------SECTION2------------ */
+  .container {
+    margin-top: 30px;
+  }
 
-.container{
- margin-top: 30px;
-}
+  .section2__partners--pos {
+    position: relative;
+    bottom: 45px;
+    height: 150px;
+    column-gap: 50px;
+  }
 
+  .section2__leftText--pos {
+    position: relative;
+    bottom: 96px;
+  }
+
+  .firstsec {
+    height: 356px;
+    background-position-y: -540px;
+  }
+
+  /* ------SECTION3----- */
+
+  .codeboxxsvg {
+    position: relative;
+    bottom: 45px;
+  }
+
+  .implemtext {
+    margin-top: -110px;
+  }
+
+  /* -----section4------ */
+
+  .img_ui_ux {
+    position: relative;
+    bottom: 60px;
+  }
+
+  .text_ui_ux {
+    position: relative;
+    bottom: 45px;
+  }
+
+  .p_ui_ux {
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+  }
+
+  /* ----------section5------ */
+
+  .article__finances--flex {
+    position: relative;
+    bottom: 38px;
+  }
+
+  .article__finances--flex div img {
+    padding-bottom: 40px;
+  }
+
+  .section5__P--fontsize {
+    font-size: 0.9rem;
+  }
+
+  .article__finances-div--padding {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* ----sectiomn6----- */
+
+  .section6__text--pos {
+    position: relative;
+    bottom: 30px;
+  }
+
+  /* ------FOOTER----- */
+
+  .footer__homepage--pos {
+    position: relative;
+    top: 18px;
+  }
 }
