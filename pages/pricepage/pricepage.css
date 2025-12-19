@@ -128,6 +128,15 @@ body {
     left: 219px;
   }
   .pricing_page_footer {
-    margin-top: -20px;
+    margin-top: -22px;
+    padding-top: 32px;
+    padding-bottom: 30px;
+  }
+  .pricing_page_footer_elements{
+margin-top: -2px;
+  }
+  .pricing_page_footer_circle{
+    position: absolute;
+    
   }
 }
