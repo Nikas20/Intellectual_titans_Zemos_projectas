@@ -687,7 +687,21 @@ h4 {
 }
 }
 
+@media(min-width:960px){
+    .partners{
+        margin: 0;
+        margin-top: 20px;
+    }
+    h4{
+        position: static;
+    }
+}
+
 @media (min-width:1300px) {
+    .flexaar{
+    display: block;
+    
+}
     h4{
         position: static;
     }
@@ -788,13 +802,4 @@ footer{
 .conttablbut{
     margin-left: -0px;
 }
-}
-@media(min-width:960px){
-    .partners{
-        margin: 0;
-        margin-top: 20px;
-    }
-    h4{
-        position: static;
-    }
 }
