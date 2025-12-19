@@ -96,6 +96,11 @@
     font-size: 0.9rem;
   }
 
+  .article__finances-div--padding {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   /* ----sectiomn6----- */
 
   .section6__text--pos {
