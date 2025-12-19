@@ -427,7 +427,7 @@
     flex-direction: column;
     width: 445px;
     height: 68px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
   }
   .staart > div {
     margin-bottom: 0;
