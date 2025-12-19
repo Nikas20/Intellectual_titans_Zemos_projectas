@@ -32,15 +32,13 @@
   font-weight: bold;
 }
 
-
-
 @media (min-width: 768px) {
   .ready {
     margin-top: 64px;
     padding-bottom: 80px;
   }
 
-  .ready > div {
+  .ready > div:last-child {
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -59,32 +57,34 @@
     position: static;
   }
 
- .rdtxt {
-  font-size: 48px;
- }
+  .rdtxt {
+    font-size: 48px;
+  }
 }
 
 @media (max-width: 767px) {
   .ready {
     margin-top: 64px;
-    padding-bottom: 80px;
-    margin-bottom: 40px;
+    /* padding-bottom: 80px;
+    margin-bottom: 40px; */
+    
   }
-  .ready > div {
+  .ready > div:last-child {
     margin-top: 20px;
   }
   .ready > div > input {
-    width: 270px;
+    width: 327px;
     padding: 12px 16px;
   }
   .ready > div > button {
-    width: 300px;
-    height: 44px;
+    width: 327px;
+    height: 50px;
     top: 16px;
   }
 }
 
-@media (min-width: 960px) {
+
+@media (min-width: 1175px){
   .ready {
     display: flex;
     flex-direction: row;
@@ -94,15 +94,41 @@
     height: 68px;
     margin: 80px auto 0 auto;
   }
-  .ready > div {
+  .ready > div:last-child {
     margin-bottom: 20px;
   }
+
+  /* .section6__prompt--pos {
+    position: relative;
+    left: 135px;
+  } */
+
+  /* .section6__text--pos {
+    position: relative;
+    right: 220px;
+  } */
+
+  /* ---------SECTION1_H1_POS----- */
+
+  /* .section1__div2__h1--pos {
+    position: relative;
+    top: 70px;
+  } */
   .h3_Big {
+    /* text-align: center; */
+    width: 546px;
+    height: 180px;
+    font-size: 3.5rem;
+    /* margin-top: -24px; */
+    line-height: 71px;
+  }
+
+  #h3_Big {
     text-align: center;
     width: 445px;
-    height: 66px;
-    font-size: 48px;
-    margin-top: -24px;
+    /* height: 80px; */
+    font-size: 3rem;
+    /* margin-top: -24px; */
   }
 
   .ready2 {
@@ -112,7 +138,7 @@
     align-items: center;
     width: 810px;
     height: 68px;
-    margin: 150px auto 0 auto;
+    /* margin: 150px auto 0 auto; */
   }
 
   .marginhelp {

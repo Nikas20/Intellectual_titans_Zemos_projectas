@@ -48,6 +48,7 @@
   .article__finances--flex {
     width: 330px;
     margin: 0px auto;
+    margin-bottom: 91px;
   }
 
   .article__finances--flex div {
@@ -78,6 +79,7 @@
     margin: 0px auto;
     flex-direction: row;
     align-items: baseline;
+    margin-bottom: 114px;
   }
 
   .article__finances--flex div {
@@ -110,6 +112,7 @@
     align-items: baseline;
     padding-left: 163px;
     padding-right: 163px;
+    margin-bottom: 100px;
     /* width: 880px; */
     /* margin: 0px auto;  */
   }

@@ -1,0 +1,246 @@
+@import url(/style.css);
+
+@import url(/components/footer/footerstyle.css);
+
+@import url(/components/navigation.css/navgiation.css);
+
+@import url(/components/articale-start/homepagearticlestart.css);
+
+@import url(/components/aboutUs/about.css);
+
+@import url(/components/eti/eti.css);
+
+@import url(/components/Simple-ui-&-ux/Simple_ui_&_ux.css);
+
+@import url(/components/article__financies/section__financies.css);
+
+@import url(/components/readyForStart/readyForStart.css);
+
+/* ---------SECTON6------- */
+
+/* ----PROMPT_VISIBILITY_WHEN_LOWER_THAN_1175px------ */
+
+@media screen and (min-width: 961px) and (max-width: 1174px) {
+  /* --------------- */
+
+  .ready {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* width: 810px; */
+    height: 68px;
+    /* margin: 80px auto 0 auto; */
+    /* position: relative;
+    bottom: 50px; */
+  }
+  .ready > div:last-child {
+    margin-bottom: 20px;
+  }
+
+  /* ---------SECTION1_H1_POS----- */
+
+  .section1__div2__h1--pos {
+    position: relative;
+    top: 70px;
+  }
+  .ready2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 810px;
+    height: 68px;
+    margin: 150px auto 0 auto;
+  }
+
+  .marginhelp {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (min-width: 1175px) {
+  .ready {
+    position: relative;
+    bottom: 80px;
+    align-items: last baseline;
+  }
+}
+
+/* ----------SECTION5--------- */
+
+@media screen and (width >= 1177px) {
+  .article__finances--flex {
+    /* display: flex; */
+    flex-direction: row;
+    align-items: baseline;
+    padding-left: 163px;
+    padding-right: 163px;
+    margin-bottom: 100px;
+    /* width: 880px; */
+    /* margin: 0px auto;  */
+    position: relative;
+    bottom: 60px;
+  }
+
+  .article__finances-div--padding {
+    padding-top: 169px;
+    padding-left: 1px;
+    padding-right: 37px;
+  }
+
+  .article__finances-seconddiv--padding {
+    position: relative;
+    bottom: 20px;
+  }
+
+
+ .article__finances--flex div h4 {
+  margin-bottom: 18px;
+ }}
+
+
+/* ------------------- */
+
+@media screen and (width >= 960px) and (width < 1177px) {
+ 
+  /* -----FOR_NAV_FONT----- */
+
+  .h3_Small {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: bold;
+
+}
+  /* ------------- */
+  
+  .article__finances-div--padding {
+    padding-top: 169px;
+    padding-left: 1px;
+    padding-right: 37px;
+  }
+
+  .article__finances-seconddiv--padding {
+    position: relative;
+    bottom: 20px;
+  }
+}
+
+/* -----------------FOOTER-------- */
+@media screen and (width >= 1177px) {
+  
+  /* -----FOR_NAV_FONT----- */
+
+  .h3_Small {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: bold;
+
+}
+  /* ------------- */
+  
+  
+  footer {
+    position: relative;
+    bottom: 80px;
+  }
+}
+
+@media(min-width: 1440px){
+  .homlog1{
+    margin-left: 0px;
+  }
+  .homlog2{
+    margin-left: 26px;
+  }
+  .homlog3{
+    margin-left: -30px;
+  }
+  .mainfix1{
+    margin-left: -14px;
+    margin-top: 30px;
+    font-size: 4.5rem;
+    letter-spacing: -0.55px;
+  }
+  .staart{
+    margin-top: 16px;
+    margin-left: -10px;
+  }
+  .mainfix2{
+    margin-top: 10px;
+  }
+  .mainfix3{
+    margin-top: -30px;
+  }
+  .mainfix4{
+    margin-top: 14px;
+  }
+  #img1{
+    margin-left: -4px;
+  }
+  #img3{
+    margin-left: 25px;
+  }
+  #img4{
+    margin-top: 24px;
+    margin-left: -5px;
+  }
+  #img5{
+    margin-top: 16px;
+    margin-left: 5px;
+  }
+  #img6{
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+  .mainfix5{
+    margin-top: 80px;
+  padding-bottom: 30px;
+  }
+  .textfix1{
+    margin-top: -4px;
+    margin-left: 120px;
+  }
+  .textfix2{
+    
+    font: normal normal 200 15px/28px Public Sans;
+    letter-spacing: 0px;
+  }
+  .imgfix2{
+    margin-top: -15px;
+    margin-left: 20px;
+  }
+  .imgfix3{
+    margin-top: 5px;
+    margin-left: 40px;
+  }
+  .textfix3{
+    margin-top: -10px;
+    margin-left: 48px;
+  }
+  .textfix4{
+    font: normal normal 200 15px/25px Public Sans;
+letter-spacing: -0.12px;
+  }
+  .readfix1{
+    margin-right: 290px;
+    margin-top: -30px;
+  }
+
+  .readfix2{
+    margin-top: -4px;
+    margin-left: 280px;
+  }
+  footer{
+    margin-top: 3px;
+    padding-top: 30px;
+  }
+  .payapi{
+    margin-left: 3px;
+  }
+  
+}

@@ -19,12 +19,15 @@ body {
     background-image: url(../../images/shared/desktop/bg-pattern-circle.svg);
     background-repeat: no-repeat;
     background-position-x: 800px;
-    background-position-y: -520px;
+    background-position-y: -620px;
+    position: relative;
+    top: -14px;
+    left: 22px;
 }
 
-header img {
-    margin-left: -4rem;
-    padding-right: 2rem;
+.header_phone_button{
+    margin-left: 62px;
+    margin-top: 3px;
 }
 
 nav a {
@@ -63,7 +66,7 @@ h1 {
     text-align: left;
     margin-top: 88px;
     margin-left: 11.4%;
-    padding-bottom: 39px;
+    padding-bottom: 35px;
     font-family: serif
 }
 
@@ -71,7 +74,9 @@ h1 {
 #moveFormLeft {
     padding-right: 46%;
 }
-
+input::placeholder{
+    font-family: sans-serif;
+}
 input {
     font-family: public-sans;
     font-size: 15px;
@@ -80,6 +85,12 @@ input {
     border-bottom: solid 2px;
     color: hsl(207, 33%, 32%);
     opacity: 50%;
+
+}
+
+.errorMesage{
+    position: relative;
+    top: -10px;
 }
 
 textarea {
@@ -92,15 +103,15 @@ textarea {
     opacity: 50%;
 }
 
-.submitForm {
+/* .submitForm {
     color: hsl(207, 33%, 32%);
     background: none;
     border: 1px solid hsl(207, 33%, 32%);
     border-radius: 24px;
     width: 152px;
-    height: 48px;
-    margin-top: 40px;
-}
+    height: 60px;
+    
+} */
 
 .submitForm:hover {
     color: hsl(220, 60%, 99%);
@@ -143,12 +154,6 @@ textarea:hover {
 }
 
 /* ready for start part */
-.ready {
-    margin-left: 11.5%;
-    margin-top: 159px;
-    margin-bottom: 100px;
-    padding-bottom: 0;
-}
 
 h3 {
     color: hsl(207, 33%, 32%);
@@ -157,11 +162,12 @@ h3 {
     font-size: 48px;
 }
 
-.primary-button {
-    background: hsl(337, 48%, 49%) 0% 0% no-repeat padding-box;
-    color: hsl(220, 60%, 99%);
-    border-radius: 24px;
-    border: none;
+.butta{
+   padding-left: 7px;
+   letter-spacing: -0.3px;
+   font-weight: bold;
+   font-family: Public Sans;
+   font-size: 0.938rem;
 }
 
 #mobilebutton {
@@ -175,6 +181,7 @@ footer {
     background-repeat: no-repeat;
     background-position-x: 1050px;
     background-position-y: -150px;
+    margin-top: -7px;
 
 }
 
@@ -189,7 +196,9 @@ h4 {
     color: hsl(207, 33%, 32%);
     opacity: 75%;
     font-size: 24px;
-padding-top: 87px;
+    padding-top: 10px;
+    line-height: 2rem;
+    letter-spacing: 0.4px;
 
     position: absolute;
     top: 464px;
@@ -200,9 +209,9 @@ padding-top: 87px;
     width: 536px;
     height: 103px;
     margin-left: 51%;
-    margin-top: -240px;
+    margin-top: -500px;
     padding-bottom: 55px;
-    padding-top: 32px;
+    padding-top: 4px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -220,31 +229,119 @@ padding-top: 87px;
 
 #img1 {
     width: 129px;
-    padding-top: 5px;
+    padding-top: 4px;
+    margin-left: -4px;
 }
 
 #img2 {
     width: 145px;
+    margin-left: 5px;
+    margin-top: -1px;
 }
 
 #img3 {
     width: 140px;
+    margin-left: -5px;
+    margin-top: -5px;
 }
 
 #img4 {
     width: 131px;
-    padding-top: 5px;
+    margin-left: 17px;
+    margin-top: -28px;
+    padding-bottom: 3px;
 }
 
 #img5 {
     width: 96px;
-    padding-left: 24.5px;
-    padding-right: 24.5px;
+    margin-left: -17px;
+    margin-top: -28px;
 }
 
 #img6 {
     width: 137px;
+    margin-left: 5px;
+    margin-top: -65px;
+    padding-bottom: 3px;
 }
+
+.cfda{
+    font: 200 15px/25px Public Sans;
+    margin-top: -4px;
+    margin-left: -1px;
+    letter-spacing: -0.13px;
+}
+.mara{
+    margin-top: -7px;
+}
+.mara2{
+    margin-top: -8px;
+}
+.mara3{
+    margin-top: -8px;
+}
+.mara4{
+    margin-top: -10px;
+    padding-bottom:50px;
+}
+.mara5{
+    margin-top: 7px;
+    margin-left: -2px;
+}
+
+.hraw{
+    /* margin-left: 22px; */
+    margin-top: 53px;
+    font-family: "DM Serif Display";
+    font-size: 2rem;
+    letter-spacing: -0.25px;
+    font-weight: normal;
+    line-height: 1.15em;
+}
+.daryh{
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+.hasan{
+    margin-top: -8px;
+    background-color: white;
+}
+
+.vylar{
+    font-family: "DM Serif Display";
+    font-size: 1.5rem;
+    letter-spacing: -0.18px;
+    font-weight: normal;
+    margin-left: 22px;
+}
+.tableNotExist{
+    display: inline;
+    position: relative;
+    top: 0px;
+}
+
+.lgm{
+    margin-left: 25px;
+}
+
+.payapi{
+    padding-top: 6px;
+    padding-left: -10px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexaar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 /*correction*/
 @media (max-width: 1150px) and (min-width: 960px) {
@@ -256,7 +353,7 @@ padding-top: 87px;
     .partners {
         width: 500px;
         margin-top: -240px;
-        margin-left: 49%;
+        
         column-gap: 2.5%;
         row-gap: 2.5%;
     }
@@ -471,4 +568,238 @@ padding-top: 87px;
     .ready .h3_Big {
         margin-bottom: 0;
     }
+}
+
+@media (min-width: 768px){
+    .lgm{
+        margin-left: -58px;
+    }
+    .newa{
+        font-family: "PublicSans";
+        font-weight: bold;
+        font-size: 0.938;
+    }
+    .nea1{
+        margin-left: -13px;
+    }
+    .conttablbut{
+        
+        margin-right: 0px;
+    }
+    .hraw{
+        margin: 0;
+        margin-top: 86px;
+        /* margin-left: 118px; */
+        font-size: 3rem;
+        padding-bottom: 44px;
+    }
+ 
+.mara2{
+    margin-top: -8px;
+}
+.mara3{
+    margin-top: -8px;
+}
+.mara4{
+    margin-top: -10px;
+    padding-bottom:46px;
+}
+.mara5{
+    margin-top: 6px;
+    margin-left: 0px;
+}
+.cfda{
+    font: normal normal 200 15px/25px Public Sans;
+    letter-spacing: -0.24px;
+    margin-left: -1px;
+    margin-top: -4px;
+    width: 410px;
+}
+.submitForm{
+    font-family: "Public Sans";
+    font-size: 0.938rem;
+    font-weight: bold;
+    margin-left: 3px;
+}
+.vylar{
+    margin-top: 35px;
+    margin-left: -8px;
+    letter-spacing: -0.18px;
+}
+.tableNotExist{
+    display: none;
+}
+#img1 {
+    width: 129px;
+    padding-top: -10px;
+    margin-left: -14px;
+}
+
+#img2 {
+    width: 145px;
+    margin-left: -5px;
+    margin-top: -2px;
+}
+
+#img3 {
+    width: 140px;
+    margin-left: 19px;
+    margin-top: -1px;
+}
+
+#img4 {
+    width: 131px;
+    margin-left: -14px;
+    margin-top: 2px;
+    padding-bottom: 3px;
+}
+
+#img5 {
+    width: 96px;
+    margin-left: 21px;
+    margin-top: -4px;
+}
+
+#img6 {
+    width: 137px;
+    margin-left: 22px;
+    margin-top: -1px;
+    padding-bottom: 3px;
+}
+.partners{
+    margin-top: 166px;
+}
+.ready{
+    margin-top: 60px;
+    margin-bottom: 26px;
+}
+.daryh{
+    padding-bottom: 22px;
+    margin-bottom: 0;
+}
+.hasan{
+    margin-top: 0px;
+    letter-spacing: -0.03rem;
+}
+.payapi{
+    margin-top: -5px;
+    padding-left: 9px;
+}
+}
+
+@media(min-width:960px){
+    .partners{
+        margin: 0;
+        margin-top: 20px;
+    }
+    h4{
+        position: static;
+    }
+}
+
+@media (min-width:1300px) {
+    .flexaar{
+    display: block;
+    
+}
+    h4{
+        position: static;
+    }
+    .reality{
+        display: flex;
+        flex-direction: row;
+        gap: 124px;
+    }
+    .vylar{
+        margin: 0;
+        padding: 10px;
+    }
+    .partners{
+        margin: 0;
+    }
+    .col{
+        width: 541px;
+        margin-top: 112px;
+        margin-left: -49px;
+    }
+    #moveFormLeft{
+        padding: 0;
+        padding-left: 10.4rem;
+        margin-top: -10px;
+        width: 445px;
+    }
+    .lgm{
+        margin-left: 8px;
+    }
+  
+    .nea1{
+        margin-left: 29px;
+    }
+    .hraw{
+        margin: 0;
+        margin-top: 90px;
+        margin-left: 165px;
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+        padding-bottom: 44px;
+    }
+    .tableNotExist{
+    display: inline;
+}
+#img1 {
+    width: 129px;
+    padding-top: 23px;
+    margin-left: 31px;
+}
+
+#img2 {
+    width: 145px;
+    margin-left: 42px;
+    margin-top: 19px;
+}
+
+#img3 {
+    width: 140px;
+    margin-left: 66px;
+    margin-top: 20px;
+}
+
+#img4 {
+    width: 131px;
+    margin-left: 33px;
+    margin-top: 23px;
+    padding-bottom: 3px;
+}
+
+#img5 {
+    width: 96px;
+    margin-left: 68px;
+    margin-top: 16px;
+}
+
+#img6 {
+    width: 137px;
+    margin-left: 68px;
+    margin-top: 20px;
+    padding-bottom: 3px;
+}
+.daryh{
+    margin-top: 130px;
+    margin-left: -360px;
+    padding-right: 65px;
+}
+.ready{
+    margin-top: 100px;
+    margin-left: 525px;
+}
+footer{
+    margin-top: -29px;
+}
+.payapi{
+    margin-top: -17px;
+    padding-left: 9px;
+}
+.conttablbut{
+    margin-left: -0px;
+}
 }
