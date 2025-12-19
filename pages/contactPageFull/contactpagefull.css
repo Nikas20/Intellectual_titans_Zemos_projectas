@@ -290,7 +290,7 @@ h4 {
 }
 
 .hraw{
-    margin-left: 22px;
+    /* margin-left: 22px; */
     margin-top: 53px;
     font-family: "DM Serif Display";
     font-size: 2rem;
@@ -329,6 +329,20 @@ h4 {
     padding-left: -10px;
 }
 
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexaar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 /*correction*/
 @media (max-width: 1150px) and (min-width: 960px) {
     body {
@@ -339,7 +353,7 @@ h4 {
     .partners {
         width: 500px;
         margin-top: -240px;
-        margin-left: 49%;
+        
         column-gap: 2.5%;
         row-gap: 2.5%;
     }
@@ -575,7 +589,7 @@ h4 {
     .hraw{
         margin: 0;
         margin-top: 86px;
-        margin-left: 118px;
+        /* margin-left: 118px; */
         font-size: 3rem;
         padding-bottom: 44px;
     }
@@ -671,5 +685,121 @@ h4 {
     margin-top: -5px;
     padding-left: 9px;
 }
+}
 
+@media(min-width:960px){
+    .partners{
+        margin: 0;
+        margin-top: 20px;
+    }
+    h4{
+        position: static;
+    }
+}
+
+@media (min-width:1300px) {
+    .flexaar{
+    display: block;
+    
+}
+    h4{
+        position: static;
+    }
+    .reality{
+        display: flex;
+        flex-direction: row;
+        gap: 124px;
+    }
+    .vylar{
+        margin: 0;
+        padding: 10px;
+    }
+    .partners{
+        margin: 0;
+    }
+    .col{
+        width: 541px;
+        margin-top: 112px;
+        margin-left: -49px;
+    }
+    #moveFormLeft{
+        padding: 0;
+        padding-left: 10.4rem;
+        margin-top: -10px;
+        width: 445px;
+    }
+    .lgm{
+        margin-left: 8px;
+    }
+  
+    .nea1{
+        margin-left: 29px;
+    }
+    .hraw{
+        margin: 0;
+        margin-top: 90px;
+        margin-left: 165px;
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+        padding-bottom: 44px;
+    }
+    .tableNotExist{
+    display: inline;
+}
+#img1 {
+    width: 129px;
+    padding-top: 23px;
+    margin-left: 31px;
+}
+
+#img2 {
+    width: 145px;
+    margin-left: 42px;
+    margin-top: 19px;
+}
+
+#img3 {
+    width: 140px;
+    margin-left: 66px;
+    margin-top: 20px;
+}
+
+#img4 {
+    width: 131px;
+    margin-left: 33px;
+    margin-top: 23px;
+    padding-bottom: 3px;
+}
+
+#img5 {
+    width: 96px;
+    margin-left: 68px;
+    margin-top: 16px;
+}
+
+#img6 {
+    width: 137px;
+    margin-left: 68px;
+    margin-top: 20px;
+    padding-bottom: 3px;
+}
+.daryh{
+    margin-top: 130px;
+    margin-left: -360px;
+    padding-right: 65px;
+}
+.ready{
+    margin-top: 100px;
+    margin-left: 525px;
+}
+footer{
+    margin-top: -29px;
+}
+.payapi{
+    margin-top: -17px;
+    padding-left: 9px;
+}
+.conttablbut{
+    margin-left: -0px;
+}
 }
