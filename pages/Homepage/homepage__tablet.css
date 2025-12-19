@@ -95,4 +95,11 @@
   .section5__P--fontsize {
     font-size: 0.9rem;
   }
+
+  /* ----sectiomn6----- */
+
+  .section6__text--pos {
+    position: relative;
+    bottom: 30px;
+  }
 }
