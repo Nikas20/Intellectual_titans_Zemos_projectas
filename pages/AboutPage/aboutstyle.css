@@ -1,5 +1,7 @@
 /* style imports */
-@import url(/style.css);
+@import url(../../style.css);
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import url(../../components/navigation.css/navgiation.css);
 
@@ -9,3 +11,202 @@
 
 @import url(../../components/footer/footerstyle.css);
 
+@import url(../../components/readyForStart/readyForStart.css);
+
+
+/*background*/
+body {
+    background-color: hsl(207, 44%, 95%);
+    height: 1190px;
+    background-image: url(../../images/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-position-x: 800px;
+    background-position-y: -527px;
+}
+
+/*navigation */
+
+header img {
+    padding-right: 2rem;
+    margin-left: 0rem;
+}
+
+.h3_Small {
+    font-size: 15px;
+}
+
+nav a {
+    color: hsl(207, 33%, 32%);
+    font: normal normal 200 15px/28px Public Sans;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.leftNav {
+    margin-left: 0.25rem;
+}
+
+.leftleftNav {
+    margin-left: 0.3rem;
+}
+
+.simple_button {
+    border-radius: 24px;
+    border: none;
+    color: hsl(220, 60%, 99%);
+    align-items: center;
+    background-color: hsl(337, 48%, 49%);
+    font: normal normal 200 15px/28px Public Sans;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.12px;
+
+    margin-left: -0.57rem;
+
+
+}
+
+/*body*/
+
+.article_aboutStart--flex {
+    color: hsl(207, 33%, 32%);
+    margin-top: -1.84rem;
+    margin-left: -2rem;
+}
+
+.article__h3--size {
+    font-family: DMSerifDisplay;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    width: 730px;
+    text-align: left;
+}
+
+.article_h2--size {
+    width: 255px;
+    height: 44px;
+    margin-left: 75px;
+}
+
+.article__startP--size {
+    text-align: left;
+    font: normal normal 200 15px/28px Public Sans;
+    letter-spacing: 0px;
+    width: 680px;
+}
+
+.article_aboutStart_firstDiv {
+    height: 73px;
+
+}
+
+.article__startP--size {
+    margin-left: 2rem;
+}
+
+.firsth2 {
+    height: 101px;
+}
+
+.secondh2 {
+    height: 73px;
+    padding-top: -0.2rem;
+}
+
+.article_aboutStart--flex {
+    row-gap: 1rem;
+}
+
+
+/* body end part */
+
+.article__aboutStart--img {
+    margin-top: 18.713rem;
+    background-size: 100%;
+    height: 500px;
+}
+
+.about_end_border {
+    margin-top: 1.4rem;
+}
+
+.order_text_about_end {
+    margin-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.h1_Small {
+    margin-top: 1rem;
+    margin-bottom: -0.035rem;
+}
+
+.h4 {
+    height: 73px;
+    margin-top: 0.2rem;
+    letter-spacing: -0.25px;
+    font-size: 2rem;
+    margin-left: 16.25rem;
+}
+
+.body_about_end {
+    font: normal normal 200 15px/28px Public Sans;
+    letter-spacing: 0px;
+}
+
+.body_about_end_2 {
+    padding-top: 4.5rem;
+}
+
+.about_end_text_flex {
+    margin-top: -0.25rem;
+}
+
+/*ready to start part */
+
+.ready {
+    text-align: left;
+    margin-top: 7.27rem;
+    margin-left: 6.43rem;
+}
+
+.ready>div {
+    align-items: center;
+    display: unset;
+    height: 48px;
+    margin-right: -22.64rem;
+    margin-top: -4.6rem;
+}
+
+.primary-button {
+    font-size: 15px;
+    letter-spacing: -0.12px;
+
+}
+
+#fontsizeinput {
+    width: 142px;
+    font-size: 15px;
+    letter-spacing: -0.12px;
+
+}
+
+/*footer*/
+footer {
+    height: 100px;
+    margin-top: -2.30rem;
+}
+
+.logo {
+    margin-left: 0.57rem;
+    margin-top: 0.2rem;
+}
+
+.social-icons {
+    margin-top: 0.25rem;
+}
+
+.twittersize {
+    margin-top: 2px;
+}

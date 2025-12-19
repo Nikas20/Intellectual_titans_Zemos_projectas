@@ -14,15 +14,15 @@
     <header class="header--flex header--padding">
 
         <nav class="header__nav--textspacing header--flex">
-            <a href="/pages/Homepage/index.html"><img src="/images/shared/desktop/logo.svg" alt="logo" /></a>
+            <a href="/pages/Homepage/index.html"><img src="../../images/shared/desktop/logo.svg" alt="logo" /></a>
             <div class="header__navDiv--padding">
-                <a href="#" class="sanJuanBlueColor h3_Small ">Pricing</a>
-                <a href="#" class="sanJuanBlueColor h3_Small ">About</a>
-                <a href="/pages/Homepage/index.html" class="sanJuanBlueColor h3_Small ">Contact</a>
+                <a href="#" class="sanJuanBlueColor h3_Small " >Pricing</a>
+                <a href="#" class="sanJuanBlueColor h3_Small leftNav">About</a>
+                <a href="/pages/Homepage/index.html" class="sanJuanBlueColor h3_Small leftleftNav">Contact</a>
             </div>
         </nav>
         <button type="button" class="simple_button primary-button h3_Small">
-            <span class="dropdown_button--textS">Schedule a demo</span>
+            <span class="dropdown_button--textS">Schedule a Demo</span>
         </button>
         <div class="dropdown header_dropdown-hide">
             <button type="button" onclick="showDropdown()" class="header_phone_button">
@@ -39,22 +39,24 @@
                     <a href="/pages/Homepage/index.html" class="h3_Small"><span
                             class="linkWaterWhiteColor">Contact</span></a>
                     <button type="button" class="dropdown__button primary-button h3_Small">
-                        <span class="dropdown_button--textS">Schedule a demo</span>
+                        <span class="dropdown_button--textS">Schedule a Demo</span>
                     </button>
                 </div>
             </div>
         </div>
     </header>
 
+
     <!--about body-->
+
     <article class="article_aboutStart--flex">
         <h3 class="article__h3--size sanJuanBlueColor article__h3--padding">
-            We empower innovators by delivering access to the financial system
+            We empower innovators <br> by delivering access to the financial system
         </h3>
         <div class="article_aboutStart_firstDiv--padding article_aboutStart_firstDiv">
             <div class="article_aboutStart_secondDiv">
-                <h2 class="sanJuanBlueColor article_h2--size">Our Vision</h2>
-                <p class="lightSanJuanBlueColor body article__startP--size">
+                <h2 class="sanJuanBlueColor article_h2--size firsth2">Our Vision</h2>
+                <p class="lightSanJuanBlueColor body article__startP--size firstp">
                     Our main goal is to build beautiful consumer experiences along with
                     developer-friendly infrastructure. The result is an intelligent tool
                     that gives everyone the ability to create amazing products that sole
@@ -63,11 +65,11 @@
                 </p>
             </div>
             <div class="article_aboutStart_secondDiv--padding article_aboutStart_secondDiv">
-                <h2 class="sanJuanBlueColor article_h2--size">Our Business</h2>
-                <p class="lightSanJuanBlueColor body article__startP--size">
+                <h2 class="sanJuanBlueColor article_h2--size" >Our Business</h2>
+                <p class="lightSanJuanBlueColor body article__startP--size secondh2">
                     At the core of our platform is the technical infrastructure APIs
-                    that conet consumers. Our innovative product provides key insights
-                    for businesses and individuals, as well as robust reporting for
+                    that conet consumers. Our <br> innovative product provides key insights
+                    for businesses and individuals, as well as robust <br> reporting for
                     traditional financial institutions and developers.
                 </p>
             </div>
@@ -113,12 +115,26 @@
         </div>
     </article>
 
+    <!--ready to start-->
+    <div class="ready">
+      <h3 class="h3_Big sanJuanBlueColor rdtxt">Ready to start?</h3>
+      <div id="readyInput">
+        <input
+          type="email"
+          placeholder="Enter email address"
+          class="sanJuanBlueColor"
+          id="fontsizeinput"
+        />
+        <button class="primary-button">Schedule a Demo</button>
+      </div>
+    </div>
+
     <!--footer-->
 
     <footer>
         <div class="sitefooter">
             <div class="logo">
-                <img src="../../images/shared/desktop/logo.svg" alt="payapi">
+                <img src="../../images/shared/desktop/logo.svg" alt="payapi" class="payapi">
             </div>
 
             <div class="nav-links">
@@ -130,7 +146,7 @@
 
         <div class="social-icons">
             <a href="#"><img src="../../images/shared/desktop/facebook.svg" alt="Facebook"></a>
-            <a href="#"><img src="../../images/shared/desktop/twitter.svg" alt="Twitter"></a>
+            <div class="twittersize"><a href="#"><img src="../../images/shared/desktop/twitter.svg" alt="Twitter"></a></div>
             <a href="#"><img src="../../images/shared/desktop/linkedin.svg" alt="LinkedIn"></a>
         </div>
     </footer>
