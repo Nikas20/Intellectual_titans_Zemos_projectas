@@ -49,7 +49,16 @@
 
 .firstsec{
    height: 356px;
+   background-position-y: -540px;
 }
+
+
+/* ------SECTION3----- */
+
+  .codeboxxsvg{
+    position: relative;
+    bottom: 45px;
+  }
 
 }
 
