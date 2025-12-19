@@ -47,19 +47,52 @@
     bottom: 96px;
   }
 
-.firstsec{
-   height: 356px;
-   background-position-y: -540px;
-}
+  .firstsec {
+    height: 356px;
+    background-position-y: -540px;
+  }
 
+  /* ------SECTION3----- */
 
-/* ------SECTION3----- */
-
-  .codeboxxsvg{
+  .codeboxxsvg {
     position: relative;
     bottom: 45px;
   }
 
+  .implemtext {
+    margin-top: -110px;
+  }
+
+  /* -----section4------ */
+
+  .img_ui_ux {
+    position: relative;
+    bottom: 60px;
+  }
+
+  .text_ui_ux {
+    position: relative;
+    bottom: 45px;
+  }
+
+  .p_ui_ux {
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+  }
+
+  /* ----------section5------ */
+
+  .article__finances--flex {
+    position: relative;
+    bottom: 38px;
+  }
+
+  .article__finances--flex div img {
+    padding-bottom: 40px;
+  }
+
+  .section5__P--fontsize {
+    font-size: 0.9rem;
+  }
 }
-
-
