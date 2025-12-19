@@ -108,7 +108,12 @@
     position: relative;
     bottom: 20px;
   }
-}
+
+
+ .article__finances--flex div h4 {
+  margin-bottom: 18px;
+ }}
+
 
 /* ------------------- */
 
