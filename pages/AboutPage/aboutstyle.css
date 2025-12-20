@@ -54,8 +54,6 @@ nav a {
     font-weight: bold;
     letter-spacing: -0.12px;
 
-    margin-left: -0.57rem;
-
 }
 
 /*body*/
@@ -85,6 +83,14 @@ nav a {
 .article_aboutStart_firstDiv {
     height: 73px;
 
+}
+
+.article_aboutStart_secondDiv--padding{
+    padding-top: 0.4rem;
+}
+
+.article_aboutStart_secondDiv{
+    margin-top: -0.2rem;
 }
 
 /* body end part */
@@ -203,7 +209,7 @@ footer {
 
     .article__h3--padding {
         margin: 0rem;
-        margin-bottom: 3.15rem;
+        margin-bottom: 3.4rem;
     }
 
     .article_aboutStart--flex {
@@ -219,16 +225,22 @@ footer {
         font: normal normal 200 15px/28px Public Sans;
         letter-spacing: 0px;
         width: 456px;
+        padding-left: -1rem;
     }
 
     .article_aboutStart_secondDiv--padding {
         padding-top: 2.15rem;
     }
 
+    .article_aboutStart_secondDiv{
+        margin-top: 0.05rem;
+        padding-left: 1rem;
+    }
+
     /*body 2 */
 
     .article__aboutStart--img {
-        margin-top: 15.64rem;
+        margin-top: 15.4rem;
         height: 267px;
     }
 
@@ -262,7 +274,8 @@ footer {
     .ready {
         text-align: center;
         margin: auto;
-        margin-top: -1.15rem;
+        margin-top: -1.2rem;
+        margin-left: 0.2rem;
     }
 
     .ready>div {
@@ -296,10 +309,23 @@ footer {
 /*mobile*/
 @media (max-width: 767px) {
 
+    /*background*/
+    body {
+        background-position-x: 74px;
+        background-position-y: -644px;
+
+    }
+
     /*navigation */
 
+    .header_phone_button{
+        margin-left: 5.3rem;
+        margin-top: 0.3rem;
+        padding: 0;
+    }
+
     header img {
-        padding-right: 2.3rem;
+        padding-right: 0rem;
         margin-left: 0rem;
     }
 
@@ -350,7 +376,7 @@ footer {
     }
 
     .about_end_article {
-        margin-top: -3.75rem;
+        margin-top: -3.74rem;
         padding-bottom: -4rem;
     }
 
@@ -377,31 +403,49 @@ footer {
 
     .ready {
         text-align: left;
-        margin-left: 5.18rem;
+        margin: auto;
         margin-top: 3.4rem;
     }
 
     .ready>div {
         align-items: center;
         height: 48px;
+        width: 327px;
         margin: auto;
-        margin-top: -10rem;
+        margin-left: 1.5rem;
+    }
+
+    #fontsizeinput{
+        width: 290px;
     }
 
     .primary-button {
         font-size: 15px;
         letter-spacing: -0.12px;
         margin: auto;
-        margin-left: -2rem;
-        width: 327px;
-        height: 48px;
+        margin-left: 2.2rem;
+        padding: 1rem;
 
     }
 
+    .rdtxt{
+        margin-left: 5.15rem;
+    }
+
+
     /*footer */
+
+     footer {
+        background-image: url(../../images/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 176px;
+     }
+
+
     footer {
         height: 353px;
-        margin-top: -1.435rem;
+        margin-top: 1rem;
     }
 
     .logo {
