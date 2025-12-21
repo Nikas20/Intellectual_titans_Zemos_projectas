@@ -9,7 +9,7 @@
 
   .header__dropdown__menu__circle {
     position: absolute;
-    top: -480px;
+    top: -505px;
     left: -302px;
     width: 780px;
     height: 780px;
@@ -17,13 +17,18 @@
     /* position: relative; */
   }
 
-
-  .dropdown-content{
+  .dropdown-content {
     overflow: hidden;
   }
 
   /* -------------section1---------- */
   .imgecircle {
-    top: -523px !important;
+    top: -550px !important;
+    z-index: -99999;
+  }
+
+  .section__firsdtDiv--phonepadding {
+    position: relative;
+    bottom: 20px;
   }
 }

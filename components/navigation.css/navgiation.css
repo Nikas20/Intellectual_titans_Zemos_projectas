@@ -52,7 +52,7 @@ header img {
   position: absolute;
   right: -1px;
   width: 285px;
-  height:  790px;
+  height: 790px;
   background-color: #1b262f;
   z-index: 9999;
   align-items: center;
@@ -68,15 +68,8 @@ header img {
 
 .dropdown--pos {
   position: relative;
-  bottom: 120px;
-}
 
-/* ------------ */
-
-.dropdown {
-  /* position: relative; */
-  display: inline-block;
-  /* z-index: 9999; */
+  bottom: 145px;
 }
 
 .dropdown-center {
@@ -125,7 +118,6 @@ header img {
   bottom: 15px;
   left: 118px;
 }
-
 
 /* ------BUTTON_SIZE---- */
 /* ------TABLET_AND_DESKTO---- */
@@ -218,6 +210,4 @@ padding-right: 25px; */
   .newa {
     display: none;
   }
-
-
 }
