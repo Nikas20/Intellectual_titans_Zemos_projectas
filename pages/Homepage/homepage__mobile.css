@@ -1,0 +1,29 @@
+@media screen and (min-width: 367px) and (max-width: 767px) {
+  /* ------HEADER------ */
+
+  .header--pos {
+    justify-content: space-between !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header__dropdown__menu__circle {
+    position: absolute;
+    top: -480px;
+    left: -302px;
+    width: 780px;
+    height: 780px;
+    z-index: -1;
+    /* position: relative; */
+  }
+
+
+  .dropdown-content{
+    overflow: hidden;
+  }
+
+  /* -------------section1---------- */
+  .imgecircle {
+    top: -523px !important;
+  }
+}
