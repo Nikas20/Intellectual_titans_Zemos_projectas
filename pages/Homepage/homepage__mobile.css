@@ -2,7 +2,7 @@
   /* ------HEADER------ */
 
   .header--pos {
-    justify-content: space-between ;
+    justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -24,7 +24,7 @@
   /* -------------section1---------- */
 
   .imgecircle {
-    top: -550px ;
+    top: -550px;
     z-index: -99999;
   }
 
@@ -46,7 +46,7 @@
 
   .section1__p {
     position: relative;
-    top: 7px ;
+    top: 7px;
   }
   /* 
   -----SECTION2----- */
@@ -65,5 +65,16 @@
   .section2__leftText--pos {
     position: relative;
     bottom: 70px;
+  }
+
+  /* -------SECTION3----*/
+
+  .codeboxxsvg {
+    position: relative;
+    bottom: 35px;
+  }
+
+  .implemtext{
+    margin-top: -75px;
   }
 }
