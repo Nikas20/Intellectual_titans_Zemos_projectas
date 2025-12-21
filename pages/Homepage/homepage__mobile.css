@@ -74,7 +74,19 @@
     bottom: 35px;
   }
 
-  .implemtext{
+  .implemtext {
     margin-top: -75px;
+  }
+
+  /* ----SECTION4----- */
+
+  .section4__phone--pos {
+    position: relative;
+    bottom: 30px;
+  }
+
+  .textfix1 {
+    position: relative;
+    bottom: 40px;
   }
 }
