@@ -2,7 +2,7 @@
   /* ------HEADER------ */
 
   .header--pos {
-    justify-content: space-between !important;
+    justify-content: space-between ;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -22,13 +22,48 @@
   }
 
   /* -------------section1---------- */
+
   .imgecircle {
-    top: -550px !important;
+    top: -550px ;
     z-index: -99999;
   }
 
   .section__firsdtDiv--phonepadding {
     position: relative;
     bottom: 20px;
+  }
+
+  .section__secondDiv--phonepadding {
+    position: relative;
+    top: 5px;
+    line-height: 40px;
+  }
+
+  .section1__prompts--pos {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .section1__p {
+    position: relative;
+    top: 7px ;
+  }
+  /* 
+  -----SECTION2----- */
+
+  .firstsec {
+    position: relative;
+    bottom: 12px;
+    height: 410px;
+  }
+
+  .section2__partners--pos {
+    column-gap: 38px;
+    margin-top: -585px;
+  }
+
+  .section2__leftText--pos {
+    position: relative;
+    bottom: 70px;
   }
 }
