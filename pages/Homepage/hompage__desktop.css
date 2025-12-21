@@ -94,28 +94,25 @@
     bottom: 20px;
   }
 
-
- .article__finances--flex div h4 {
-  margin-bottom: 18px;
- }}
-
+  .article__finances--flex div h4 {
+    margin-bottom: 18px;
+  }
+}
 
 /* ------------------- */
 
 @media screen and (width >= 960px) and (width < 1177px) {
- 
   /* -----FOR_NAV_FONT----- */
 
   .h3_Small {
-  font-family: "Public Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 1.1rem;
-  font-style: normal;
-  font-weight: bold;
-
-}
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: bold;
+  }
   /* ------------- */
-  
+
   .article__finances-div--padding {
     padding-top: 169px;
     padding-left: 1px;
@@ -126,121 +123,122 @@
     position: relative;
     bottom: 20px;
   }
+
+  #h3_Big {
+    text-align: center;
+    width: 445px;
+    font-size: 3rem;
+  }
 }
 
 /* -----------------FOOTER-------- */
 @media screen and (width >= 1177px) {
-  
   /* -----FOR_NAV_FONT----- */
 
   .h3_Small {
-  font-family: "Public Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 1.1rem;
-  font-style: normal;
-  font-weight: bold;
-
-}
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: bold;
+  }
   /* ------------- */
-  
-  
+
   footer {
     position: relative;
     bottom: 80px;
   }
 }
 
-@media(min-width: 1440px){
-  .homlog1{
+@media (min-width: 1440px) {
+  .homlog1 {
     margin-left: 0px;
   }
-  .homlog2{
+  .homlog2 {
     margin-left: 26px;
   }
-  .homlog3{
+  .homlog3 {
     margin-left: -30px;
   }
-  .mainfix1{
+  .mainfix1 {
     margin-left: -14px;
     margin-top: 30px;
     font-size: 4.5rem;
     letter-spacing: -0.55px;
   }
-  .staart{
+  .staart {
     margin-top: 16px;
     margin-left: -10px;
   }
-  .mainfix2{
+  .mainfix2 {
     margin-top: 10px;
   }
-  .mainfix3{
+  .mainfix3 {
     margin-top: -30px;
   }
-  .mainfix4{
+  .mainfix4 {
     margin-top: 14px;
   }
-  #img1{
+  #img1 {
     margin-left: -4px;
   }
-  #img3{
+  #img3 {
     margin-left: 25px;
   }
-  #img4{
+  #img4 {
     margin-top: 24px;
     margin-left: -5px;
   }
-  #img5{
+  #img5 {
     margin-top: 16px;
     margin-left: 5px;
   }
-  #img6{
+  #img6 {
     margin-top: 20px;
     margin-left: 25px;
   }
-  .mainfix5{
+  .mainfix5 {
     margin-top: 80px;
-  padding-bottom: 30px;
+    padding-bottom: 30px;
   }
-  .textfix1{
+  .textfix1 {
     margin-top: -4px;
     margin-left: 120px;
   }
-  .textfix2{
-    
+  .textfix2 {
     font: normal normal 200 15px/28px Public Sans;
     letter-spacing: 0px;
   }
-  .imgfix2{
+  .imgfix2 {
     margin-top: -15px;
     margin-left: 20px;
   }
-  .imgfix3{
+  .imgfix3 {
     margin-top: 5px;
     margin-left: 40px;
   }
-  .textfix3{
+  .textfix3 {
     margin-top: -10px;
     margin-left: 48px;
   }
-  .textfix4{
+  .textfix4 {
     font: normal normal 200 15px/25px Public Sans;
-letter-spacing: -0.12px;
+    letter-spacing: -0.12px;
   }
-  .readfix1{
+  .readfix1 {
     margin-right: 290px;
     margin-top: -30px;
   }
 
-  .readfix2{
+  .readfix2 {
     margin-top: -4px;
     margin-left: 280px;
   }
-  footer{
+  footer {
     margin-top: 3px;
     padding-top: 30px;
   }
-  .payapi{
+  .payapi {
     margin-left: 3px;
   }
-  
 }
