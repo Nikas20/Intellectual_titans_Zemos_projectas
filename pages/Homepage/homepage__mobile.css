@@ -121,4 +121,40 @@
     position: relative;
     top: -80px;
   }
+
+  /* -----SECTION6----- */
+
+  .readfix2 {
+    position: relative;
+    top: -125px;
+  }
+
+  #h3_Big {
+    font-size: 32px;
+    position: relative;
+    bottom: 12px;
+  }
+
+  .section6__textPromp--pos {
+    position: relative;
+    bottom: 6px;
+  }
+
+  .ready > div > input {
+    width: 300px;
+    padding-bottom: 16px;
+    padding-top: 10px;
+  }
+
+  /* ----footer---- */
+
+  .sitefooter {
+    position: relative;
+    bottom: 31px;
+  }
+
+  .social-icons{
+    position: relative;
+    bottom:34px;
+  }
 }
