@@ -89,4 +89,36 @@
     position: relative;
     bottom: 40px;
   }
+
+  /* --SECTION5--- */
+
+  .article__finances--flex {
+    position: relative;
+    bottom: 64px;
+  }
+
+  .section5__img2 {
+    position: relative;
+    bottom: 23px;
+  }
+
+  .section5__img3 {
+    position: relative;
+    bottom: 50px;
+  }
+
+  .section6__text1--pos {
+    position: relative;
+    top: -29px;
+  }
+
+  .section6__text2--pos {
+    position: relative;
+    top: -52px;
+  }
+
+  .section6__text3--pos {
+    position: relative;
+    top: -80px;
+  }
 }
