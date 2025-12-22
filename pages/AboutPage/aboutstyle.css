@@ -24,6 +24,15 @@ body {
     background-position-y: -527px;
 }
 
+.background2 {
+    background-image: url(../../images/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-position-x: -520px;
+    background-position-y: 534px;
+
+
+}
+
 /*navigation */
 
 header img {
@@ -85,11 +94,11 @@ nav a {
 
 }
 
-.article_aboutStart_secondDiv--padding{
+.article_aboutStart_secondDiv--padding {
     padding-top: 0.4rem;
 }
 
-.article_aboutStart_secondDiv{
+.article_aboutStart_secondDiv {
     margin-top: -0.2rem;
 }
 
@@ -165,7 +174,7 @@ nav a {
 /*footer*/
 footer {
     height: 100px;
-    margin-top: -2.30rem;
+    margin-top: -2.35rem;
 }
 
 .logo {
@@ -189,6 +198,10 @@ footer {
     body {
         background-position-x: 505px;
         background-position-y: -464px;
+    }
+
+    .background2 {
+        background-image: none;
     }
 
     /* header */
@@ -232,7 +245,7 @@ footer {
         padding-top: 2.15rem;
     }
 
-    .article_aboutStart_secondDiv{
+    .article_aboutStart_secondDiv {
         margin-top: 0.05rem;
         padding-left: 1rem;
     }
@@ -316,9 +329,13 @@ footer {
 
     }
 
+    .background2 {
+        background-image: none;
+    }
+
     /*navigation */
 
-    .header_phone_button{
+    .header_phone_button {
         margin-left: 5.3rem;
         margin-top: 0.3rem;
         padding: 0;
@@ -415,7 +432,7 @@ footer {
         margin-left: 1.5rem;
     }
 
-    #fontsizeinput{
+    #fontsizeinput {
         width: 290px;
     }
 
@@ -428,19 +445,19 @@ footer {
 
     }
 
-    .rdtxt{
+    .rdtxt {
         margin-left: 5.15rem;
     }
 
 
     /*footer */
 
-     footer {
+    footer {
         background-image: url(../../images/shared/desktop/bg-pattern-circle.svg);
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: 176px;
-     }
+    }
 
 
     footer {
