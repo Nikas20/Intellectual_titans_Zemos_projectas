@@ -144,19 +144,7 @@ nav a {
 
 /*ready to start part */
 
-.ready {
-    text-align: left;
-    margin-top: 8.05rem;
-    margin-left: 6.43rem;
-}
 
-.ready>div {
-    align-items: center;
-    display: unset;
-    height: 48px;
-    margin-right: -22.64rem;
-    margin-top: -4.6rem;
-}
 
 .primary-button {
     font-size: 15px;
@@ -189,6 +177,8 @@ footer {
 .twittersize {
     margin-top: 2px;
 }
+
+
 
 /*tablet sizing */
 
@@ -462,7 +452,7 @@ footer {
 
     footer {
         height: 353px;
-        margin-top: 1rem;
+        margin-top: 5.5rem;
     }
 
     .logo {
@@ -477,5 +467,22 @@ footer {
     .twittersize {
         margin-top: 2px;
     }
+
+}
+
+@media(min-width: 1440px){
+    .rdtxt{
+    letter-spacing: -0.37px;
+    font-size: 3rem;
+    margin-left: -260px;
+    margin-top: 175px;
+}
+#readyInput{
+    margin-right: -700px;
+}
+
+footer{
+    margin-top: 5px;
+}
 
 }
