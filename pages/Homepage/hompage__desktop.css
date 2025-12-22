@@ -242,3 +242,38 @@
     margin-left: 3px;
   }
 }
+
+/* SECTION6------------ */
+
+/* ----------WHEN_HIGHER_THAN_1440px------- */
+@media screen and (min-width: 1441px) {
+  .readfix2 {
+    margin-top: revert;
+    margin-left: revert;
+    margin: 0 auto;
+  }
+
+  .section6__text--pos {
+    position: relative;
+    right: 70px;
+  }
+
+  .section6__prompt--pos {
+    position: relative;
+    left: 30px;
+  }
+}
+
+/* ---------1177px_TO_1439PX */
+
+@media screen and (min-width: 1177px) and (max-width: 1439px) {
+  .section6__prompt--pos {
+    position: relative;
+    left: 70px;
+  }
+
+  .ready{
+    width: revert;
+    padding-left: 70px;
+  }
+}
